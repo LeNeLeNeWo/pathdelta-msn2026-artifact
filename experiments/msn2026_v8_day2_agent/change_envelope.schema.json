@@ -1,0 +1,74 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pathdelta.example/schemas/change-envelope-v2.json",
+  "title": "PathDelta intent-relative Change Envelope",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "derivation_version", "intent_id", "raw_intent", "selector", "target_delta", "semantic_frame", "dependency_closure", "protected_dependencies", "footprint_budget", "conformance_preferences", "coverage", "provenance"],
+  "properties": {
+    "schema_version": {"const": "2.0.0-dev"},
+    "derivation_version": {"type": "string", "minLength": 1},
+    "intent_id": {"type": "string", "minLength": 1},
+    "raw_intent": {"type": "string"},
+    "selector": {"$ref": "#/$defs/selector"},
+    "target_delta": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/target"}},
+    "semantic_frame": {"type": "array", "items": {"$ref": "#/$defs/frame"}},
+    "dependency_closure": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+    "protected_dependencies": {"type": "array", "uniqueItems": true, "items": {"type": "string"}},
+    "footprint_budget": {"$ref": "#/$defs/footprint"},
+    "conformance_preferences": {"type": "object"},
+    "coverage": {"type": "object", "required": ["behavior_records", "observed_attribute_pairs", "target_obligations", "frame_obligations", "universe_complete"]},
+    "provenance": {"type": "object", "required": ["configs_sha256", "behavior_universe", "dependency_inference", "patch_strategy_emitted", "expected_patch_used"]}
+  },
+  "$defs": {
+    "selector": {
+      "type": "object",
+      "required": ["devices", "subjects", "fecs", "dimensions", "evidence"],
+      "properties": {
+        "devices": {"type": "array", "items": {"type": "string"}},
+        "subjects": {"type": "array", "items": {"type": "string"}},
+        "fecs": {"type": "array", "items": {"type": "string"}},
+        "dimensions": {"type": "array", "items": {"type": "string"}},
+        "evidence": {"type": "object"}
+      }
+    },
+    "target": {
+      "type": "object",
+      "required": ["obligation_id", "behavior_id", "dimension", "relation", "before", "desired"],
+      "properties": {
+        "obligation_id": {"type": "string"},
+        "behavior_id": {"type": "string"},
+        "dimension": {"type": "string"},
+        "relation": {"enum": ["replace", "add", "remove", "preferred_exit_change", "metric_order_change"]},
+        "before": {},
+        "desired": {}
+      }
+    },
+    "frame": {
+      "type": "object",
+      "required": ["obligation_id", "behavior_id", "dimension", "relation", "before"],
+      "properties": {
+        "obligation_id": {"type": "string"},
+        "behavior_id": {"type": "string"},
+        "dimension": {"type": "string"},
+        "relation": {"const": "preserve"},
+        "before": {}
+      }
+    },
+    "footprint": {
+      "type": "object",
+      "required": ["allowed_devices", "allowed_command_classes", "protected_existing_objects", "max_devices_touched", "max_bindings_changed", "max_existing_objects_modified", "max_new_objects", "max_changed_lines", "derivation"],
+      "properties": {
+        "allowed_devices": {"type": "array", "items": {"type": "string"}},
+        "allowed_command_classes": {"type": "array", "items": {"type": "string"}},
+        "protected_existing_objects": {"type": "array", "items": {"type": "string"}},
+        "max_devices_touched": {"type": "integer", "minimum": 1},
+        "max_bindings_changed": {"type": "integer", "minimum": 0},
+        "max_existing_objects_modified": {"type": "integer", "minimum": 0},
+        "max_new_objects": {"type": "integer", "minimum": 0},
+        "max_changed_lines": {"type": "integer", "minimum": 1},
+        "derivation": {"type": "object"}
+      }
+    }
+  }
+}

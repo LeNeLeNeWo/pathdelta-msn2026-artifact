@@ -1,0 +1,17 @@
+{
+  "backend_attempts": 44,
+  "case_count": 33,
+  "completed_case_files": 33,
+  "logical_llm_calls": 40,
+  "registered_exhaustion": 1,
+  "registered_pass": 32,
+  "requires_batfish_reaudit": true,
+  "retry_count": 4,
+  "schema_version": "msn2026-v84-union-repair-summary-1.1",
+  "token_usage": {
+    "completion": 172562,
+    "prompt": 178376,
+    "total": 350938
+  },
+  "transport_incident_archives": 7
+}

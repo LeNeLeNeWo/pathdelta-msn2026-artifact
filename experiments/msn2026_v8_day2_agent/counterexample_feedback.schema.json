@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pathdelta.example/schemas/counterexample-feedback-v1.json",
+  "title": "Patch-free verifier counterexample",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema_version", "contract", "verdict", "counterexamples", "patch_disclosed", "strategy_disclosed"],
+  "properties": {
+    "schema_version": {"const": "1.0.0-dev"},
+    "contract": {"enum": ["submission", "syntax_goal", "write_scope", "full_envelope"]},
+    "verdict": {"enum": ["PASS", "FAIL"]},
+    "counterexamples": {"type": "array", "items": {"$ref": "#/$defs/counterexample"}},
+    "patch_disclosed": {"const": false},
+    "strategy_disclosed": {"const": false}
+  },
+  "$defs": {
+    "counterexample": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "backend", "obligation_ids", "observed"],
+      "properties": {
+        "type": {"enum": ["transaction", "syntax", "target_unmet", "semantic_frame", "path_relation", "session", "protected_dependency", "footprint"]},
+        "backend": {"type": "string", "minLength": 1},
+        "obligation_ids": {"type": "array", "items": {"type": "string"}},
+        "observed": {"type": "object"}
+      }
+    }
+  }
+}
+

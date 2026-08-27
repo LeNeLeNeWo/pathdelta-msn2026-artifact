@@ -1,0 +1,4327 @@
+{
+  "candidate_count": 253,
+  "obligation_backend_matrix": [
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-09bea01434602102",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-batfish_official-09bea01434602102",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-09bea01434602102",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-196e4565198afd82",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-1dab619aa517c1de",
+      "source_group": "batfish_official",
+      "vendor": "arista_eos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-batfish_official-1dab619aa517c1de",
+      "source_group": "batfish_official",
+      "vendor": "arista_eos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-1dab619aa517c1de",
+      "source_group": "batfish_official",
+      "vendor": "arista_eos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-27574c929d6ca4e9",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-batfish_official-27574c929d6ca4e9",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-27574c929d6ca4e9",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-2b5e1a53bbafbece",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-2b5e1a53bbafbece",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-2b5e1a53bbafbece",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-batfish_official-2f7224b89bc9a9c5",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-2f7224b89bc9a9c5",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-2f7224b89bc9a9c5",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-3552621a4a32f494",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "N/A",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "isolated",
+      "na_origin": "candidate_induced",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-3552621a4a32f494",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-3552621a4a32f494",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-3aecea08d0b2c8fe",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-3aecea08d0b2c8fe",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-3aecea08d0b2c8fe",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-3becb81282cb0880",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-3becb81282cb0880",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-3becb81282cb0880",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-419240df03ee9de4",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-419240df03ee9de4",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-419240df03ee9de4",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-5595845e1a90f313",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-5595845e1a90f313",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-5595845e1a90f313",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-58c83ed242969ae2",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-58c83ed242969ae2",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-58c83ed242969ae2",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-5fff9a030ab0e329",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-batfish_official-5fff9a030ab0e329",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-5fff9a030ab0e329",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-6204c023b54e6f6e",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "N/A",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "isolated",
+      "na_origin": "candidate_induced",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-6204c023b54e6f6e",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-6204c023b54e6f6e",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-68b5f49702f58f30",
+      "source_group": "batfish_official",
+      "vendor": "arista_eos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-batfish_official-68b5f49702f58f30",
+      "source_group": "batfish_official",
+      "vendor": "arista_eos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-68b5f49702f58f30",
+      "source_group": "batfish_official",
+      "vendor": "arista_eos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-6aca0187b502d999",
+      "source_group": "batfish_official",
+      "vendor": "arista_eos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-batfish_official-6aca0187b502d999",
+      "source_group": "batfish_official",
+      "vendor": "arista_eos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-6aca0187b502d999",
+      "source_group": "batfish_official",
+      "vendor": "arista_eos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-74c3180d2d0fc43f",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-batfish_official-74c3180d2d0fc43f",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-74c3180d2d0fc43f",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-batfish_official-7ae9424408311024",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-batfish_official-7ae9424408311024",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-7ae9424408311024",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-7c8411c42a9fdf4f",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-7c8411c42a9fdf4f",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-7c8411c42a9fdf4f",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-7d7452141fd3af8b",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-7d7452141fd3af8b",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-7d7452141fd3af8b",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-803ccfa4280f147c",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-803ccfa4280f147c",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-803ccfa4280f147c",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-8310bce4bc06a46f",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-batfish_official-8310bce4bc06a46f",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-8310bce4bc06a46f",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-90cba72fe12b6c4d",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-90cba72fe12b6c4d",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-90cba72fe12b6c4d",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-91928928a7c21cf0",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-91928928a7c21cf0",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-91928928a7c21cf0",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-batfish_official-99b8ce8a05987d64",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "N/A",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "isolated",
+      "na_origin": "candidate_induced",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-99b8ce8a05987d64",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-99b8ce8a05987d64",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-c406f3269d096dde",
+      "source_group": "batfish_official",
+      "vendor": "arista_eos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-batfish_official-c406f3269d096dde",
+      "source_group": "batfish_official",
+      "vendor": "arista_eos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-c406f3269d096dde",
+      "source_group": "batfish_official",
+      "vendor": "arista_eos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-defc53610411547e",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-defc53610411547e",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-defc53610411547e",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-batfish_official-e04f1084ab924c0d",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-batfish_official-e04f1084ab924c0d",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-e04f1084ab924c0d",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-e29ef08286845af8",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "N/A",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "isolated",
+      "na_origin": "candidate_induced",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-e29ef08286845af8",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-e29ef08286845af8",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-f4800dc2db892c5d",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-f4800dc2db892c5d",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-f4800dc2db892c5d",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-f91367560d20b91f",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-batfish_official-f91367560d20b91f",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-batfish_official-f91367560d20b91f",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-06a275c708938a33",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-cornetto-06a275c708938a33",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-06a275c708938a33",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-0e924a91ba6807f3",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-cornetto-0e924a91ba6807f3",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-0e924a91ba6807f3",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-1ec8ffe859bb7f16",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-cornetto-1ec8ffe859bb7f16",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-1ec8ffe859bb7f16",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-23ef808586ad619e",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-23ef808586ad619e",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-23ef808586ad619e",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-2b69eaee762e768a",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-cornetto-2b69eaee762e768a",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-2b69eaee762e768a",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PARTIALLY_UNRECOGNIZED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "N/A",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "baseline_inherited",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-2da241347b236c7c",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PARTIALLY_UNRECOGNIZED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "N/A",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "isolated",
+      "na_origin": "baseline_inherited",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-2da241347b236c7c",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PARTIALLY_UNRECOGNIZED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "N/A",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "baseline_inherited",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-2da241347b236c7c",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-2e028ab239c8e4f4",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-cornetto-2e028ab239c8e4f4",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-2e028ab239c8e4f4",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-3535a1ea5f405796",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-cornetto-3535a1ea5f405796",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-3535a1ea5f405796",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-397ba2f66cdec13b",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-397ba2f66cdec13b",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-397ba2f66cdec13b",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-39fd76c2bb8944bb",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-cornetto-39fd76c2bb8944bb",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-39fd76c2bb8944bb",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-3d9be12333884bca",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-3d9be12333884bca",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-3d9be12333884bca",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-44bcbd52c9a0cb32",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-cornetto-44bcbd52c9a0cb32",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-44bcbd52c9a0cb32",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-4982c03b206e696a",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-4982c03b206e696a",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-4982c03b206e696a",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-50f57be2779d91c2",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-50f57be2779d91c2",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-50f57be2779d91c2",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-51340a067006a7f3",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-cornetto-51340a067006a7f3",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-51340a067006a7f3",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-535ac730e740910f",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-cornetto-535ac730e740910f",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-535ac730e740910f",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-55d70db7ccc66600",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-cornetto-55d70db7ccc66600",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-55d70db7ccc66600",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-5c55c0615f4d2708",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-cornetto-5c55c0615f4d2708",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-5c55c0615f4d2708",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-5e2da56b41035a6c",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-cornetto-5e2da56b41035a6c",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-5e2da56b41035a6c",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-6dcfab6ababcf57b",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-6dcfab6ababcf57b",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-6dcfab6ababcf57b",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-6ec206696fe1fd23",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-6ec206696fe1fd23",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-6ec206696fe1fd23",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-76b006e48e3d00eb",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-cornetto-76b006e48e3d00eb",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-76b006e48e3d00eb",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-7775fc07d1e9cc3e",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-cornetto-7775fc07d1e9cc3e",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-7775fc07d1e9cc3e",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-8296109f9004aa5b",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-cornetto-8296109f9004aa5b",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-8296109f9004aa5b",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-8bee0c0cb9734f30",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-8bee0c0cb9734f30",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-8bee0c0cb9734f30",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PARTIALLY_UNRECOGNIZED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "N/A",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "baseline_inherited",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-91a8556e5cfab7c5",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PARTIALLY_UNRECOGNIZED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "N/A",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "isolated",
+      "na_origin": "baseline_inherited",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-91a8556e5cfab7c5",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PARTIALLY_UNRECOGNIZED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "N/A",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "baseline_inherited",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-91a8556e5cfab7c5",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-cornetto-9a8b64605d75c365",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-cornetto-9a8b64605d75c365",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-cornetto-9a8b64605d75c365",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-acf42d582c732e79",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-cornetto-acf42d582c732e79",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-acf42d582c732e79",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-b0df0118a445339c",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-b0df0118a445339c",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-b0df0118a445339c",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-b1fcdf42f74274bb",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-b1fcdf42f74274bb",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-b1fcdf42f74274bb",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-b39b6cc275397295",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-cornetto-b39b6cc275397295",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-b39b6cc275397295",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-b47f3aa3932df4d9",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-b47f3aa3932df4d9",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-b47f3aa3932df4d9",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PARTIALLY_UNRECOGNIZED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "N/A",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "baseline_inherited",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-bf56d829eb5f8161",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PARTIALLY_UNRECOGNIZED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "N/A",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": false,
+      "mode": "isolated",
+      "na_origin": "baseline_inherited",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-cornetto-bf56d829eb5f8161",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PARTIALLY_UNRECOGNIZED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "N/A",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "baseline_inherited",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-bf56d829eb5f8161",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-c047f717c67e4908",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-cornetto-c047f717c67e4908",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-c047f717c67e4908",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-c0e5f607e410abf3",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-cornetto-c0e5f607e410abf3",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-c0e5f607e410abf3",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PARTIALLY_UNRECOGNIZED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "N/A",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "baseline_inherited",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-c2d8fc6a1a5bd2d9",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PARTIALLY_UNRECOGNIZED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "N/A",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": false,
+      "mode": "isolated",
+      "na_origin": "baseline_inherited",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-cornetto-c2d8fc6a1a5bd2d9",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PARTIALLY_UNRECOGNIZED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "N/A",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "baseline_inherited",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-c2d8fc6a1a5bd2d9",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-cornetto-c3a0cf64a2d8036c",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-cornetto-c3a0cf64a2d8036c",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-c3a0cf64a2d8036c",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-c3e399a29ed95f80",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-cornetto-c3e399a29ed95f80",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-c3e399a29ed95f80",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-c6acf95365eee8d3",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-cornetto-c6acf95365eee8d3",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-c6acf95365eee8d3",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PARTIALLY_UNRECOGNIZED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "N/A",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "baseline_inherited",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-c7bb8fe7b1f8b5bc",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PARTIALLY_UNRECOGNIZED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "N/A",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": false,
+      "mode": "isolated",
+      "na_origin": "baseline_inherited",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-cornetto-c7bb8fe7b1f8b5bc",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PARTIALLY_UNRECOGNIZED"
+      ],
+      "batfish_parse_warning": true,
+      "batfish_status": "N/A",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "baseline_inherited",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-c7bb8fe7b1f8b5bc",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-c8a45ed016547f20",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-cornetto-c8a45ed016547f20",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-c8a45ed016547f20",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-c9746869ea8472b1",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-c9746869ea8472b1",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-c9746869ea8472b1",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-c9ddbb81764bfd1a",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-cornetto-c9ddbb81764bfd1a",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-c9ddbb81764bfd1a",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-cb7b6af7d2f51e0a",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-cb7b6af7d2f51e0a",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-d7f8c9d9206a1f22",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-cornetto-d7f8c9d9206a1f22",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-d7f8c9d9206a1f22",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-de50e1ad7e458c47",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-cornetto-de50e1ad7e458c47",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-de50e1ad7e458c47",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-e248bc9ae011a2e1",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-cornetto-e248bc9ae011a2e1",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-e248bc9ae011a2e1",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-e6119246dd25196c",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-e6119246dd25196c",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-e6119246dd25196c",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-cornetto-e693542fcab9005f",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-cornetto-e693542fcab9005f",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-cornetto-e693542fcab9005f",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-e8b2ead84f9993d2",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-cornetto-e8b2ead84f9993d2",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-e8b2ead84f9993d2",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-f2ded887a83c1ca6",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-cornetto-f2ded887a83c1ca6",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-f2ded887a83c1ca6",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-f3f8029676e2a54d",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-cornetto-f3f8029676e2a54d",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-f3f8029676e2a54d",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-fb1d830417d00d79",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-fc3662af7e97b254",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": true,
+      "hard_fail_closed_release": true,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": true,
+      "scenario_id": "ext-cornetto-fc3662af7e97b254",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": true,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-fc3662af7e97b254",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "adversarial",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-ff7126166e60c2ea",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "isolated",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-ff7126166e60c2ea",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "adapter_status": "PASS",
+      "baseline_statuses": [
+        "PASSED"
+      ],
+      "batfish_parse_warning": false,
+      "batfish_status": "PASS",
+      "full_envelope_verdict": false,
+      "hard_fail_closed_release": false,
+      "mode": "minimal",
+      "na_origin": "not_na",
+      "oracle_goal": false,
+      "oracle_safe": false,
+      "scenario_id": "ext-cornetto-ff7126166e60c2ea",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    }
+  ],
+  "policy": "Batfish N/A cannot produce PASS. The vendor adapter supplies finite behavioral evidence; hard-Batfish mode fails closed.",
+  "schema_version": "msn2026-v83-backend-coverage-1.0",
+  "summary": {
+    "adapter_status_counts": {
+      "PASS": 253
+    },
+    "at_least_one_backend_applicable": 253,
+    "batfish_na_goal_unsafe": 13,
+    "batfish_na_non_goal": 3,
+    "batfish_na_origin_counts": {
+      "baseline_inherited": 15,
+      "candidate_induced": 4
+    },
+    "batfish_status_counts": {
+      "N/A": 19,
+      "PASS": 234
+    },
+    "hard_batfish_fail_closed_safe_false_reject_rate": 0.05172413793103448,
+    "hard_batfish_fail_closed_safe_goal_denominator": 58,
+    "hard_batfish_fail_closed_safe_goal_rejections": 3
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "pathdelta.run_manifest.v1",
+  "run_id": "artifact-smoke-0001",
+  "purpose": "smoke",
+  "protocol": {
+    "id": "pathdelta-protocol",
+    "version": "v1.0.0",
+    "status": "replication",
+    "aggregate_sha256": "0000000000000000000000000000000000000000000000000000000000000000"
+  },
+  "sources": [],
+  "seed": {"data": 20260814, "agent": 83127, "coverage": 83191},
+  "software": {"artifact_commit": "UNCOMMITTED", "python": "3.12", "platform": "linux"},
+  "model": {"backend": "disabled", "configured_model": "none", "secret_values_recorded": false},
+  "backends": {"registered_adapter": {"status": "PASS"}},
+  "metrics": {
+    "llm_calls": 0,
+    "backend_attempts": 1,
+    "retries": 0,
+    "token_usage": {"prompt": 0, "completion": 0, "total": 0},
+    "latency_ms": {"total": 0.0}
+  },
+  "inputs": [],
+  "outputs": [],
+  "created_at": "2026-08-27T00:00:00Z"
+}

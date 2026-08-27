@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://pathdelta.local/msn2026-v83-run-manifest.schema.json",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "run_id",
+    "protocol",
+    "data",
+    "model",
+    "backends",
+    "metrics",
+    "artifacts",
+    "claim_status"
+  ],
+  "properties": {
+    "schema_version": {"const": "msn2026.v83.run.1"},
+    "run_id": {"type": "string", "minLength": 1},
+    "protocol": {
+      "type": "object",
+      "required": ["version", "aggregate_sha256", "data_seed", "agent_seed", "coverage_seed"]
+    },
+    "data": {
+      "type": "object",
+      "required": ["fresh_sources", "legacy_inputs_used", "dataset_manifest_sha256", "source_manifest_sha256"]
+    },
+    "model": {
+      "type": "object",
+      "required": ["provider", "configured_model", "backend", "thinking_mode", "secret_values_recorded"]
+    },
+    "backends": {"type": "object"},
+    "metrics": {"type": "object"},
+    "artifacts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["path", "sha256", "bytes"],
+        "properties": {
+          "path": {"type": "string"},
+          "sha256": {"type": "string", "pattern": "^[0-9a-f]{64}$"},
+          "bytes": {"type": "integer", "minimum": 0}
+        }
+      }
+    },
+    "claim_status": {"enum": ["GO", "NO-GO", "NARROWED"]},
+    "limitations": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

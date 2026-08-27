@@ -1,0 +1,24 @@
+{
+  "schema_version": "msn2026-v84-union-reaudit-freeze-1.0",
+  "created_at": "2026-08-14T05:33:54.990103+00:00",
+  "status": "FROZEN_BEFORE_UNION_REPAIR_COMPLETION",
+  "composition": "88 unchanged original PASS + independently re-audited repair PASS; 7 original N/A remains fail closed",
+  "inputs": [
+    {
+      "path": "experiments/msn2026_v84_agent_repair/run_batfish_union_reaudit.py",
+      "sha256": "b3901101501fa860348cdfdec35ca7c41627e0e3ad3f6593e0c7ddb718b290cc"
+    },
+    {
+      "path": "experiments/msn2026_v84_agent_repair/run_batfish_agent_final.py",
+      "sha256": "21827871c35710e3366c95b8db90c38980f854153a45cc9f23d8dca1a462739c"
+    },
+    {
+      "path": "experiments/msn2026_v84_agent_repair/union_repair_freeze.json",
+      "sha256": "54964bdc4918749688e748de321c82e2e3333c231519919daddd3ac386b6def8"
+    },
+    {
+      "path": "results/msn2026_v84_agent_repair/batfish_agent128/summary.json",
+      "sha256": "fce6e749045977c5300709ba1a5d80144d01fabc9ec8ce242ca9b5e26e58879c"
+    }
+  ]
+}

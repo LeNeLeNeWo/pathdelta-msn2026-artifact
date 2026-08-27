@@ -1,0 +1,296 @@
+{
+  "aggregate_sha256": "e6780bacd62f17d997a9b61362e64b6dd1382fdfb4455cd3caf715b46771410f",
+  "case_count": 40,
+  "cases": [
+    {
+      "case_id": "cmp-cornetto-1f97250e53a477bc",
+      "family": "ordered_policy",
+      "scenario_id": "cmp-cornetto-1f97250e53a477bc",
+      "source_scenario": "scenario-139",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-b6fe19b7e19185b4",
+      "family": "ordered_policy",
+      "scenario_id": "cmp-cornetto-b6fe19b7e19185b4",
+      "source_scenario": "scenario-106",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-9cae8eeecf8376ce",
+      "family": "ordered_policy",
+      "scenario_id": "cmp-cornetto-9cae8eeecf8376ce",
+      "source_scenario": "scenario-083",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-95289c0cc9084623",
+      "family": "shared_prefix_list",
+      "scenario_id": "cmp-cornetto-95289c0cc9084623",
+      "source_scenario": "scenario-192",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-6263b95fb0cf6558",
+      "family": "ordered_policy",
+      "scenario_id": "cmp-cornetto-6263b95fb0cf6558",
+      "source_scenario": "scenario-138",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-57eed2e7c7a24b73",
+      "family": "ordered_policy",
+      "scenario_id": "cmp-cornetto-57eed2e7c7a24b73",
+      "source_scenario": "scenario-123",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-bc16a8b965119256",
+      "family": "ordered_policy",
+      "scenario_id": "cmp-cornetto-bc16a8b965119256",
+      "source_scenario": "scenario-018",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-a724d21110ba8eb0",
+      "family": "legacy_policy",
+      "scenario_id": "cmp-cornetto-a724d21110ba8eb0",
+      "source_scenario": "scenario-193",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-acdf1d9d44f29fc2",
+      "family": "ordered_policy",
+      "scenario_id": "cmp-cornetto-acdf1d9d44f29fc2",
+      "source_scenario": "scenario-087",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-023fe7f747e62549",
+      "family": "ordered_policy",
+      "scenario_id": "cmp-cornetto-023fe7f747e62549",
+      "source_scenario": "scenario-162",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-ee8dc1d26bc47bfb",
+      "family": "ordered_policy",
+      "scenario_id": "cmp-cornetto-ee8dc1d26bc47bfb",
+      "source_scenario": "scenario-213",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-bafedfb7bb95e95a",
+      "family": "ordered_policy",
+      "scenario_id": "cmp-cornetto-bafedfb7bb95e95a",
+      "source_scenario": "scenario-227",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-56191b3a2badc37f",
+      "family": "legacy_policy",
+      "scenario_id": "cmp-cornetto-56191b3a2badc37f",
+      "source_scenario": "scenario-230",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-6127a063d69b4ffe",
+      "family": "ordered_policy",
+      "scenario_id": "cmp-cornetto-6127a063d69b4ffe",
+      "source_scenario": "scenario-141",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-690577532f6e64d3",
+      "family": "ordered_policy",
+      "scenario_id": "cmp-cornetto-690577532f6e64d3",
+      "source_scenario": "scenario-134",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-836e68dc6aee470b",
+      "family": "legacy_policy",
+      "scenario_id": "cmp-cornetto-836e68dc6aee470b",
+      "source_scenario": "scenario-062",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-5f6fa3646b9abbbc",
+      "family": "legacy_policy",
+      "scenario_id": "cmp-cornetto-5f6fa3646b9abbbc",
+      "source_scenario": "scenario-197",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-5e4cdb92f6af1772",
+      "family": "community_composition",
+      "scenario_id": "cmp-cornetto-5e4cdb92f6af1772",
+      "source_scenario": "scenario-187",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-e97936cc702a0ad7",
+      "family": "shared_prefix_list",
+      "scenario_id": "cmp-cornetto-e97936cc702a0ad7",
+      "source_scenario": "scenario-126",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-d0ab09724b96aead",
+      "family": "ordered_policy",
+      "scenario_id": "cmp-cornetto-d0ab09724b96aead",
+      "source_scenario": "scenario-122",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-1bb3942db1469f89",
+      "family": "ordered_policy",
+      "scenario_id": "cmp-cornetto-1bb3942db1469f89",
+      "source_scenario": "scenario-067",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-65adf146bb44d48b",
+      "family": "ordered_policy",
+      "scenario_id": "cmp-cornetto-65adf146bb44d48b",
+      "source_scenario": "scenario-203",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-a8baf5a2e6634f8f",
+      "family": "community_composition",
+      "scenario_id": "cmp-cornetto-a8baf5a2e6634f8f",
+      "source_scenario": "scenario-210",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-26bab1cd16c031b4",
+      "family": "ordered_policy",
+      "scenario_id": "cmp-cornetto-26bab1cd16c031b4",
+      "source_scenario": "scenario-129",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-1a2859c366ceaf85",
+      "family": "ordered_policy",
+      "scenario_id": "cmp-cornetto-1a2859c366ceaf85",
+      "source_scenario": "scenario-191",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-4745a6541ac3abd1",
+      "family": "shared_prefix_list",
+      "scenario_id": "cmp-cornetto-4745a6541ac3abd1",
+      "source_scenario": "scenario-116",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-fb513b59100aadba",
+      "family": "ordered_policy",
+      "scenario_id": "cmp-cornetto-fb513b59100aadba",
+      "source_scenario": "scenario-024",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-c00186567e57796a",
+      "family": "ordered_policy",
+      "scenario_id": "cmp-cornetto-c00186567e57796a",
+      "source_scenario": "scenario-060",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-3ee323ca7d0ec065",
+      "family": "shared_prefix_list",
+      "scenario_id": "cmp-cornetto-3ee323ca7d0ec065",
+      "source_scenario": "scenario-201",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-90a0e2322a0f2364",
+      "family": "ordered_policy",
+      "scenario_id": "cmp-cornetto-90a0e2322a0f2364",
+      "source_scenario": "scenario-228",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-b4f22640b292a827",
+      "family": "ordered_policy",
+      "scenario_id": "cmp-cornetto-b4f22640b292a827",
+      "source_scenario": "scenario-088",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-758fb443683d8de8",
+      "family": "shared_prefix_list",
+      "scenario_id": "cmp-cornetto-758fb443683d8de8",
+      "source_scenario": "scenario-113",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-d90baa6ff09a095f",
+      "family": "ordered_policy",
+      "scenario_id": "cmp-cornetto-d90baa6ff09a095f",
+      "source_scenario": "scenario-068",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-83a8a8e19f3aa050",
+      "family": "ordered_policy",
+      "scenario_id": "cmp-cornetto-83a8a8e19f3aa050",
+      "source_scenario": "scenario-144",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-0c66d0c36e53c14e",
+      "family": "shared_prefix_list",
+      "scenario_id": "cmp-cornetto-0c66d0c36e53c14e",
+      "source_scenario": "scenario-121",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-3484b0fb053a6335",
+      "family": "ordered_policy",
+      "scenario_id": "cmp-cornetto-3484b0fb053a6335",
+      "source_scenario": "scenario-165",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-91af5a7e8b4570ed",
+      "family": "shared_prefix_list",
+      "scenario_id": "cmp-cornetto-91af5a7e8b4570ed",
+      "source_scenario": "scenario-026",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-87f3041378b381bd",
+      "family": "community_composition",
+      "scenario_id": "cmp-cornetto-87f3041378b381bd",
+      "source_scenario": "scenario-189",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-894684d0f7642497",
+      "family": "ordered_policy",
+      "scenario_id": "cmp-cornetto-894684d0f7642497",
+      "source_scenario": "scenario-188",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-6e4516fe0122e577",
+      "family": "shared_prefix_list",
+      "scenario_id": "cmp-cornetto-6e4516fe0122e577",
+      "source_scenario": "scenario-052",
+      "vendor": "cisco_ios"
+    }
+  ],
+  "created_at": "2026-08-15T14:22:56.480292+00:00",
+  "dataset_manifest_sha256": "14f0eec6654350a634ada65448b002c05bb496dad80b28fe4eb0bfe52be79456",
+  "development_source_configurations_excluded": true,
+  "schema_version": "msn2026-v85-suite-split-1.0",
+  "seed": 20260815,
+  "selection_opened_sealed_oracles": false,
+  "selection_used_labels": false,
+  "source_manifest_sha256": "b4f427334392b4a3e9ff67be8af1026ae2c5a3ebe4ec1ea74ed0a6e5c0171e73",
+  "split": "confirmatory40",
+  "topology_disjoint_count": 46
+}

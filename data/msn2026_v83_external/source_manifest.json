@@ -1,0 +1,41 @@
+{
+  "created_at": "2026-08-14T00:59:54.512742+00:00",
+  "fresh_download": true,
+  "legacy_experiment_inputs": false,
+  "schema_version": "msn2026-v83-source-manifest-1.0",
+  "sources": [
+    {
+      "bytes": 607157,
+      "commit": "21641495fb6485c1d6d61d44597a58d87ed29de2",
+      "destination": "cornetto_repo",
+      "file_count": 73,
+      "id": "cornetto_code",
+      "license": "MIT",
+      "resolved_commit": "21641495fb6485c1d6d61d44597a58d87ed29de2",
+      "tree_sha256": "e23285b7b76b71cb164b9843fc5829652bb82275d6015d4c5d65c2c0570a86ac",
+      "url": "https://github.com/nsg-ethz/cornetto.git"
+    },
+    {
+      "bytes": 308640,
+      "commit": "2e407de5a59db2145eaf17fc42501d2f784f866e",
+      "destination": "test_pyramid",
+      "file_count": 116,
+      "id": "test_pyramid",
+      "license": "Apache-2.0",
+      "resolved_commit": "2e407de5a59db2145eaf17fc42501d2f784f866e",
+      "tree_sha256": "7fa75253c6194a8bb8645fca35410e5957e6e22c647c2492afa51d50a90e722f",
+      "url": "https://github.com/intentionet/test-pyramid.git"
+    },
+    {
+      "bytes": 368609844,
+      "destination": "cornetto_dataset",
+      "file_count": 21841,
+      "id": "cornetto_public_dataset",
+      "license": "dataset repository metadata",
+      "requested_revision": "cdf3d68ecc47b4afe63e6b3ca8f5c07821c191bd",
+      "resolved_revision": "cdf3d68ecc47b4afe63e6b3ca8f5c07821c191bd",
+      "tree_sha256": "7b82cb640d8e9c8b9f783a402bfc472168dc91ac1dabbfcb400ee71720d72a41",
+      "url": "https://huggingface.co/datasets/iprotogeros/cornetto-benchmark"
+    }
+  ]
+}

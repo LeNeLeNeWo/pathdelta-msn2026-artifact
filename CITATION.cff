@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "During double-blind review, cite the anonymous manuscript rather than this repository."
+title: "PathDelta Anonymous Artifact"
+type: software
+version: 1.0.0-review
+date-released: 2026-08-27
+authors:
+  - name: "Anonymous Authors"
+license: MIT
+abstract: >-
+  Code, protocols, aggregate records, and integrity checks for the anonymous
+  PathDelta MSN 2026 submission.

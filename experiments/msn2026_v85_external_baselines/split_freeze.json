@@ -1,0 +1,14 @@
+{
+  "all48_sha256": "fed7ae9ba49003e3d5d92ad879185ef338c12246cdd5cfab18590c9005a6bbdd",
+  "confirmatory40_sha256": "82c9ce5c2f6af314fe8c4414270f5c5d2cf40d7663d5ca69b099349ef19f1491",
+  "created_at": "2026-08-15T14:22:56.480292+00:00",
+  "dataset_manifest_sha256": "14f0eec6654350a634ada65448b002c05bb496dad80b28fe4eb0bfe52be79456",
+  "development_source_configurations_excluded": true,
+  "pilot8_sha256": "14e3fb672231d5881048496bee674b14a43fd6da562e981f090fe98e1833bcf4",
+  "schema_version": "msn2026-v85-suite-split-1.0",
+  "seed": 20260815,
+  "selection_opened_sealed_oracles": false,
+  "selection_used_labels": false,
+  "source_manifest_sha256": "b4f427334392b4a3e9ff67be8af1026ae2c5a3ebe4ec1ea74ed0a6e5c0171e73",
+  "topology_disjoint_count": 46
+}

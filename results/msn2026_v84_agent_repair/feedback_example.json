@@ -1,0 +1,43 @@
+{
+  "audit": {
+    "contains_edits_field": false,
+    "contains_replacement_text": false,
+    "patch_disclosed": false,
+    "strategy_disclosed": false
+  },
+  "case_id": "ext-batfish_official-6aca0187b502d999::minimal",
+  "feedback": {
+    "contract": "full_envelope",
+    "counterexamples": [
+      {
+        "changed_count": 1,
+        "examples": [
+          {
+            "behavior_id": "bl02|10.2.1.2@out|10.200.0.0/16",
+            "candidate_matched_term": "seq-10",
+            "candidate_observed": [
+              "65000:8314",
+              "65535:1"
+            ],
+            "dimension": "communities",
+            "fec": "10.200.0.0/16",
+            "pre_change": [
+              "65535:1"
+            ],
+            "pre_change_matched_term": "seq-10",
+            "required": "preserve pre_change"
+          }
+        ],
+        "obligation_ids": [
+          "frame-2ab5d37985561ead"
+        ],
+        "type": "semantic_collateral"
+      }
+    ],
+    "instruction": "Satisfy the target and restore every listed non-target relation to its pre-change value. Re-evaluate policy ordering and shared match scope before submitting a different baseline-relative patch.",
+    "patch_disclosed": false,
+    "schema_version": "msn2026-v84-impact-feedback-1.0",
+    "strategy_disclosed": false,
+    "verdict": "FAIL"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "backend": "openai_compatible_chat_completions",
+  "created_at": "2026-08-14T06:07:13.730629+00:00",
+  "credentials_recorded": false,
+  "inputs_and_outputs": [
+    {
+      "path": "experiments/msn2026_v84_agent_repair/agent_repair_v2_freeze.json",
+      "sha256": "abc350561c24c3703874da10e992a182c544ec7625015a712a76717c61712103"
+    },
+    {
+      "path": "experiments/msn2026_v84_agent_repair/agent_holdout32_freeze.json",
+      "sha256": "4cb99044abeb66fc6647f2e521b08a8b551697ee2c74bc5cf19e428accf3c42a"
+    },
+    {
+      "path": "experiments/msn2026_v84_agent_repair/union_repair_freeze.json",
+      "sha256": "54964bdc4918749688e748de321c82e2e3333c231519919daddd3ac386b6def8"
+    },
+    {
+      "path": "experiments/msn2026_v84_agent_repair/union_reaudit_freeze_amendment.json",
+      "sha256": "7f7694837926b22def5d88bacbb7fbae7b3da7b5870498ddc171305d0aa54641"
+    },
+    {
+      "path": "experiments/msn2026_v84_agent_repair/transport_recovery_freeze.json",
+      "sha256": "44b743e128d3de598547e1c38d0fb6e350e68e8350e455afcfa2532d154334e7"
+    },
+    {
+      "path": "experiments/msn2026_v84_agent_repair/union_holdout_freeze.json",
+      "sha256": "1452d7776a83443b5d2fcab29615f3bf26c00e2b4f640e7d5ff73cf296a7b02b"
+    },
+    {
+      "path": "results/msn2026_v84_agent_repair/frozen_replay79/summary.json",
+      "sha256": "197879a2270cb11ee7932af3435157760e5009642d75f61066c7b3cccadb9262"
+    },
+    {
+      "path": "results/msn2026_v84_agent_repair/holdout32/summary.json",
+      "sha256": "7997c443dfc7f0ddce8a9a8bd4aed51274e14ce98628e538b44c0732b05e1191"
+    },
+    {
+      "path": "results/msn2026_v84_agent_repair/batfish_agent128/summary.json",
+      "sha256": "fce6e749045977c5300709ba1a5d80144d01fabc9ec8ce242ca9b5e26e58879c"
+    },
+    {
+      "path": "results/msn2026_v84_agent_repair/union_repair_agent128/summary.json",
+      "sha256": "a9d5bc0a59b950e621896e957024e5fe2b466cf0714bfcb68146f7904ae5f9e7"
+    },
+    {
+      "path": "results/msn2026_v84_agent_repair/batfish_union_repairs/combined_summary.json",
+      "sha256": "8543158cd2058f50c40e7a16a80397d35e3db860317c5c098800bf9e33f6df13"
+    },
+    {
+      "path": "results/msn2026_v84_agent_repair/batfish_holdout32/summary.json",
+      "sha256": "fef49ddb62feff0752ce0aed673468144adb575c8450a85c99a58c579446e53c"
+    },
+    {
+      "path": "results/msn2026_v84_agent_repair/batfish_union_holdout_repairs/combined_summary.json",
+      "sha256": "6b17d432e9a20f5d45072463f3b36335c11a42b656c4b2167d83e9b8f2c1696f"
+    },
+    {
+      "path": "results/msn2026_v84_agent_repair/analysis.json",
+      "sha256": "04296522e7c91ab3198f6406691c13423a50defd11fa58a6e4b935c0d08409c8"
+    },
+    {
+      "path": "results/msn2026_v84_agent_repair/feedback_example.json",
+      "sha256": "5ac848713b3edbbc22a3c56c8a6822fdcb76614a69aa0952793a2a79d13143ed"
+    }
+  ],
+  "model": "deepseek-v4-flash",
+  "schema_version": "msn2026-v84-agent-repair-manifest-1.0",
+  "seeds": {
+    "agent128": 83127,
+    "holdout32": 84032
+  },
+  "source": "v8.3 fresh public-source corpus; v8.3 failure outcomes explicitly select the development replay only; holdout selection is disjoint and label-independent"
+}

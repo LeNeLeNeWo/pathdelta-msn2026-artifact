@@ -1,0 +1,21 @@
+{
+  "case_count": 128,
+  "full_u_verified_completion": 120,
+  "not_yet_repaired_or_registered_rejected": 1,
+  "note": "Original PASS rows are unchanged; original FAIL rows are replaced only when their repaired candidate passes the independent re-audit; original N/A remains fail closed.",
+  "original_full_r": {
+    "fail": 33,
+    "pass": 88,
+    "verifier_na": 7
+  },
+  "population": "agent128_after_adaptive_union_repair",
+  "remaining_fail_closed": 8,
+  "repaired_failures": {
+    "candidate_count": 32,
+    "fail": 0,
+    "pass": 32,
+    "verifier_na": 0
+  },
+  "schema_version": "msn2026-v84-union-agent-summary-1.0",
+  "unsafe_release": 0
+}

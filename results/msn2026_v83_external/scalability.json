@@ -1,0 +1,372 @@
+{
+  "case_count": 11,
+  "cases": [
+    {
+      "batfish": {
+        "reason": "measured separately on sampled generated snapshots",
+        "status": "NOT_RUN_HERE"
+      },
+      "case_id": "objects-1e2",
+      "config_bytes": 9512,
+      "config_tree_sha256": "22f82819afe5d041a957f78da09e275f0df3a80317a72d9b4761cf5d03221603",
+      "device_count": 10,
+      "fec_count": 1000,
+      "frame_obligations": 1999,
+      "graph_edges": 60,
+      "graph_nodes": 110,
+      "peak_python_mib": {
+        "behavior_materialization": 0.41687965393066406,
+        "config_generation": 0.012979507446289062,
+        "dependency_extraction": 0.07422256469726562,
+        "envelope_compile": 0.39249706268310547,
+        "maximum_phase": 0.41687965393066406,
+        "witness_generation": 0.04048919677734375
+      },
+      "requested_object_count": 100,
+      "seed": 20260814,
+      "timing_ms": {
+        "behavior_materialization": 15.756757999952242,
+        "config_generation": 0.791631000538473,
+        "dependency_extraction": 4.931045000375889,
+        "envelope_compile": 88.73748699988937,
+        "total_without_batfish": 117.70472300122492,
+        "witness_generation": 7.487802000468946
+      },
+      "witness_count": 90
+    },
+    {
+      "batfish": {
+        "reason": "measured separately on sampled generated snapshots",
+        "status": "NOT_RUN_HERE"
+      },
+      "case_id": "objects-1e3",
+      "config_bytes": 80452,
+      "config_tree_sha256": "4595e3eb4c372d4729d63af1b50930237ecca45b54e5dd04abf6d13ddf194cf5",
+      "device_count": 10,
+      "fec_count": 10000,
+      "frame_obligations": 19999,
+      "graph_edges": 510,
+      "graph_nodes": 1010,
+      "peak_python_mib": {
+        "behavior_materialization": 4.240419387817383,
+        "config_generation": 0.09967231750488281,
+        "dependency_extraction": 0.5955076217651367,
+        "envelope_compile": 3.6496400833129883,
+        "maximum_phase": 4.240419387817383,
+        "witness_generation": 0.14222145080566406
+      },
+      "requested_object_count": 1000,
+      "seed": 20260814,
+      "timing_ms": {
+        "behavior_materialization": 151.58328699999402,
+        "config_generation": 6.918968999343633,
+        "dependency_extraction": 35.6449809996775,
+        "envelope_compile": 1403.0117819993393,
+        "total_without_batfish": 1660.398016997533,
+        "witness_generation": 63.23899799917854
+      },
+      "witness_count": 480
+    },
+    {
+      "batfish": {
+        "reason": "measured separately on sampled generated snapshots",
+        "status": "NOT_RUN_HERE"
+      },
+      "case_id": "objects-1e4",
+      "config_bytes": 791912,
+      "config_tree_sha256": "22b33328ed0e2b3148113d69669d6f9de4923bafa8ba860d00b2524073e8f55d",
+      "device_count": 10,
+      "fec_count": 100000,
+      "frame_obligations": 199999,
+      "graph_edges": 5010,
+      "graph_nodes": 10010,
+      "peak_python_mib": {
+        "behavior_materialization": 42.62605857849121,
+        "config_generation": 0.9702854156494141,
+        "dependency_extraction": 5.819409370422363,
+        "envelope_compile": 38.90430927276611,
+        "maximum_phase": 42.62605857849121,
+        "witness_generation": 0.7251272201538086
+      },
+      "requested_object_count": 10000,
+      "seed": 20260814,
+      "timing_ms": {
+        "behavior_materialization": 1734.0699070000483,
+        "config_generation": 70.51484500061633,
+        "dependency_extraction": 394.03778800078726,
+        "envelope_compile": 88035.77422700073,
+        "total_without_batfish": 90924.71621600271,
+        "witness_generation": 690.3194490005262
+      },
+      "witness_count": 480
+    },
+    {
+      "batfish": {
+        "reason": "measured separately on sampled generated snapshots",
+        "status": "NOT_RUN_HERE"
+      },
+      "case_id": "fecs-1e2",
+      "config_bytes": 9512,
+      "config_tree_sha256": "22f82819afe5d041a957f78da09e275f0df3a80317a72d9b4761cf5d03221603",
+      "device_count": 10,
+      "fec_count": 100,
+      "frame_obligations": 199,
+      "graph_edges": 60,
+      "graph_nodes": 110,
+      "peak_python_mib": {
+        "behavior_materialization": 0.029756546020507812,
+        "config_generation": 0.012979507446289062,
+        "dependency_extraction": 0.06822872161865234,
+        "envelope_compile": 0.041708946228027344,
+        "maximum_phase": 0.06822872161865234,
+        "witness_generation": 0.03981781005859375
+      },
+      "requested_object_count": 100,
+      "seed": 20260814,
+      "timing_ms": {
+        "behavior_materialization": 1.2870270002167672,
+        "config_generation": 0.8878079997884925,
+        "dependency_extraction": 3.7586749995170976,
+        "envelope_compile": 8.720068999537034,
+        "total_without_batfish": 21.849784999176336,
+        "witness_generation": 7.196206000116945
+      },
+      "witness_count": 90
+    },
+    {
+      "batfish": {
+        "reason": "measured separately on sampled generated snapshots",
+        "status": "NOT_RUN_HERE"
+      },
+      "case_id": "fecs-1e3",
+      "config_bytes": 9512,
+      "config_tree_sha256": "22f82819afe5d041a957f78da09e275f0df3a80317a72d9b4761cf5d03221603",
+      "device_count": 10,
+      "fec_count": 1000,
+      "frame_obligations": 1999,
+      "graph_edges": 60,
+      "graph_nodes": 110,
+      "peak_python_mib": {
+        "behavior_materialization": 0.4086933135986328,
+        "config_generation": 0.012979507446289062,
+        "dependency_extraction": 0.06804561614990234,
+        "envelope_compile": 0.37353992462158203,
+        "maximum_phase": 0.4086933135986328,
+        "witness_generation": 0.03957366943359375
+      },
+      "requested_object_count": 100,
+      "seed": 20260814,
+      "timing_ms": {
+        "behavior_materialization": 13.975243999993836,
+        "config_generation": 0.8427049997408176,
+        "dependency_extraction": 4.247394000230997,
+        "envelope_compile": 73.5524700003225,
+        "total_without_batfish": 99.60025200052769,
+        "witness_generation": 6.982439000239538
+      },
+      "witness_count": 90
+    },
+    {
+      "batfish": {
+        "reason": "measured separately on sampled generated snapshots",
+        "status": "NOT_RUN_HERE"
+      },
+      "case_id": "fecs-1e4",
+      "config_bytes": 9512,
+      "config_tree_sha256": "22f82819afe5d041a957f78da09e275f0df3a80317a72d9b4761cf5d03221603",
+      "device_count": 10,
+      "fec_count": 10000,
+      "frame_obligations": 19999,
+      "graph_edges": 60,
+      "graph_nodes": 110,
+      "peak_python_mib": {
+        "behavior_materialization": 4.239076614379883,
+        "config_generation": 0.012979507446289062,
+        "dependency_extraction": 0.0680379867553711,
+        "envelope_compile": 3.649601936340332,
+        "maximum_phase": 4.239076614379883,
+        "witness_generation": 0.03957366943359375
+      },
+      "requested_object_count": 100,
+      "seed": 20260814,
+      "timing_ms": {
+        "behavior_materialization": 151.622055000189,
+        "config_generation": 0.8432989998254925,
+        "dependency_extraction": 3.96285200076818,
+        "envelope_compile": 739.2168919996038,
+        "total_without_batfish": 902.3600860009537,
+        "witness_generation": 6.714988000567246
+      },
+      "witness_count": 90
+    },
+    {
+      "batfish": {
+        "reason": "measured separately on sampled generated snapshots",
+        "status": "NOT_RUN_HERE"
+      },
+      "case_id": "fecs-1e5",
+      "config_bytes": 9512,
+      "config_tree_sha256": "22f82819afe5d041a957f78da09e275f0df3a80317a72d9b4761cf5d03221603",
+      "device_count": 10,
+      "fec_count": 100000,
+      "frame_obligations": 199999,
+      "graph_edges": 60,
+      "graph_nodes": 110,
+      "peak_python_mib": {
+        "behavior_materialization": 42.616132736206055,
+        "config_generation": 0.012979507446289062,
+        "dependency_extraction": 0.06803035736083984,
+        "envelope_compile": 38.90424823760986,
+        "maximum_phase": 42.616132736206055,
+        "witness_generation": 0.03957366943359375
+      },
+      "requested_object_count": 100,
+      "seed": 20260814,
+      "timing_ms": {
+        "behavior_materialization": 1586.1007269995753,
+        "config_generation": 0.7921149999674526,
+        "dependency_extraction": 4.332896000050823,
+        "envelope_compile": 8213.38144099991,
+        "total_without_batfish": 9813.330742999824,
+        "witness_generation": 8.723564000320039
+      },
+      "witness_count": 90
+    },
+    {
+      "batfish": {
+        "reason": "measured separately on sampled generated snapshots",
+        "status": "NOT_RUN_HERE"
+      },
+      "case_id": "devices-10",
+      "config_bytes": 9512,
+      "config_tree_sha256": "22f82819afe5d041a957f78da09e275f0df3a80317a72d9b4761cf5d03221603",
+      "device_count": 10,
+      "fec_count": 1000,
+      "frame_obligations": 1999,
+      "graph_edges": 60,
+      "graph_nodes": 110,
+      "peak_python_mib": {
+        "behavior_materialization": 0.4086933135986328,
+        "config_generation": 0.012979507446289062,
+        "dependency_extraction": 0.06835079193115234,
+        "envelope_compile": 0.37347888946533203,
+        "maximum_phase": 0.4086933135986328,
+        "witness_generation": 0.03981781005859375
+      },
+      "requested_object_count": 100,
+      "seed": 20260814,
+      "timing_ms": {
+        "behavior_materialization": 13.57661400015786,
+        "config_generation": 1.1274240005150205,
+        "dependency_extraction": 3.958969999985129,
+        "envelope_compile": 74.03600099951291,
+        "total_without_batfish": 99.55755500050145,
+        "witness_generation": 6.858546000330534
+      },
+      "witness_count": 90
+    },
+    {
+      "batfish": {
+        "reason": "measured separately on sampled generated snapshots",
+        "status": "NOT_RUN_HERE"
+      },
+      "case_id": "devices-50",
+      "config_bytes": 47822,
+      "config_tree_sha256": "8e141d004b551c2824d230874b9a18ea0f81f25b8af8250b47391897f2d0629e",
+      "device_count": 50,
+      "fec_count": 5000,
+      "frame_obligations": 9999,
+      "graph_edges": 300,
+      "graph_nodes": 550,
+      "peak_python_mib": {
+        "behavior_materialization": 2.1083240509033203,
+        "config_generation": 0.05432319641113281,
+        "dependency_extraction": 0.3008861541748047,
+        "envelope_compile": 1.8246965408325195,
+        "maximum_phase": 2.1083240509033203,
+        "witness_generation": 0.09154987335205078
+      },
+      "requested_object_count": 500,
+      "seed": 20260814,
+      "timing_ms": {
+        "behavior_materialization": 67.24447000033251,
+        "config_generation": 3.824530999736453,
+        "dependency_extraction": 19.96180300011474,
+        "envelope_compile": 414.675078000073,
+        "total_without_batfish": 542.609228999936,
+        "witness_generation": 36.90334699967934
+      },
+      "witness_count": 450
+    },
+    {
+      "batfish": {
+        "reason": "measured separately on sampled generated snapshots",
+        "status": "NOT_RUN_HERE"
+      },
+      "case_id": "devices-100",
+      "config_bytes": 95664,
+      "config_tree_sha256": "dc91d6aa65c99d90a96d077d8f50433be9f7019698742a3f148d19f5fb661b40",
+      "device_count": 100,
+      "fec_count": 10000,
+      "frame_obligations": 19999,
+      "graph_edges": 600,
+      "graph_nodes": 1100,
+      "peak_python_mib": {
+        "behavior_materialization": 4.238565444946289,
+        "config_generation": 0.10611248016357422,
+        "dependency_extraction": 0.5930461883544922,
+        "envelope_compile": 3.6501588821411133,
+        "maximum_phase": 4.238565444946289,
+        "witness_generation": 0.11462211608886719
+      },
+      "requested_object_count": 1000,
+      "seed": 20260814,
+      "timing_ms": {
+        "behavior_materialization": 144.29741099957027,
+        "config_generation": 7.347036999817647,
+        "dependency_extraction": 38.04189899983612,
+        "envelope_compile": 1037.8304100004243,
+        "total_without_batfish": 1300.269661999664,
+        "witness_generation": 72.75290500001574
+      },
+      "witness_count": 900
+    },
+    {
+      "batfish": {
+        "reason": "measured separately on sampled generated snapshots",
+        "status": "NOT_RUN_HERE"
+      },
+      "case_id": "devices-500",
+      "config_bytes": 478968,
+      "config_tree_sha256": "adefab06cb52bf20d35067d2936e64ef3b491484ba0d817f2fd0b31e6a168365",
+      "device_count": 500,
+      "fec_count": 100000,
+      "frame_obligations": 199999,
+      "graph_edges": 3000,
+      "graph_nodes": 5500,
+      "peak_python_mib": {
+        "behavior_materialization": 42.616743087768555,
+        "config_generation": 0.516444206237793,
+        "dependency_extraction": 3.1196670532226562,
+        "envelope_compile": 38.90417194366455,
+        "maximum_phase": 42.616743087768555,
+        "witness_generation": 0.2997913360595703
+      },
+      "requested_object_count": 5000,
+      "seed": 20260814,
+      "timing_ms": {
+        "behavior_materialization": 1647.2789130002639,
+        "config_generation": 43.26355200009857,
+        "dependency_extraction": 209.27397700052097,
+        "envelope_compile": 23545.554229000118,
+        "total_without_batfish": 25832.614519000344,
+        "witness_generation": 387.2438479993434
+      },
+      "witness_count": 4500
+    }
+  ],
+  "created_at": "2026-08-14T01:46:33.524440+00:00",
+  "data_tree_sha256": "9fea96cf4909f9fb376b2b0feb30bd49a27b7ab190ec2eb73af51de21356d983",
+  "schema_version": "msn2026-v83-scalability-1.0",
+  "seed": 20260814
+}

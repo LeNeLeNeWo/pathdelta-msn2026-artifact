@@ -1,0 +1,61 @@
+{
+  "schema_version": "msn2026-v84-agent-repair-freeze-1.0",
+  "created_at": "2026-08-14T03:55:36.252889+00:00",
+  "status": "FROZEN_AFTER_12_CASE_DEVELOPMENT_AND_4_CASE_THINKING_AB",
+  "claim_scope": "post-freeze engineering replay; not v8.3 confirmatory evidence",
+  "selection": {
+    "development_corpus": "the 79 immutable v8.3 Full Envelope exhaustions",
+    "first_candidates": "byte-identical v8.3 Agent128 candidates",
+    "pilot12": "first 12 failures in the label-independent Agent128 order",
+    "thinking_ab4": "four named Cisco failures from pilot12"
+  },
+  "fixed_parameters": {
+    "model_env": "DEEPSEEK_MODEL",
+    "thinking_mode": "enabled",
+    "temperature": 0.1,
+    "max_submissions": 8,
+    "max_completion_tokens": 8000,
+    "feedback_patch_free": true,
+    "clean_context_each_attempt": true
+  },
+  "engineering_target": {
+    "recover_old_exhaustions_at_least": 41,
+    "combined_completion_at_least": 90,
+    "combined_denominator": 128,
+    "unsafe_release_required": 0
+  },
+  "inputs": [
+    {
+      "path": "experiments/msn2026_v84_agent_repair/run_agent128_repair_v2.py",
+      "sha256": "8ae87573e7e10958d53fa9ba00eb01eb8fd93b7df4722d2ff2ee4226783c2533"
+    },
+    {
+      "path": "experiments/msn2026_v84_agent_repair/development_protocol.md",
+      "sha256": "a9c3224ed17a161509d9d457fcf02eb5930814a5f97cee3ba224123e4430826b"
+    },
+    {
+      "path": "experiments/msn2026_v83_external/run_agent128.py",
+      "sha256": "22fb792557e746284d6970f7039a1df9e4b00e5627dcf2758a955de8caef8c9a"
+    },
+    {
+      "path": "experiments/msn2026_v83_external/vendor_policy_adapter.py",
+      "sha256": "95e32a3f423affec80d3c5a13b7f65ccd97ea15d5b69f76126c593a63f4aaf8b"
+    },
+    {
+      "path": "experiments/msn2026_v8_day2_agent/change_envelope_v2.py",
+      "sha256": "ddda76016a809eefe4efd6fb120c4f6d0dfc07bfc64e3dc520d166a5653d1411"
+    },
+    {
+      "path": "experiments/msn2026_v8_day2_agent/semantic_metrics.py",
+      "sha256": "6bf880f9539e4f38bb9d9ea633f0a55e8a3c2e28fd0613e929019168bef718c7"
+    },
+    {
+      "path": "experiments/msn2026_v8_day2_agent/llm_client_v2.py",
+      "sha256": "53a287c92bc058ddfc38b216bab63438e33e53d12803981166a6a6bc6d3dc201"
+    },
+    {
+      "path": "data/msn2026_v83_external/agent128_subset.json",
+      "sha256": "168bce8b42aa2c99a31b429007394d239702b011b9751343c1ed0b69931122f7"
+    }
+  ]
+}

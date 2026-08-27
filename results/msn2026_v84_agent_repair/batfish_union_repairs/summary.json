@@ -1,0 +1,1963 @@
+{
+  "candidate_count": 32,
+  "fail": 0,
+  "fail_closed_verified_completion": 32,
+  "pass": 32,
+  "population": "agent128",
+  "rows": [
+    {
+      "case_id": "ext-batfish_official-09bea01434602102::isolated",
+      "device": "bor01",
+      "error": null,
+      "mode": "isolated",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "FLAT_JUNIPER",
+            "File_Name": "configs/bor01.cfg",
+            "Nodes": [
+              "bor01"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "IMPORT-PROVIDER-GENERIC",
+      "pre_policy": "IMPORT-PROVIDER-GENERIC",
+      "result_source": "v84_union_repair",
+      "scenario_id": "ext-batfish_official-09bea01434602102",
+      "subject": "ISP@import",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='200', newValue='250')])",
+            "Input_Route": "BgpRoute(network='198.18.7.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bor01",
+            "Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='198.18.7.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term BASELINE"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='198.18.7.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=250, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term PREF-198-18-7-0-24"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "198.18.7.0/24"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        250
+      ],
+      "symbolic_target_required": 250,
+      "target_prefix": "198.18.7.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "juniper_junos"
+    },
+    {
+      "case_id": "ext-batfish_official-27574c929d6ca4e9::isolated",
+      "device": "bor02",
+      "error": null,
+      "mode": "isolated",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "FLAT_JUNIPER",
+            "File_Name": "configs/bor02.cfg",
+            "Nodes": [
+              "bor02"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "IMPORT-PROVIDER-GENERIC",
+      "pre_policy": "IMPORT-PROVIDER-GENERIC",
+      "result_source": "v84_union_repair",
+      "scenario_id": "ext-batfish_official-27574c929d6ca4e9",
+      "subject": "ISP@import",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='200', newValue='250')])",
+            "Input_Route": "BgpRoute(network='198.18.18.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bor02",
+            "Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='198.18.18.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term BASELINE"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='198.18.18.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=250, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term LOCAL-PREF-250"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "198.18.18.0/24"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        250
+      ],
+      "symbolic_target_required": 250,
+      "target_prefix": "198.18.18.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "juniper_junos"
+    },
+    {
+      "case_id": "ext-batfish_official-2b5e1a53bbafbece::adversarial",
+      "device": "bor01",
+      "error": null,
+      "mode": "adversarial",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "FLAT_JUNIPER",
+            "File_Name": "configs/bor01.cfg",
+            "Nodes": [
+              "bor01"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "IMPORT-PROVIDER-GENERIC",
+      "pre_policy": "IMPORT-PROVIDER-GENERIC",
+      "result_source": "v84_union_repair",
+      "scenario_id": "ext-batfish_official-2b5e1a53bbafbece",
+      "subject": "ISP@import",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='200', newValue='250')])",
+            "Input_Route": "BgpRoute(network='198.18.10.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bor01",
+            "Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='198.18.10.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term BASELINE"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='198.18.10.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=250, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term LOCAL-PREF-250"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "198.18.10.0/24"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        250
+      ],
+      "symbolic_target_required": 250,
+      "target_prefix": "198.18.10.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "juniper_junos"
+    },
+    {
+      "case_id": "ext-batfish_official-2f7224b89bc9a9c5::adversarial",
+      "device": "bor01",
+      "error": null,
+      "mode": "adversarial",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "FLAT_JUNIPER",
+            "File_Name": "configs/bor01.cfg",
+            "Nodes": [
+              "bor01"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "IMPORT-PROVIDER-GENERIC",
+      "pre_policy": "IMPORT-PROVIDER-GENERIC",
+      "result_source": "v84_union_repair",
+      "scenario_id": "ext-batfish_official-2f7224b89bc9a9c5",
+      "subject": "ISP@import",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='200', newValue='250')])",
+            "Input_Route": "BgpRoute(network='198.18.5.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bor01",
+            "Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='198.18.5.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term BASELINE"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='198.18.5.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=250, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term TARGET-LOCAL-PREF"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "198.18.5.0/24"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        250
+      ],
+      "symbolic_target_required": 250,
+      "target_prefix": "198.18.5.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "juniper_junos"
+    },
+    {
+      "case_id": "ext-batfish_official-3552621a4a32f494::isolated",
+      "device": "bor02",
+      "error": null,
+      "mode": "isolated",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "FLAT_JUNIPER",
+            "File_Name": "configs/bor02.cfg",
+            "Nodes": [
+              "bor02"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "IMPORT-PROVIDER-GENERIC",
+      "pre_policy": "IMPORT-PROVIDER-GENERIC",
+      "result_source": "v84_union_repair",
+      "scenario_id": "ext-batfish_official-3552621a4a32f494",
+      "subject": "ISP@import",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='200', newValue='250')])",
+            "Input_Route": "BgpRoute(network='198.18.23.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bor02",
+            "Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='198.18.23.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term BASELINE"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='198.18.23.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=250, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term LOCALPREF-HIGH"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "198.18.23.0/24"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        250
+      ],
+      "symbolic_target_required": 250,
+      "target_prefix": "198.18.23.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "juniper_junos"
+    },
+    {
+      "case_id": "ext-batfish_official-3aecea08d0b2c8fe::adversarial",
+      "device": "bor02",
+      "error": null,
+      "mode": "adversarial",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "FLAT_JUNIPER",
+            "File_Name": "configs/bor02.cfg",
+            "Nodes": [
+              "bor02"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "IMPORT-PROVIDER-GENERIC",
+      "pre_policy": "IMPORT-PROVIDER-GENERIC",
+      "result_source": "v84_union_repair",
+      "scenario_id": "ext-batfish_official-3aecea08d0b2c8fe",
+      "subject": "ISP@import",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='200', newValue='250')])",
+            "Input_Route": "BgpRoute(network='198.18.27.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bor02",
+            "Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='198.18.27.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term BASELINE"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='198.18.27.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=250, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term TARGET-LP250"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "198.18.27.0/24"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        250
+      ],
+      "symbolic_target_required": 250,
+      "target_prefix": "198.18.27.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "juniper_junos"
+    },
+    {
+      "case_id": "ext-batfish_official-3aecea08d0b2c8fe::minimal",
+      "device": "bor02",
+      "error": null,
+      "mode": "minimal",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "FLAT_JUNIPER",
+            "File_Name": "configs/bor02.cfg",
+            "Nodes": [
+              "bor02"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "IMPORT-PROVIDER-GENERIC",
+      "pre_policy": "IMPORT-PROVIDER-GENERIC",
+      "result_source": "v84_union_repair",
+      "scenario_id": "ext-batfish_official-3aecea08d0b2c8fe",
+      "subject": "ISP@import",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='200', newValue='250')])",
+            "Input_Route": "BgpRoute(network='198.18.27.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bor02",
+            "Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='198.18.27.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term BASELINE"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='198.18.27.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=250, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term LOCAL-PREF-250"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "198.18.27.0/24"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        250
+      ],
+      "symbolic_target_required": 250,
+      "target_prefix": "198.18.27.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "juniper_junos"
+    },
+    {
+      "case_id": "ext-batfish_official-419240df03ee9de4::adversarial",
+      "device": "bor01",
+      "error": null,
+      "mode": "adversarial",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "FLAT_JUNIPER",
+            "File_Name": "configs/bor01.cfg",
+            "Nodes": [
+              "bor01"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "IMPORT-PROVIDER-GENERIC",
+      "pre_policy": "IMPORT-PROVIDER-GENERIC",
+      "result_source": "v84_union_repair",
+      "scenario_id": "ext-batfish_official-419240df03ee9de4",
+      "subject": "ISP@import",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='200', newValue='250')])",
+            "Input_Route": "BgpRoute(network='198.18.12.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bor01",
+            "Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='198.18.12.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term BASELINE"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='198.18.12.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=250, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term ISP-LP-250"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "198.18.12.0/24"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        250
+      ],
+      "symbolic_target_required": 250,
+      "target_prefix": "198.18.12.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "juniper_junos"
+    },
+    {
+      "case_id": "ext-batfish_official-5595845e1a90f313::adversarial",
+      "device": "bor02",
+      "error": null,
+      "mode": "adversarial",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "FLAT_JUNIPER",
+            "File_Name": "configs/bor02.cfg",
+            "Nodes": [
+              "bor02"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "IMPORT-PROVIDER-GENERIC",
+      "pre_policy": "IMPORT-PROVIDER-GENERIC",
+      "result_source": "v84_union_repair",
+      "scenario_id": "ext-batfish_official-5595845e1a90f313",
+      "subject": "ISP@import",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='200', newValue='250')])",
+            "Input_Route": "BgpRoute(network='198.18.21.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bor02",
+            "Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='198.18.21.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term BASELINE"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='198.18.21.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=250, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term LOCALPREF-198-18-21-0-24"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "198.18.21.0/24"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        250
+      ],
+      "symbolic_target_required": 250,
+      "target_prefix": "198.18.21.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "juniper_junos"
+    },
+    {
+      "case_id": "ext-batfish_official-5595845e1a90f313::isolated",
+      "device": "bor02",
+      "error": null,
+      "mode": "isolated",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "FLAT_JUNIPER",
+            "File_Name": "configs/bor02.cfg",
+            "Nodes": [
+              "bor02"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "IMPORT-PROVIDER-GENERIC",
+      "pre_policy": "IMPORT-PROVIDER-GENERIC",
+      "result_source": "v84_union_repair",
+      "scenario_id": "ext-batfish_official-5595845e1a90f313",
+      "subject": "ISP@import",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='200', newValue='250')])",
+            "Input_Route": "BgpRoute(network='198.18.21.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bor02",
+            "Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='198.18.21.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term BASELINE"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='198.18.21.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=250, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term SET-LP250"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "198.18.21.0/24"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        250
+      ],
+      "symbolic_target_required": 250,
+      "target_prefix": "198.18.21.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "juniper_junos"
+    },
+    {
+      "case_id": "ext-batfish_official-58c83ed242969ae2::adversarial",
+      "device": "bor02",
+      "error": null,
+      "mode": "adversarial",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "FLAT_JUNIPER",
+            "File_Name": "configs/bor02.cfg",
+            "Nodes": [
+              "bor02"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "IMPORT-PROVIDER-GENERIC",
+      "pre_policy": "IMPORT-PROVIDER-GENERIC",
+      "result_source": "v84_union_repair",
+      "scenario_id": "ext-batfish_official-58c83ed242969ae2",
+      "subject": "ISP@import",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='200', newValue='250')])",
+            "Input_Route": "BgpRoute(network='198.18.28.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bor02",
+            "Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='198.18.28.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term BASELINE"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='198.18.28.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=250, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term LP250"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "198.18.28.0/24"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        250
+      ],
+      "symbolic_target_required": 250,
+      "target_prefix": "198.18.28.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "juniper_junos"
+    },
+    {
+      "case_id": "ext-batfish_official-58c83ed242969ae2::isolated",
+      "device": "bor02",
+      "error": null,
+      "mode": "isolated",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "FLAT_JUNIPER",
+            "File_Name": "configs/bor02.cfg",
+            "Nodes": [
+              "bor02"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "IMPORT-PROVIDER-GENERIC",
+      "pre_policy": "IMPORT-PROVIDER-GENERIC",
+      "result_source": "v84_union_repair",
+      "scenario_id": "ext-batfish_official-58c83ed242969ae2",
+      "subject": "ISP@import",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='200', newValue='250')])",
+            "Input_Route": "BgpRoute(network='198.18.28.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bor02",
+            "Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='198.18.28.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term BASELINE"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='198.18.28.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=250, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term LOCAL-PREF-250"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "198.18.28.0/24"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        250
+      ],
+      "symbolic_target_required": 250,
+      "target_prefix": "198.18.28.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "juniper_junos"
+    },
+    {
+      "case_id": "ext-batfish_official-58c83ed242969ae2::minimal",
+      "device": "bor02",
+      "error": null,
+      "mode": "minimal",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "FLAT_JUNIPER",
+            "File_Name": "configs/bor02.cfg",
+            "Nodes": [
+              "bor02"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "IMPORT-PROVIDER-GENERIC",
+      "pre_policy": "IMPORT-PROVIDER-GENERIC",
+      "result_source": "v84_union_repair",
+      "scenario_id": "ext-batfish_official-58c83ed242969ae2",
+      "subject": "ISP@import",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='200', newValue='250')])",
+            "Input_Route": "BgpRoute(network='198.18.28.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bor02",
+            "Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='198.18.28.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term BASELINE"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='198.18.28.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=250, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term LOCAL-PREF-250"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "198.18.28.0/24"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        250
+      ],
+      "symbolic_target_required": 250,
+      "target_prefix": "198.18.28.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "juniper_junos"
+    },
+    {
+      "case_id": "ext-batfish_official-5fff9a030ab0e329::adversarial",
+      "device": "bor02",
+      "error": null,
+      "mode": "adversarial",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "FLAT_JUNIPER",
+            "File_Name": "configs/bor02.cfg",
+            "Nodes": [
+              "bor02"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "IMPORT-PROVIDER-GENERIC",
+      "pre_policy": "IMPORT-PROVIDER-GENERIC",
+      "result_source": "v84_union_repair",
+      "scenario_id": "ext-batfish_official-5fff9a030ab0e329",
+      "subject": "ISP@import",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='200', newValue='250')])",
+            "Input_Route": "BgpRoute(network='198.18.24.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bor02",
+            "Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='198.18.24.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term BASELINE"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='198.18.24.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=250, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term SET-LP-250"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "198.18.24.0/24"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        250
+      ],
+      "symbolic_target_required": 250,
+      "target_prefix": "198.18.24.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "juniper_junos"
+    },
+    {
+      "case_id": "ext-batfish_official-5fff9a030ab0e329::isolated",
+      "device": "bor02",
+      "error": null,
+      "mode": "isolated",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "FLAT_JUNIPER",
+            "File_Name": "configs/bor02.cfg",
+            "Nodes": [
+              "bor02"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "IMPORT-PROVIDER-GENERIC",
+      "pre_policy": "IMPORT-PROVIDER-GENERIC",
+      "result_source": "v84_union_repair",
+      "scenario_id": "ext-batfish_official-5fff9a030ab0e329",
+      "subject": "ISP@import",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='200', newValue='250')])",
+            "Input_Route": "BgpRoute(network='198.18.24.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bor02",
+            "Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='198.18.24.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term BASELINE"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='198.18.24.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=250, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term LOCAL-PREF-198-18-24"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "198.18.24.0/24"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        250
+      ],
+      "symbolic_target_required": 250,
+      "target_prefix": "198.18.24.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "juniper_junos"
+    },
+    {
+      "case_id": "ext-batfish_official-7ae9424408311024::isolated",
+      "device": "bor02",
+      "error": null,
+      "mode": "isolated",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "FLAT_JUNIPER",
+            "File_Name": "configs/bor02.cfg",
+            "Nodes": [
+              "bor02"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "IMPORT-PROVIDER-GENERIC",
+      "pre_policy": "IMPORT-PROVIDER-GENERIC",
+      "result_source": "v84_union_repair",
+      "scenario_id": "ext-batfish_official-7ae9424408311024",
+      "subject": "ISP@import",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='200', newValue='250')])",
+            "Input_Route": "BgpRoute(network='198.18.15.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bor02",
+            "Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='198.18.15.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term BASELINE"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='198.18.15.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=250, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term PREF-250"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "198.18.15.0/24"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        250
+      ],
+      "symbolic_target_required": 250,
+      "target_prefix": "198.18.15.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "juniper_junos"
+    },
+    {
+      "case_id": "ext-batfish_official-7ae9424408311024::minimal",
+      "device": "bor02",
+      "error": null,
+      "mode": "minimal",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "FLAT_JUNIPER",
+            "File_Name": "configs/bor02.cfg",
+            "Nodes": [
+              "bor02"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "IMPORT-PROVIDER-GENERIC",
+      "pre_policy": "IMPORT-PROVIDER-GENERIC",
+      "result_source": "v84_union_repair",
+      "scenario_id": "ext-batfish_official-7ae9424408311024",
+      "subject": "ISP@import",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='200', newValue='250')])",
+            "Input_Route": "BgpRoute(network='198.18.15.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bor02",
+            "Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='198.18.15.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term BASELINE"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='198.18.15.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=250, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term LOCAL-PREF-250"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "198.18.15.0/24"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        250
+      ],
+      "symbolic_target_required": 250,
+      "target_prefix": "198.18.15.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "juniper_junos"
+    },
+    {
+      "case_id": "ext-batfish_official-8310bce4bc06a46f::adversarial",
+      "device": "bor02",
+      "error": null,
+      "mode": "adversarial",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "FLAT_JUNIPER",
+            "File_Name": "configs/bor02.cfg",
+            "Nodes": [
+              "bor02"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "IMPORT-PROVIDER-GENERIC",
+      "pre_policy": "IMPORT-PROVIDER-GENERIC",
+      "result_source": "v84_union_repair",
+      "scenario_id": "ext-batfish_official-8310bce4bc06a46f",
+      "subject": "ISP@import",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='200', newValue='250')])",
+            "Input_Route": "BgpRoute(network='198.18.19.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bor02",
+            "Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='198.18.19.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term BASELINE"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='198.18.19.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=250, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term LOCAL-PREF-250"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "198.18.19.0/24"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        250
+      ],
+      "symbolic_target_required": 250,
+      "target_prefix": "198.18.19.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "juniper_junos"
+    },
+    {
+      "case_id": "ext-batfish_official-90cba72fe12b6c4d::adversarial",
+      "device": "bor01",
+      "error": null,
+      "mode": "adversarial",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "FLAT_JUNIPER",
+            "File_Name": "configs/bor01.cfg",
+            "Nodes": [
+              "bor01"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "IMPORT-PROVIDER-GENERIC",
+      "pre_policy": "IMPORT-PROVIDER-GENERIC",
+      "result_source": "v84_union_repair",
+      "scenario_id": "ext-batfish_official-90cba72fe12b6c4d",
+      "subject": "ISP@import",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='200', newValue='250')])",
+            "Input_Route": "BgpRoute(network='198.18.3.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bor01",
+            "Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='198.18.3.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term BASELINE"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='198.18.3.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=250, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term LOCAL-PREF-250"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "198.18.3.0/24"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        250
+      ],
+      "symbolic_target_required": 250,
+      "target_prefix": "198.18.3.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "juniper_junos"
+    },
+    {
+      "case_id": "ext-batfish_official-90cba72fe12b6c4d::isolated",
+      "device": "bor01",
+      "error": null,
+      "mode": "isolated",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "FLAT_JUNIPER",
+            "File_Name": "configs/bor01.cfg",
+            "Nodes": [
+              "bor01"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "IMPORT-PROVIDER-GENERIC",
+      "pre_policy": "IMPORT-PROVIDER-GENERIC",
+      "result_source": "v84_union_repair",
+      "scenario_id": "ext-batfish_official-90cba72fe12b6c4d",
+      "subject": "ISP@import",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='200', newValue='250')])",
+            "Input_Route": "BgpRoute(network='198.18.3.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bor01",
+            "Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='198.18.3.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term BASELINE"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='198.18.3.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=250, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term LP-250-TARGET"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "198.18.3.0/24"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        250
+      ],
+      "symbolic_target_required": 250,
+      "target_prefix": "198.18.3.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "juniper_junos"
+    },
+    {
+      "case_id": "ext-batfish_official-90cba72fe12b6c4d::minimal",
+      "device": "bor01",
+      "error": null,
+      "mode": "minimal",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "FLAT_JUNIPER",
+            "File_Name": "configs/bor01.cfg",
+            "Nodes": [
+              "bor01"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "IMPORT-PROVIDER-GENERIC",
+      "pre_policy": "IMPORT-PROVIDER-GENERIC",
+      "result_source": "v84_union_repair",
+      "scenario_id": "ext-batfish_official-90cba72fe12b6c4d",
+      "subject": "ISP@import",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='200', newValue='250')])",
+            "Input_Route": "BgpRoute(network='198.18.3.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bor01",
+            "Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='198.18.3.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term BASELINE"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='198.18.3.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=250, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term SET-LOCAL-PREF-250"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "198.18.3.0/24"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        250
+      ],
+      "symbolic_target_required": 250,
+      "target_prefix": "198.18.3.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "juniper_junos"
+    },
+    {
+      "case_id": "ext-batfish_official-91928928a7c21cf0::isolated",
+      "device": "bor01",
+      "error": null,
+      "mode": "isolated",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "FLAT_JUNIPER",
+            "File_Name": "configs/bor01.cfg",
+            "Nodes": [
+              "bor01"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "IMPORT-PROVIDER-GENERIC",
+      "pre_policy": "IMPORT-PROVIDER-GENERIC",
+      "result_source": "v84_union_repair",
+      "scenario_id": "ext-batfish_official-91928928a7c21cf0",
+      "subject": "ISP@import",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='200', newValue='250')])",
+            "Input_Route": "BgpRoute(network='198.18.8.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bor01",
+            "Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='198.18.8.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term BASELINE"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='198.18.8.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=250, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term TARGET-LOCAL-PREF"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "198.18.8.0/24"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        250
+      ],
+      "symbolic_target_required": 250,
+      "target_prefix": "198.18.8.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "juniper_junos"
+    },
+    {
+      "case_id": "ext-batfish_official-99b8ce8a05987d64::adversarial",
+      "device": "bor02",
+      "error": null,
+      "mode": "adversarial",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "FLAT_JUNIPER",
+            "File_Name": "configs/bor02.cfg",
+            "Nodes": [
+              "bor02"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "IMPORT-PROVIDER-GENERIC",
+      "pre_policy": "IMPORT-PROVIDER-GENERIC",
+      "result_source": "v84_union_repair",
+      "scenario_id": "ext-batfish_official-99b8ce8a05987d64",
+      "subject": "ISP@import",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='200', newValue='250')])",
+            "Input_Route": "BgpRoute(network='198.18.17.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bor02",
+            "Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='198.18.17.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term BASELINE"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='198.18.17.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=250, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term SET-LP-250"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "198.18.17.0/24"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        250
+      ],
+      "symbolic_target_required": 250,
+      "target_prefix": "198.18.17.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "juniper_junos"
+    },
+    {
+      "case_id": "ext-batfish_official-99b8ce8a05987d64::minimal",
+      "device": "bor02",
+      "error": null,
+      "mode": "minimal",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "FLAT_JUNIPER",
+            "File_Name": "configs/bor02.cfg",
+            "Nodes": [
+              "bor02"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "IMPORT-PROVIDER-GENERIC",
+      "pre_policy": "IMPORT-PROVIDER-GENERIC",
+      "result_source": "v84_union_repair",
+      "scenario_id": "ext-batfish_official-99b8ce8a05987d64",
+      "subject": "ISP@import",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='200', newValue='250')])",
+            "Input_Route": "BgpRoute(network='198.18.17.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bor02",
+            "Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='198.18.17.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term BASELINE"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='198.18.17.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=250, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term SET-LP250"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "198.18.17.0/24"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        250
+      ],
+      "symbolic_target_required": 250,
+      "target_prefix": "198.18.17.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "juniper_junos"
+    },
+    {
+      "case_id": "ext-batfish_official-defc53610411547e::adversarial",
+      "device": "bor02",
+      "error": null,
+      "mode": "adversarial",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "FLAT_JUNIPER",
+            "File_Name": "configs/bor02.cfg",
+            "Nodes": [
+              "bor02"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "IMPORT-PROVIDER-GENERIC",
+      "pre_policy": "IMPORT-PROVIDER-GENERIC",
+      "result_source": "v84_union_repair",
+      "scenario_id": "ext-batfish_official-defc53610411547e",
+      "subject": "ISP@import",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='200', newValue='250')])",
+            "Input_Route": "BgpRoute(network='198.18.26.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bor02",
+            "Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='198.18.26.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term BASELINE"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='198.18.26.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=250, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term TARGET-PREFIX"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "198.18.26.0/24"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        250
+      ],
+      "symbolic_target_required": 250,
+      "target_prefix": "198.18.26.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "juniper_junos"
+    },
+    {
+      "case_id": "ext-batfish_official-defc53610411547e::isolated",
+      "device": "bor02",
+      "error": null,
+      "mode": "isolated",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "FLAT_JUNIPER",
+            "File_Name": "configs/bor02.cfg",
+            "Nodes": [
+              "bor02"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "IMPORT-PROVIDER-GENERIC",
+      "pre_policy": "IMPORT-PROVIDER-GENERIC",
+      "result_source": "v84_union_repair",
+      "scenario_id": "ext-batfish_official-defc53610411547e",
+      "subject": "ISP@import",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='200', newValue='250')])",
+            "Input_Route": "BgpRoute(network='198.18.26.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bor02",
+            "Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='198.18.26.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term BASELINE"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='198.18.26.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=250, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term PREF-250"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "198.18.26.0/24"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        250
+      ],
+      "symbolic_target_required": 250,
+      "target_prefix": "198.18.26.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "juniper_junos"
+    },
+    {
+      "case_id": "ext-batfish_official-e04f1084ab924c0d::isolated",
+      "device": "bor01",
+      "error": null,
+      "mode": "isolated",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "FLAT_JUNIPER",
+            "File_Name": "configs/bor01.cfg",
+            "Nodes": [
+              "bor01"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "IMPORT-PROVIDER-GENERIC",
+      "pre_policy": "IMPORT-PROVIDER-GENERIC",
+      "result_source": "v84_union_repair",
+      "scenario_id": "ext-batfish_official-e04f1084ab924c0d",
+      "subject": "ISP@import",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='200', newValue='250')])",
+            "Input_Route": "BgpRoute(network='198.18.1.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bor01",
+            "Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='198.18.1.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term BASELINE"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='198.18.1.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=250, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term SET-LOCALPREF-198-18-1-0-24"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "198.18.1.0/24"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        250
+      ],
+      "symbolic_target_required": 250,
+      "target_prefix": "198.18.1.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "juniper_junos"
+    },
+    {
+      "case_id": "ext-batfish_official-e04f1084ab924c0d::minimal",
+      "device": "bor01",
+      "error": null,
+      "mode": "minimal",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "FLAT_JUNIPER",
+            "File_Name": "configs/bor01.cfg",
+            "Nodes": [
+              "bor01"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "IMPORT-PROVIDER-GENERIC",
+      "pre_policy": "IMPORT-PROVIDER-GENERIC",
+      "result_source": "v84_union_repair",
+      "scenario_id": "ext-batfish_official-e04f1084ab924c0d",
+      "subject": "ISP@import",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='200', newValue='250')])",
+            "Input_Route": "BgpRoute(network='198.18.1.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bor01",
+            "Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='198.18.1.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term BASELINE"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='198.18.1.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=250, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term LOCAL-PREF-FROM-ISP"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "198.18.1.0/24"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        250
+      ],
+      "symbolic_target_required": 250,
+      "target_prefix": "198.18.1.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "juniper_junos"
+    },
+    {
+      "case_id": "ext-batfish_official-e29ef08286845af8::adversarial",
+      "device": "bor01",
+      "error": null,
+      "mode": "adversarial",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "FLAT_JUNIPER",
+            "File_Name": "configs/bor01.cfg",
+            "Nodes": [
+              "bor01"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "IMPORT-PROVIDER-GENERIC",
+      "pre_policy": "IMPORT-PROVIDER-GENERIC",
+      "result_source": "v84_union_repair",
+      "scenario_id": "ext-batfish_official-e29ef08286845af8",
+      "subject": "ISP@import",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='200', newValue='250')])",
+            "Input_Route": "BgpRoute(network='198.18.2.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bor01",
+            "Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='198.18.2.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term BASELINE"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='198.18.2.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=250, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term LP250-FROM-ISP"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "198.18.2.0/24"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        250
+      ],
+      "symbolic_target_required": 250,
+      "target_prefix": "198.18.2.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "juniper_junos"
+    },
+    {
+      "case_id": "ext-batfish_official-e29ef08286845af8::isolated",
+      "device": "bor01",
+      "error": null,
+      "mode": "isolated",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "FLAT_JUNIPER",
+            "File_Name": "configs/bor01.cfg",
+            "Nodes": [
+              "bor01"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "IMPORT-PROVIDER-GENERIC",
+      "pre_policy": "IMPORT-PROVIDER-GENERIC",
+      "result_source": "v84_union_repair",
+      "scenario_id": "ext-batfish_official-e29ef08286845af8",
+      "subject": "ISP@import",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='200', newValue='250')])",
+            "Input_Route": "BgpRoute(network='198.18.2.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bor01",
+            "Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='198.18.2.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term BASELINE"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='198.18.2.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=250, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term LOCAL-PREF-198-18-2"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "198.18.2.0/24"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        250
+      ],
+      "symbolic_target_required": 250,
+      "target_prefix": "198.18.2.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "juniper_junos"
+    },
+    {
+      "case_id": "ext-batfish_official-f4800dc2db892c5d::adversarial",
+      "device": "bor01",
+      "error": null,
+      "mode": "adversarial",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "FLAT_JUNIPER",
+            "File_Name": "configs/bor01.cfg",
+            "Nodes": [
+              "bor01"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "IMPORT-PROVIDER-GENERIC",
+      "pre_policy": "IMPORT-PROVIDER-GENERIC",
+      "result_source": "v84_union_repair",
+      "scenario_id": "ext-batfish_official-f4800dc2db892c5d",
+      "subject": "ISP@import",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='200', newValue='250')])",
+            "Input_Route": "BgpRoute(network='198.18.11.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bor01",
+            "Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='198.18.11.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term BASELINE"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='198.18.11.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=250, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term LOCAL-PREF-198-18-11-0"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "198.18.11.0/24"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        250
+      ],
+      "symbolic_target_required": 250,
+      "target_prefix": "198.18.11.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "juniper_junos"
+    },
+    {
+      "case_id": "ext-batfish_official-f4800dc2db892c5d::isolated",
+      "device": "bor01",
+      "error": null,
+      "mode": "isolated",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "FLAT_JUNIPER",
+            "File_Name": "configs/bor01.cfg",
+            "Nodes": [
+              "bor01"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "IMPORT-PROVIDER-GENERIC",
+      "pre_policy": "IMPORT-PROVIDER-GENERIC",
+      "result_source": "v84_union_repair",
+      "scenario_id": "ext-batfish_official-f4800dc2db892c5d",
+      "subject": "ISP@import",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='200', newValue='250')])",
+            "Input_Route": "BgpRoute(network='198.18.11.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bor01",
+            "Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='198.18.11.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term BASELINE"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='198.18.11.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=250, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term LOCAL-PREF-250"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "198.18.11.0/24"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        250
+      ],
+      "symbolic_target_required": 250,
+      "target_prefix": "198.18.11.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "juniper_junos"
+    }
+  ],
+  "schema_version": "msn2026-v84-agent-batfish-audit-1.0",
+  "verifier_na": 0
+}

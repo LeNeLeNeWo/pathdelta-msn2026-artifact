@@ -1,0 +1,11 @@
+{
+  "schema_version": "msn2026-v84-union-reaudit-amendment-1.0",
+  "created_at": "2026-08-14T05:37:43.431084+00:00",
+  "status": "AMENDED_AFTER_4_CASE_SMOKE_BEFORE_33_CASE_REPAIR_COMPLETION",
+  "reason": "Bookkeeping only: count original FAIL rows without an accepted registered repair as remaining fail-closed.",
+  "smoke_result": "4/4 independent Batfish PASS; no verifier rule or agent prompt changed",
+  "amended_script": {
+    "path": "experiments/msn2026_v84_agent_repair/run_batfish_union_reaudit.py",
+    "sha256": "efb976f502a534a52b9b6acc0e97dc773bc2fac5fae92accb1925f2c840affd0"
+  }
+}

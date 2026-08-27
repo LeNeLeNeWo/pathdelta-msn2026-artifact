@@ -1,0 +1,7 @@
+{
+  "case_count": 9,
+  "registered_exhaustion": 0,
+  "registered_pass": 9,
+  "requires_batfish_reaudit": true,
+  "schema_version": "msn2026-v84-union-holdout-repair-1.0"
+}

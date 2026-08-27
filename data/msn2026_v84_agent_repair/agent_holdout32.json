@@ -1,0 +1,238 @@
+{
+  "aggregate_sha256": "df113386a66651f8e22bcfc7c5bc3a19926ef4b75080bed8497d1428a70b4c1e",
+  "case_count": 32,
+  "cases": [
+    {
+      "candidate_file_sha256": "c5b7f329a8702a07dae941c87242b7074cab94adc1eaac168ebbfd4e2d7b4abb",
+      "candidate_path": "public/candidates/ext-cornetto-f3f8029676e2a54d/minimal.json",
+      "case_id": "ext-cornetto-f3f8029676e2a54d::minimal",
+      "mode": "minimal",
+      "scenario_id": "ext-cornetto-f3f8029676e2a54d"
+    },
+    {
+      "candidate_file_sha256": "444b3782f7a380b222cdbfa967acc5752af13765a3f5c79ccb7bfb5ec05ecee4",
+      "candidate_path": "public/candidates/ext-cornetto-e8b2ead84f9993d2/adversarial.json",
+      "case_id": "ext-cornetto-e8b2ead84f9993d2::adversarial",
+      "mode": "adversarial",
+      "scenario_id": "ext-cornetto-e8b2ead84f9993d2"
+    },
+    {
+      "candidate_file_sha256": "78c78b03e7fa4daf299250934bd584ea3070d0889392541e07afcdfddb8df40b",
+      "candidate_path": "public/candidates/ext-batfish_official-68b5f49702f58f30/minimal.json",
+      "case_id": "ext-batfish_official-68b5f49702f58f30::minimal",
+      "mode": "minimal",
+      "scenario_id": "ext-batfish_official-68b5f49702f58f30"
+    },
+    {
+      "candidate_file_sha256": "be9139a06712a494c897153f5c8815853b82aa330f7e41973281c67f7fa99e7e",
+      "candidate_path": "public/candidates/ext-cornetto-6ec206696fe1fd23/minimal.json",
+      "case_id": "ext-cornetto-6ec206696fe1fd23::minimal",
+      "mode": "minimal",
+      "scenario_id": "ext-cornetto-6ec206696fe1fd23"
+    },
+    {
+      "candidate_file_sha256": "76ed1093ba81eb9d6e08c5e23f719476aad7cce9290c52e866009268af129088",
+      "candidate_path": "public/candidates/ext-cornetto-b1fcdf42f74274bb/isolated.json",
+      "case_id": "ext-cornetto-b1fcdf42f74274bb::isolated",
+      "mode": "isolated",
+      "scenario_id": "ext-cornetto-b1fcdf42f74274bb"
+    },
+    {
+      "candidate_file_sha256": "b14f9a443e092fe39dca2b5841ba63483998758024fcb3163cbb073cc1d7bfc4",
+      "candidate_path": "public/candidates/ext-cornetto-ff7126166e60c2ea/adversarial.json",
+      "case_id": "ext-cornetto-ff7126166e60c2ea::adversarial",
+      "mode": "adversarial",
+      "scenario_id": "ext-cornetto-ff7126166e60c2ea"
+    },
+    {
+      "candidate_file_sha256": "f8aebcd7b4a473d8bd5f06265e9493f91f2d6de69edd1beb5cda91749d00058c",
+      "candidate_path": "public/candidates/ext-cornetto-b39b6cc275397295/minimal.json",
+      "case_id": "ext-cornetto-b39b6cc275397295::minimal",
+      "mode": "minimal",
+      "scenario_id": "ext-cornetto-b39b6cc275397295"
+    },
+    {
+      "candidate_file_sha256": "ea1d1eb8d150761c73f483f0d2ba91fa9a32a88e352c4397ef31855a2526eaaf",
+      "candidate_path": "public/candidates/ext-cornetto-c8a45ed016547f20/isolated.json",
+      "case_id": "ext-cornetto-c8a45ed016547f20::isolated",
+      "mode": "isolated",
+      "scenario_id": "ext-cornetto-c8a45ed016547f20"
+    },
+    {
+      "candidate_file_sha256": "27e51bb7f997171051c36637f26769e9daa7fdaa254ae963c7a67fabc9c049b3",
+      "candidate_path": "public/candidates/ext-batfish_official-7c8411c42a9fdf4f/adversarial.json",
+      "case_id": "ext-batfish_official-7c8411c42a9fdf4f::adversarial",
+      "mode": "adversarial",
+      "scenario_id": "ext-batfish_official-7c8411c42a9fdf4f"
+    },
+    {
+      "candidate_file_sha256": "ae3e87e72f63c6560e9e008a54ac4c8af8ae3586e50b71aaf8a478b687d0396f",
+      "candidate_path": "public/candidates/ext-cornetto-c6acf95365eee8d3/isolated.json",
+      "case_id": "ext-cornetto-c6acf95365eee8d3::isolated",
+      "mode": "isolated",
+      "scenario_id": "ext-cornetto-c6acf95365eee8d3"
+    },
+    {
+      "candidate_file_sha256": "154ead68b99c45c04252b4257d7218356bb3088e43a894a749e0511519f37027",
+      "candidate_path": "public/candidates/ext-batfish_official-2b5e1a53bbafbece/isolated.json",
+      "case_id": "ext-batfish_official-2b5e1a53bbafbece::isolated",
+      "mode": "isolated",
+      "scenario_id": "ext-batfish_official-2b5e1a53bbafbece"
+    },
+    {
+      "candidate_file_sha256": "b5cce139dabdde88e9c4db3cba61a71cb2e9c36cc8f8256a814154e6c4c2d09e",
+      "candidate_path": "public/candidates/ext-batfish_official-7c8411c42a9fdf4f/isolated.json",
+      "case_id": "ext-batfish_official-7c8411c42a9fdf4f::isolated",
+      "mode": "isolated",
+      "scenario_id": "ext-batfish_official-7c8411c42a9fdf4f"
+    },
+    {
+      "candidate_file_sha256": "41fc7f87c4dba7d1ae99f635496081d5921d1833565f6188beb00838a596d569",
+      "candidate_path": "public/candidates/ext-cornetto-c9746869ea8472b1/minimal.json",
+      "case_id": "ext-cornetto-c9746869ea8472b1::minimal",
+      "mode": "minimal",
+      "scenario_id": "ext-cornetto-c9746869ea8472b1"
+    },
+    {
+      "candidate_file_sha256": "6eadcd8935bbe8ac5a8e5862fd8b910f98ea0654685a9d25a1a04ff09c3076f0",
+      "candidate_path": "public/candidates/ext-cornetto-c3a0cf64a2d8036c/adversarial.json",
+      "case_id": "ext-cornetto-c3a0cf64a2d8036c::adversarial",
+      "mode": "adversarial",
+      "scenario_id": "ext-cornetto-c3a0cf64a2d8036c"
+    },
+    {
+      "candidate_file_sha256": "9eac52a0db8bc41fd1acdbbe7f7bed582cbeb8f08d8590a84a7e3c5d7998f4bb",
+      "candidate_path": "public/candidates/ext-batfish_official-74c3180d2d0fc43f/isolated.json",
+      "case_id": "ext-batfish_official-74c3180d2d0fc43f::isolated",
+      "mode": "isolated",
+      "scenario_id": "ext-batfish_official-74c3180d2d0fc43f"
+    },
+    {
+      "candidate_file_sha256": "4a09f798dd4d9d0fd4982c8470f8a266a4bac909bc384b44355720e5750ca58d",
+      "candidate_path": "public/candidates/ext-cornetto-e693542fcab9005f/minimal.json",
+      "case_id": "ext-cornetto-e693542fcab9005f::minimal",
+      "mode": "minimal",
+      "scenario_id": "ext-cornetto-e693542fcab9005f"
+    },
+    {
+      "candidate_file_sha256": "51660246aada374d3de3ee00051acb6ba376ed2491a8bc89ef020563feab90a3",
+      "candidate_path": "public/candidates/ext-cornetto-c6acf95365eee8d3/minimal.json",
+      "case_id": "ext-cornetto-c6acf95365eee8d3::minimal",
+      "mode": "minimal",
+      "scenario_id": "ext-cornetto-c6acf95365eee8d3"
+    },
+    {
+      "candidate_file_sha256": "bbf16a4891f1e1d06cc892a6a33699016c7008ffdaed343b603e7d637ad49787",
+      "candidate_path": "public/candidates/ext-batfish_official-68b5f49702f58f30/adversarial.json",
+      "case_id": "ext-batfish_official-68b5f49702f58f30::adversarial",
+      "mode": "adversarial",
+      "scenario_id": "ext-batfish_official-68b5f49702f58f30"
+    },
+    {
+      "candidate_file_sha256": "21c1bb2b7efbc6a6a21a1c6d1396c9d2ec7a5a49cb2eaad4cb3c7b6d1128627d",
+      "candidate_path": "public/candidates/ext-cornetto-cb7b6af7d2f51e0a/minimal.json",
+      "case_id": "ext-cornetto-cb7b6af7d2f51e0a::minimal",
+      "mode": "minimal",
+      "scenario_id": "ext-cornetto-cb7b6af7d2f51e0a"
+    },
+    {
+      "candidate_file_sha256": "97845e9497d797b7d700a515ad3e84f52015293669e548029094c732dd29ccb0",
+      "candidate_path": "public/candidates/ext-batfish_official-3becb81282cb0880/minimal.json",
+      "case_id": "ext-batfish_official-3becb81282cb0880::minimal",
+      "mode": "minimal",
+      "scenario_id": "ext-batfish_official-3becb81282cb0880"
+    },
+    {
+      "candidate_file_sha256": "b4a2405672661dca9afc8f78bfa00c862b78df77dc8e7828a6712813a153cfe3",
+      "candidate_path": "public/candidates/ext-cornetto-c047f717c67e4908/minimal.json",
+      "case_id": "ext-cornetto-c047f717c67e4908::minimal",
+      "mode": "minimal",
+      "scenario_id": "ext-cornetto-c047f717c67e4908"
+    },
+    {
+      "candidate_file_sha256": "bd944054ae63a03a1e876915c95bf55118b7b605311104f927533c01c7426d2e",
+      "candidate_path": "public/candidates/ext-cornetto-397ba2f66cdec13b/adversarial.json",
+      "case_id": "ext-cornetto-397ba2f66cdec13b::adversarial",
+      "mode": "adversarial",
+      "scenario_id": "ext-cornetto-397ba2f66cdec13b"
+    },
+    {
+      "candidate_file_sha256": "8eed7beb9072987b5e81fef04e63e139a517bf1342e702df3233f4da99e298b0",
+      "candidate_path": "public/candidates/ext-batfish_official-f4800dc2db892c5d/minimal.json",
+      "case_id": "ext-batfish_official-f4800dc2db892c5d::minimal",
+      "mode": "minimal",
+      "scenario_id": "ext-batfish_official-f4800dc2db892c5d"
+    },
+    {
+      "candidate_file_sha256": "656084ae6932b43910b73864f0e5ae71a28c69dd0f3afdaf2f717a8c40ef0979",
+      "candidate_path": "public/candidates/ext-cornetto-91a8556e5cfab7c5/minimal.json",
+      "case_id": "ext-cornetto-91a8556e5cfab7c5::minimal",
+      "mode": "minimal",
+      "scenario_id": "ext-cornetto-91a8556e5cfab7c5"
+    },
+    {
+      "candidate_file_sha256": "dc8d1daef3c8cc23f6713e7d3acf00317d99e50f24c0259b282623997a763a1e",
+      "candidate_path": "public/candidates/ext-batfish_official-2f7224b89bc9a9c5/isolated.json",
+      "case_id": "ext-batfish_official-2f7224b89bc9a9c5::isolated",
+      "mode": "isolated",
+      "scenario_id": "ext-batfish_official-2f7224b89bc9a9c5"
+    },
+    {
+      "candidate_file_sha256": "afb2eea1bf69e6e0477d8ac4c044d19c2d01d835efda5a5df5963c45dfcd21a6",
+      "candidate_path": "public/candidates/ext-batfish_official-91928928a7c21cf0/minimal.json",
+      "case_id": "ext-batfish_official-91928928a7c21cf0::minimal",
+      "mode": "minimal",
+      "scenario_id": "ext-batfish_official-91928928a7c21cf0"
+    },
+    {
+      "candidate_file_sha256": "b8cb7ae2f8fccb7d2aec1aaf36b1ca8bf9bf0a6f8fceca1b2d780092ef9a3239",
+      "candidate_path": "public/candidates/ext-cornetto-8296109f9004aa5b/isolated.json",
+      "case_id": "ext-cornetto-8296109f9004aa5b::isolated",
+      "mode": "isolated",
+      "scenario_id": "ext-cornetto-8296109f9004aa5b"
+    },
+    {
+      "candidate_file_sha256": "7d44a47dc8f7a22613a0426e90328fa9b2610d8e534ef804359b84c21a64f60b",
+      "candidate_path": "public/candidates/ext-cornetto-acf42d582c732e79/isolated.json",
+      "case_id": "ext-cornetto-acf42d582c732e79::isolated",
+      "mode": "isolated",
+      "scenario_id": "ext-cornetto-acf42d582c732e79"
+    },
+    {
+      "candidate_file_sha256": "362f0f9240c5f7566b4678dbe5dd143b6c49dadb63ee8427579deee3041bee9c",
+      "candidate_path": "public/candidates/ext-cornetto-2b69eaee762e768a/isolated.json",
+      "case_id": "ext-cornetto-2b69eaee762e768a::isolated",
+      "mode": "isolated",
+      "scenario_id": "ext-cornetto-2b69eaee762e768a"
+    },
+    {
+      "candidate_file_sha256": "d386af9d6f1ee32aa638948c9c582f0993bdcb76eb39e5f31c409615a1ca7c5e",
+      "candidate_path": "public/candidates/ext-cornetto-39fd76c2bb8944bb/minimal.json",
+      "case_id": "ext-cornetto-39fd76c2bb8944bb::minimal",
+      "mode": "minimal",
+      "scenario_id": "ext-cornetto-39fd76c2bb8944bb"
+    },
+    {
+      "candidate_file_sha256": "6ad8b33ff174ce84d748e29c810da3b775af569458f9e6930334aa059c5980c3",
+      "candidate_path": "public/candidates/ext-batfish_official-f91367560d20b91f/adversarial.json",
+      "case_id": "ext-batfish_official-f91367560d20b91f::adversarial",
+      "mode": "adversarial",
+      "scenario_id": "ext-batfish_official-f91367560d20b91f"
+    },
+    {
+      "candidate_file_sha256": "0d30701c47d807d88d204589a27e4906070d274c5c2575f031a391c6b962d911",
+      "candidate_path": "public/candidates/ext-batfish_official-e04f1084ab924c0d/adversarial.json",
+      "case_id": "ext-batfish_official-e04f1084ab924c0d::adversarial",
+      "mode": "adversarial",
+      "scenario_id": "ext-batfish_official-e04f1084ab924c0d"
+    }
+  ],
+  "created_at": "2026-08-14T05:22:43.485451+00:00",
+  "disjoint_from_agent128": true,
+  "excluded_agent128_count": 128,
+  "schema_version": "msn2026-v84-agent-holdout-1.0",
+  "seed": 84032,
+  "selection_opened_sealed_oracles": false,
+  "selection_used_labels": false,
+  "source_candidate_count": 125
+}

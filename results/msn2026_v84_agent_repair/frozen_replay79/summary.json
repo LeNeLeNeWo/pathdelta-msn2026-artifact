@@ -1,0 +1,26 @@
+{
+  "attempt_exhaustion": 0,
+  "backend_attempts": 104,
+  "case_count": 79,
+  "claim_status": "post-freeze mechanism development; not confirmatory",
+  "created_at": "2026-08-14T05:20:57.078573+00:00",
+  "development_replay_of_v83": true,
+  "failure_taxonomy": {
+    "verified_completion": 79
+  },
+  "latency_ms_p50": 48316.9990260003,
+  "latency_ms_p95": 81747.33712299894,
+  "latency_ms_total": 5099432.342063994,
+  "logical_llm_calls": 104,
+  "reject_to_repair_success": 79,
+  "retry_count": 0,
+  "schema_version": "msn2026-v84-agent-repair-summary-1.0",
+  "token_usage": {
+    "completion": 539900,
+    "prompt": 496844,
+    "total": 1036744
+  },
+  "total_submissions": 183,
+  "unsafe_release": 0,
+  "verified_completion": 79
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "msn2026-v84-transport-recovery-freeze-1.0",
+  "created_at": "2026-08-14T05:43:41.300308+00:00",
+  "status": "FROZEN_BEFORE_SEQUENTIAL_RECOVERY",
+  "eligibility": "missing cases or failed traces containing a listed transport marker only",
+  "semantic_parameters_changed": false,
+  "max_whole_case_transport_rounds": 3,
+  "inputs": [
+    {
+      "path": "experiments/msn2026_v84_agent_repair/resume_after_transport_incident.py",
+      "sha256": "2da40ee005b8c9f425daae013de1b8c48d18fa9e6d248f409bb94a0176874df9"
+    },
+    {
+      "path": "experiments/msn2026_v84_agent_repair/transport_incident_001.md",
+      "sha256": "f92906bb3ddc4830feaffc2f65d450d2c32826b830646fe35ae92f30713250a8"
+    },
+    {
+      "path": "experiments/msn2026_v84_agent_repair/agent_holdout32_freeze.json",
+      "sha256": "4cb99044abeb66fc6647f2e521b08a8b551697ee2c74bc5cf19e428accf3c42a"
+    },
+    {
+      "path": "experiments/msn2026_v84_agent_repair/union_repair_freeze.json",
+      "sha256": "54964bdc4918749688e748de321c82e2e3333c231519919daddd3ac386b6def8"
+    }
+  ]
+}

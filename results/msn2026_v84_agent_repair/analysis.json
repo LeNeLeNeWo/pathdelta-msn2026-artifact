@@ -1,0 +1,267 @@
+{
+  "claim_partition": {
+    "failure_replay79": "post-freeze engineering replay on a development corpus",
+    "full_u": "independent Batfish audit plus adaptive repair and independent re-audit",
+    "holdout32": "post-freeze agent holdout disjoint from Agent128; shared public candidate pool",
+    "original_agent128": "v8.3 frozen confirmatory agent experiment"
+  },
+  "created_at": "2026-08-14T06:07:13.727153+00:00",
+  "engineering_replay_combined": {
+    "attempt_exhaustion": 0,
+    "case_count": 128,
+    "reject_to_repair_success": 95,
+    "unsafe_release": 0,
+    "verified_completion": 128
+  },
+  "failure_replay79": {
+    "attempt_exhaustion": 0,
+    "backend_attempts": 104,
+    "case_count": 79,
+    "claim_status": "post-freeze mechanism development; not confirmatory",
+    "created_at": "2026-08-14T05:20:57.078573+00:00",
+    "development_replay_of_v83": true,
+    "failure_taxonomy": {
+      "verified_completion": 79
+    },
+    "latency_ms_p50": 48316.9990260003,
+    "latency_ms_p95": 81747.33712299894,
+    "latency_ms_total": 5099432.342063994,
+    "logical_llm_calls": 104,
+    "reject_to_repair_success": 79,
+    "retry_count": 0,
+    "schema_version": "msn2026-v84-agent-repair-summary-1.0",
+    "token_usage": {
+      "completion": 539900,
+      "prompt": 496844,
+      "total": 1036744
+    },
+    "total_submissions": 183,
+    "unsafe_release": 0,
+    "verified_completion": 79
+  },
+  "full_u_agent128": {
+    "case_count": 128,
+    "full_u_verified_completion": 120,
+    "not_yet_repaired_or_registered_rejected": 1,
+    "note": "Original PASS rows are unchanged; original FAIL rows are replaced only when their repaired candidate passes the independent re-audit; original N/A remains fail closed.",
+    "original_full_r": {
+      "fail": 33,
+      "pass": 88,
+      "verifier_na": 7
+    },
+    "population": "agent128_after_adaptive_union_repair",
+    "remaining_fail_closed": 8,
+    "repaired_failures": {
+      "candidate_count": 32,
+      "fail": 0,
+      "pass": 32,
+      "verifier_na": 0
+    },
+    "schema_version": "msn2026-v84-union-agent-summary-1.0",
+    "unsafe_release": 0
+  },
+  "full_u_holdout32": {
+    "case_count": 32,
+    "full_u_verified_completion": 31,
+    "original_batfish": {
+      "fail": 9,
+      "pass": 22,
+      "verifier_na": 1
+    },
+    "original_full_r": {
+      "registered_verified_completion": 32,
+      "unsafe_release": 0
+    },
+    "remaining_fail_closed": 1,
+    "repair_reaudit": {
+      "candidate_count": 9,
+      "fail": 0,
+      "pass": 9,
+      "verifier_na": 0
+    },
+    "schema_version": "msn2026-v84-union-holdout-summary-1.0",
+    "unsafe_release": 0
+  },
+  "holdout32": {
+    "agent_holdout": true,
+    "attempt_exhaustion": 0,
+    "backend_attempts": 34,
+    "case_count": 32,
+    "claim_status": "post-freeze held-out agent evaluation; transport incident recovered separately",
+    "created_at": "2026-08-14T05:47:36.935290+00:00",
+    "development_replay_of_v83": false,
+    "disjoint_from_agent128": true,
+    "failure_taxonomy": {
+      "verified_completion": 32
+    },
+    "latency_ms_p50": 41267.651585998465,
+    "latency_ms_p95": 81423.41842899987,
+    "latency_ms_total": 1344026.6655479972,
+    "logical_llm_calls": 30,
+    "reject_to_repair_success": 23,
+    "retry_count": 4,
+    "schema_version": "msn2026-v84-agent-repair-summary-1.0",
+    "token_usage": {
+      "completion": 147035,
+      "prompt": 131250,
+      "total": 278285
+    },
+    "total_submissions": 62,
+    "transport_incident_archives": 3,
+    "unsafe_release": 0,
+    "verified_completion": 32
+  },
+  "holdout_by_family": {
+    "community_composition": {
+      "cases": 2,
+      "logical_llm_calls": 3,
+      "unsafe_release": 0,
+      "verified_completion": 2
+    },
+    "legacy_policy": {
+      "cases": 15,
+      "logical_llm_calls": 12,
+      "unsafe_release": 0,
+      "verified_completion": 15
+    },
+    "ordered_policy": {
+      "cases": 14,
+      "logical_llm_calls": 14,
+      "unsafe_release": 0,
+      "verified_completion": 14
+    },
+    "shared_prefix_list": {
+      "cases": 1,
+      "logical_llm_calls": 1,
+      "unsafe_release": 0,
+      "verified_completion": 1
+    }
+  },
+  "holdout_by_vendor": {
+    "arista_eos": {
+      "cases": 2,
+      "logical_llm_calls": 3,
+      "unsafe_release": 0,
+      "verified_completion": 2
+    },
+    "cisco_ios": {
+      "cases": 20,
+      "logical_llm_calls": 18,
+      "unsafe_release": 0,
+      "verified_completion": 20
+    },
+    "juniper_junos": {
+      "cases": 10,
+      "logical_llm_calls": 9,
+      "unsafe_release": 0,
+      "verified_completion": 10
+    }
+  },
+  "independent_batfish_agent128": {
+    "candidate_count": 128,
+    "fail": 33,
+    "pass": 88,
+    "verifier_na": 7
+  },
+  "independent_batfish_holdout32": {
+    "candidate_count": 32,
+    "fail": 9,
+    "pass": 22,
+    "verifier_na": 1
+  },
+  "original_agent128_full": {
+    "attempt_exhaustion": 79,
+    "backend_attempts": 343,
+    "case_count": 128,
+    "collateral_regression": 53,
+    "completion_tokens": 73438,
+    "final_goal_success": 96,
+    "first_goal_success": 89,
+    "latency_ms": 755776.8572720106,
+    "logical_llm_calls": 343,
+    "method": "full_envelope",
+    "prompt_tokens": 1464699,
+    "reject_to_repair_success": 16,
+    "retry_count": 0,
+    "total_submissions": 471,
+    "unsafe_release": 0,
+    "verified_completion": 49
+  },
+  "replay_by_family": {
+    "community_composition": {
+      "cases": 2,
+      "logical_llm_calls": 3,
+      "unsafe_release": 0,
+      "verified_completion": 2
+    },
+    "legacy_policy": {
+      "cases": 33,
+      "logical_llm_calls": 52,
+      "unsafe_release": 0,
+      "verified_completion": 33
+    },
+    "ordered_policy": {
+      "cases": 42,
+      "logical_llm_calls": 47,
+      "unsafe_release": 0,
+      "verified_completion": 42
+    },
+    "shared_prefix_list": {
+      "cases": 2,
+      "logical_llm_calls": 2,
+      "unsafe_release": 0,
+      "verified_completion": 2
+    }
+  },
+  "replay_by_vendor": {
+    "arista_eos": {
+      "cases": 2,
+      "logical_llm_calls": 3,
+      "unsafe_release": 0,
+      "verified_completion": 2
+    },
+    "cisco_ios": {
+      "cases": 45,
+      "logical_llm_calls": 66,
+      "unsafe_release": 0,
+      "verified_completion": 45
+    },
+    "juniper_junos": {
+      "cases": 32,
+      "logical_llm_calls": 35,
+      "unsafe_release": 0,
+      "verified_completion": 32
+    }
+  },
+  "replay_final_patch_lines": {
+    "max": 6,
+    "median": 4,
+    "min": 3,
+    "p95": 5
+  },
+  "replay_submission_distribution": {
+    "2": 60,
+    "3": 16,
+    "4": 1,
+    "5": 1,
+    "6": 1
+  },
+  "schema_version": "msn2026-v84-agent-repair-analysis-1.0",
+  "union_repair_agent128": {
+    "backend_attempts": 44,
+    "case_count": 33,
+    "completed_case_files": 33,
+    "logical_llm_calls": 40,
+    "registered_exhaustion": 1,
+    "registered_pass": 32,
+    "requires_batfish_reaudit": true,
+    "retry_count": 4,
+    "schema_version": "msn2026-v84-union-repair-summary-1.1",
+    "token_usage": {
+      "completion": 172562,
+      "prompt": 178376,
+      "total": 350938
+    },
+    "transport_incident_archives": 7
+  }
+}

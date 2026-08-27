@@ -1,0 +1,2490 @@
+{
+  "blinding_receipt": {
+    "blinded_verdicts_sha256": "05aec7de66c4c6ece987f817b9e925a2c46a2ff369b479d0f887286639337906",
+    "candidate_count": 253,
+    "created_at": "2026-08-14T01:30:46.268956+00:00",
+    "oracle_labels_read_before_receipt": false,
+    "redteam_corpus_receipt_sha256": "b45119a99de9963108ac91a70a5b16493f6335470068b841e15214d2d1e129c0",
+    "schema_version": "msn2026-v83-boundary-receipt-1.0"
+  },
+  "candidate_count": 253,
+  "frame_obligations": {
+    "count": 253,
+    "max": 195,
+    "median": 131,
+    "min": 35,
+    "p95": 195.0
+  },
+  "goal_achieving_count": 178,
+  "non_goal_count": 75,
+  "overall": [
+    {
+      "method": "goal_only",
+      "safe_false_reject_rate": 0.0,
+      "safe_false_reject_wilson95": [
+        0.0,
+        0.062117855787202914
+      ],
+      "safe_goal_count": 58,
+      "safe_rejected": 0,
+      "unsafe_accepted": 120,
+      "unsafe_false_accept_rate": 1.0,
+      "unsafe_false_accept_wilson95": [
+        0.9689808335812966,
+        1.0
+      ],
+      "unsafe_goal_count": 120
+    },
+    {
+      "method": "write_scope",
+      "safe_false_reject_rate": 0.0,
+      "safe_false_reject_wilson95": [
+        0.0,
+        0.062117855787202914
+      ],
+      "safe_goal_count": 58,
+      "safe_rejected": 0,
+      "unsafe_accepted": 120,
+      "unsafe_false_accept_rate": 1.0,
+      "unsafe_false_accept_wilson95": [
+        0.9689808335812966,
+        1.0
+      ],
+      "unsafe_goal_count": 120
+    },
+    {
+      "method": "visible_plus_scope",
+      "safe_false_reject_rate": 0.0,
+      "safe_false_reject_wilson95": [
+        0.0,
+        0.062117855787202914
+      ],
+      "safe_goal_count": 58,
+      "safe_rejected": 0,
+      "unsafe_accepted": 12,
+      "unsafe_false_accept_rate": 0.1,
+      "unsafe_false_accept_wilson95": [
+        0.058133592026010775,
+        0.166681741108952
+      ],
+      "unsafe_goal_count": 120
+    },
+    {
+      "method": "verifier_loop",
+      "safe_false_reject_rate": 0.0,
+      "safe_false_reject_wilson95": [
+        0.0,
+        0.062117855787202914
+      ],
+      "safe_goal_count": 58,
+      "safe_rejected": 0,
+      "unsafe_accepted": 12,
+      "unsafe_false_accept_rate": 0.1,
+      "unsafe_false_accept_wilson95": [
+        0.058133592026010775,
+        0.166681741108952
+      ],
+      "unsafe_goal_count": 120
+    },
+    {
+      "method": "oracle_contract",
+      "safe_false_reject_rate": 0.0,
+      "safe_false_reject_wilson95": [
+        0.0,
+        0.062117855787202914
+      ],
+      "safe_goal_count": 58,
+      "safe_rejected": 0,
+      "unsafe_accepted": 0,
+      "unsafe_false_accept_rate": 0.0,
+      "unsafe_false_accept_wilson95": [
+        0.0,
+        0.031019166418703486
+      ],
+      "unsafe_goal_count": 120
+    },
+    {
+      "method": "full_envelope",
+      "safe_false_reject_rate": 0.0,
+      "safe_false_reject_wilson95": [
+        0.0,
+        0.062117855787202914
+      ],
+      "safe_goal_count": 58,
+      "safe_rejected": 0,
+      "unsafe_accepted": 0,
+      "unsafe_false_accept_rate": 0.0,
+      "unsafe_false_accept_wilson95": [
+        0.0,
+        0.031019166418703486
+      ],
+      "unsafe_goal_count": 120
+    },
+    {
+      "method": "full_minus_active",
+      "safe_false_reject_rate": 0.0,
+      "safe_false_reject_wilson95": [
+        0.0,
+        0.062117855787202914
+      ],
+      "safe_goal_count": 58,
+      "safe_rejected": 0,
+      "unsafe_accepted": 12,
+      "unsafe_false_accept_rate": 0.1,
+      "unsafe_false_accept_wilson95": [
+        0.058133592026010775,
+        0.166681741108952
+      ],
+      "unsafe_goal_count": 120
+    },
+    {
+      "method": "full_minus_dependency",
+      "safe_false_reject_rate": 0.0,
+      "safe_false_reject_wilson95": [
+        0.0,
+        0.062117855787202914
+      ],
+      "safe_goal_count": 58,
+      "safe_rejected": 0,
+      "unsafe_accepted": 0,
+      "unsafe_false_accept_rate": 0.0,
+      "unsafe_false_accept_wilson95": [
+        0.0,
+        0.031019166418703486
+      ],
+      "unsafe_goal_count": 120
+    },
+    {
+      "method": "full_minus_frame",
+      "safe_false_reject_rate": 0.0,
+      "safe_false_reject_wilson95": [
+        0.0,
+        0.062117855787202914
+      ],
+      "safe_goal_count": 58,
+      "safe_rejected": 0,
+      "unsafe_accepted": 120,
+      "unsafe_false_accept_rate": 1.0,
+      "unsafe_false_accept_wilson95": [
+        0.9689808335812966,
+        1.0
+      ],
+      "unsafe_goal_count": 120
+    },
+    {
+      "method": "full_minus_footprint",
+      "safe_false_reject_rate": 0.0,
+      "safe_false_reject_wilson95": [
+        0.0,
+        0.062117855787202914
+      ],
+      "safe_goal_count": 58,
+      "safe_rejected": 0,
+      "unsafe_accepted": 0,
+      "unsafe_false_accept_rate": 0.0,
+      "unsafe_false_accept_wilson95": [
+        0.0,
+        0.031019166418703486
+      ],
+      "unsafe_goal_count": 120
+    },
+    {
+      "method": "full_minus_coverage_provenance",
+      "safe_false_reject_rate": 0.0,
+      "safe_false_reject_wilson95": [
+        0.0,
+        0.062117855787202914
+      ],
+      "safe_goal_count": 58,
+      "safe_rejected": 0,
+      "unsafe_accepted": 0,
+      "unsafe_false_accept_rate": 0.0,
+      "unsafe_false_accept_wilson95": [
+        0.0,
+        0.031019166418703486
+      ],
+      "unsafe_goal_count": 120
+    }
+  ],
+  "safe_goal_count": 58,
+  "schema_version": "msn2026-v83-external-boundary-analysis-1.0",
+  "strata": {
+    "family": {
+      "community_composition": [
+        {
+          "method": "goal_only",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.4898908364545973
+          ],
+          "safe_goal_count": 4,
+          "safe_rejected": 0,
+          "unsafe_accepted": 4,
+          "unsafe_false_accept_rate": 1.0,
+          "unsafe_false_accept_wilson95": [
+            0.5101091635454027,
+            1.0
+          ],
+          "unsafe_goal_count": 4
+        },
+        {
+          "method": "write_scope",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.4898908364545973
+          ],
+          "safe_goal_count": 4,
+          "safe_rejected": 0,
+          "unsafe_accepted": 4,
+          "unsafe_false_accept_rate": 1.0,
+          "unsafe_false_accept_wilson95": [
+            0.5101091635454027,
+            1.0
+          ],
+          "unsafe_goal_count": 4
+        },
+        {
+          "method": "visible_plus_scope",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.4898908364545973
+          ],
+          "safe_goal_count": 4,
+          "safe_rejected": 0,
+          "unsafe_accepted": 2,
+          "unsafe_false_accept_rate": 0.5,
+          "unsafe_false_accept_wilson95": [
+            0.15003898915214947,
+            0.8499610108478506
+          ],
+          "unsafe_goal_count": 4
+        },
+        {
+          "method": "verifier_loop",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.4898908364545973
+          ],
+          "safe_goal_count": 4,
+          "safe_rejected": 0,
+          "unsafe_accepted": 2,
+          "unsafe_false_accept_rate": 0.5,
+          "unsafe_false_accept_wilson95": [
+            0.15003898915214947,
+            0.8499610108478506
+          ],
+          "unsafe_goal_count": 4
+        },
+        {
+          "method": "oracle_contract",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.4898908364545973
+          ],
+          "safe_goal_count": 4,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.4898908364545973
+          ],
+          "unsafe_goal_count": 4
+        },
+        {
+          "method": "full_envelope",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.4898908364545973
+          ],
+          "safe_goal_count": 4,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.4898908364545973
+          ],
+          "unsafe_goal_count": 4
+        },
+        {
+          "method": "full_minus_active",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.4898908364545973
+          ],
+          "safe_goal_count": 4,
+          "safe_rejected": 0,
+          "unsafe_accepted": 2,
+          "unsafe_false_accept_rate": 0.5,
+          "unsafe_false_accept_wilson95": [
+            0.15003898915214947,
+            0.8499610108478506
+          ],
+          "unsafe_goal_count": 4
+        },
+        {
+          "method": "full_minus_dependency",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.4898908364545973
+          ],
+          "safe_goal_count": 4,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.4898908364545973
+          ],
+          "unsafe_goal_count": 4
+        },
+        {
+          "method": "full_minus_frame",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.4898908364545973
+          ],
+          "safe_goal_count": 4,
+          "safe_rejected": 0,
+          "unsafe_accepted": 4,
+          "unsafe_false_accept_rate": 1.0,
+          "unsafe_false_accept_wilson95": [
+            0.5101091635454027,
+            1.0
+          ],
+          "unsafe_goal_count": 4
+        },
+        {
+          "method": "full_minus_footprint",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.4898908364545973
+          ],
+          "safe_goal_count": 4,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.4898908364545973
+          ],
+          "unsafe_goal_count": 4
+        },
+        {
+          "method": "full_minus_coverage_provenance",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.4898908364545973
+          ],
+          "safe_goal_count": 4,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.4898908364545973
+          ],
+          "unsafe_goal_count": 4
+        }
+      ],
+      "legacy_policy": [
+        {
+          "method": "goal_only",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.09641862859446367
+          ],
+          "safe_goal_count": 36,
+          "safe_rejected": 0,
+          "unsafe_accepted": 66,
+          "unsafe_false_accept_rate": 1.0,
+          "unsafe_false_accept_wilson95": [
+            0.9449974429864586,
+            0.9999999999999999
+          ],
+          "unsafe_goal_count": 66
+        },
+        {
+          "method": "write_scope",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.09641862859446367
+          ],
+          "safe_goal_count": 36,
+          "safe_rejected": 0,
+          "unsafe_accepted": 66,
+          "unsafe_false_accept_rate": 1.0,
+          "unsafe_false_accept_wilson95": [
+            0.9449974429864586,
+            0.9999999999999999
+          ],
+          "unsafe_goal_count": 66
+        },
+        {
+          "method": "visible_plus_scope",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.09641862859446367
+          ],
+          "safe_goal_count": 36,
+          "safe_rejected": 0,
+          "unsafe_accepted": 10,
+          "unsafe_false_accept_rate": 0.15151515151515152,
+          "unsafe_false_accept_wilson95": [
+            0.08443636982671272,
+            0.25692904869787664
+          ],
+          "unsafe_goal_count": 66
+        },
+        {
+          "method": "verifier_loop",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.09641862859446367
+          ],
+          "safe_goal_count": 36,
+          "safe_rejected": 0,
+          "unsafe_accepted": 10,
+          "unsafe_false_accept_rate": 0.15151515151515152,
+          "unsafe_false_accept_wilson95": [
+            0.08443636982671272,
+            0.25692904869787664
+          ],
+          "unsafe_goal_count": 66
+        },
+        {
+          "method": "oracle_contract",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.09641862859446367
+          ],
+          "safe_goal_count": 36,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.05500255701354129
+          ],
+          "unsafe_goal_count": 66
+        },
+        {
+          "method": "full_envelope",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.09641862859446367
+          ],
+          "safe_goal_count": 36,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.05500255701354129
+          ],
+          "unsafe_goal_count": 66
+        },
+        {
+          "method": "full_minus_active",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.09641862859446367
+          ],
+          "safe_goal_count": 36,
+          "safe_rejected": 0,
+          "unsafe_accepted": 10,
+          "unsafe_false_accept_rate": 0.15151515151515152,
+          "unsafe_false_accept_wilson95": [
+            0.08443636982671272,
+            0.25692904869787664
+          ],
+          "unsafe_goal_count": 66
+        },
+        {
+          "method": "full_minus_dependency",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.09641862859446367
+          ],
+          "safe_goal_count": 36,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.05500255701354129
+          ],
+          "unsafe_goal_count": 66
+        },
+        {
+          "method": "full_minus_frame",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.09641862859446367
+          ],
+          "safe_goal_count": 36,
+          "safe_rejected": 0,
+          "unsafe_accepted": 66,
+          "unsafe_false_accept_rate": 1.0,
+          "unsafe_false_accept_wilson95": [
+            0.9449974429864586,
+            0.9999999999999999
+          ],
+          "unsafe_goal_count": 66
+        },
+        {
+          "method": "full_minus_footprint",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.09641862859446367
+          ],
+          "safe_goal_count": 36,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.05500255701354129
+          ],
+          "unsafe_goal_count": 66
+        },
+        {
+          "method": "full_minus_coverage_provenance",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.09641862859446367
+          ],
+          "safe_goal_count": 36,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.05500255701354129
+          ],
+          "unsafe_goal_count": 66
+        }
+      ],
+      "ordered_policy": [
+        {
+          "method": "goal_only",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.17587922364665765
+          ],
+          "safe_goal_count": 18,
+          "safe_rejected": 0,
+          "unsafe_accepted": 50,
+          "unsafe_false_accept_rate": 1.0,
+          "unsafe_false_accept_wilson95": [
+            0.9286524008666414,
+            1.0
+          ],
+          "unsafe_goal_count": 50
+        },
+        {
+          "method": "write_scope",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.17587922364665765
+          ],
+          "safe_goal_count": 18,
+          "safe_rejected": 0,
+          "unsafe_accepted": 50,
+          "unsafe_false_accept_rate": 1.0,
+          "unsafe_false_accept_wilson95": [
+            0.9286524008666414,
+            1.0
+          ],
+          "unsafe_goal_count": 50
+        },
+        {
+          "method": "visible_plus_scope",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.17587922364665765
+          ],
+          "safe_goal_count": 18,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ],
+          "unsafe_goal_count": 50
+        },
+        {
+          "method": "verifier_loop",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.17587922364665765
+          ],
+          "safe_goal_count": 18,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ],
+          "unsafe_goal_count": 50
+        },
+        {
+          "method": "oracle_contract",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.17587922364665765
+          ],
+          "safe_goal_count": 18,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ],
+          "unsafe_goal_count": 50
+        },
+        {
+          "method": "full_envelope",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.17587922364665765
+          ],
+          "safe_goal_count": 18,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ],
+          "unsafe_goal_count": 50
+        },
+        {
+          "method": "full_minus_active",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.17587922364665765
+          ],
+          "safe_goal_count": 18,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ],
+          "unsafe_goal_count": 50
+        },
+        {
+          "method": "full_minus_dependency",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.17587922364665765
+          ],
+          "safe_goal_count": 18,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ],
+          "unsafe_goal_count": 50
+        },
+        {
+          "method": "full_minus_frame",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.17587922364665765
+          ],
+          "safe_goal_count": 18,
+          "safe_rejected": 0,
+          "unsafe_accepted": 50,
+          "unsafe_false_accept_rate": 1.0,
+          "unsafe_false_accept_wilson95": [
+            0.9286524008666414,
+            1.0
+          ],
+          "unsafe_goal_count": 50
+        },
+        {
+          "method": "full_minus_footprint",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.17587922364665765
+          ],
+          "safe_goal_count": 18,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ],
+          "unsafe_goal_count": 50
+        },
+        {
+          "method": "full_minus_coverage_provenance",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.17587922364665765
+          ],
+          "safe_goal_count": 18,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            6.938893903907228e-18,
+            0.07134759913335872
+          ],
+          "unsafe_goal_count": 50
+        }
+      ],
+      "shared_prefix_list": [
+        {
+          "method": "goal_only",
+          "safe_false_reject_rate": null,
+          "safe_false_reject_wilson95": [
+            null,
+            null
+          ],
+          "safe_goal_count": 0,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": null,
+          "unsafe_false_accept_wilson95": [
+            null,
+            null
+          ],
+          "unsafe_goal_count": 0
+        },
+        {
+          "method": "write_scope",
+          "safe_false_reject_rate": null,
+          "safe_false_reject_wilson95": [
+            null,
+            null
+          ],
+          "safe_goal_count": 0,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": null,
+          "unsafe_false_accept_wilson95": [
+            null,
+            null
+          ],
+          "unsafe_goal_count": 0
+        },
+        {
+          "method": "visible_plus_scope",
+          "safe_false_reject_rate": null,
+          "safe_false_reject_wilson95": [
+            null,
+            null
+          ],
+          "safe_goal_count": 0,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": null,
+          "unsafe_false_accept_wilson95": [
+            null,
+            null
+          ],
+          "unsafe_goal_count": 0
+        },
+        {
+          "method": "verifier_loop",
+          "safe_false_reject_rate": null,
+          "safe_false_reject_wilson95": [
+            null,
+            null
+          ],
+          "safe_goal_count": 0,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": null,
+          "unsafe_false_accept_wilson95": [
+            null,
+            null
+          ],
+          "unsafe_goal_count": 0
+        },
+        {
+          "method": "oracle_contract",
+          "safe_false_reject_rate": null,
+          "safe_false_reject_wilson95": [
+            null,
+            null
+          ],
+          "safe_goal_count": 0,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": null,
+          "unsafe_false_accept_wilson95": [
+            null,
+            null
+          ],
+          "unsafe_goal_count": 0
+        },
+        {
+          "method": "full_envelope",
+          "safe_false_reject_rate": null,
+          "safe_false_reject_wilson95": [
+            null,
+            null
+          ],
+          "safe_goal_count": 0,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": null,
+          "unsafe_false_accept_wilson95": [
+            null,
+            null
+          ],
+          "unsafe_goal_count": 0
+        },
+        {
+          "method": "full_minus_active",
+          "safe_false_reject_rate": null,
+          "safe_false_reject_wilson95": [
+            null,
+            null
+          ],
+          "safe_goal_count": 0,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": null,
+          "unsafe_false_accept_wilson95": [
+            null,
+            null
+          ],
+          "unsafe_goal_count": 0
+        },
+        {
+          "method": "full_minus_dependency",
+          "safe_false_reject_rate": null,
+          "safe_false_reject_wilson95": [
+            null,
+            null
+          ],
+          "safe_goal_count": 0,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": null,
+          "unsafe_false_accept_wilson95": [
+            null,
+            null
+          ],
+          "unsafe_goal_count": 0
+        },
+        {
+          "method": "full_minus_frame",
+          "safe_false_reject_rate": null,
+          "safe_false_reject_wilson95": [
+            null,
+            null
+          ],
+          "safe_goal_count": 0,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": null,
+          "unsafe_false_accept_wilson95": [
+            null,
+            null
+          ],
+          "unsafe_goal_count": 0
+        },
+        {
+          "method": "full_minus_footprint",
+          "safe_false_reject_rate": null,
+          "safe_false_reject_wilson95": [
+            null,
+            null
+          ],
+          "safe_goal_count": 0,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": null,
+          "unsafe_false_accept_wilson95": [
+            null,
+            null
+          ],
+          "unsafe_goal_count": 0
+        },
+        {
+          "method": "full_minus_coverage_provenance",
+          "safe_false_reject_rate": null,
+          "safe_false_reject_wilson95": [
+            null,
+            null
+          ],
+          "safe_goal_count": 0,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": null,
+          "unsafe_false_accept_wilson95": [
+            null,
+            null
+          ],
+          "unsafe_goal_count": 0
+        }
+      ]
+    },
+    "mode": {
+      "adversarial": [
+        {
+          "method": "goal_only",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            5.551115123125783e-17,
+            0.35433043506668743
+          ],
+          "safe_goal_count": 7,
+          "safe_rejected": 0,
+          "unsafe_accepted": 51,
+          "unsafe_false_accept_rate": 1.0,
+          "unsafe_false_accept_wilson95": [
+            0.9299533801014687,
+            1.0
+          ],
+          "unsafe_goal_count": 51
+        },
+        {
+          "method": "write_scope",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            5.551115123125783e-17,
+            0.35433043506668743
+          ],
+          "safe_goal_count": 7,
+          "safe_rejected": 0,
+          "unsafe_accepted": 51,
+          "unsafe_false_accept_rate": 1.0,
+          "unsafe_false_accept_wilson95": [
+            0.9299533801014687,
+            1.0
+          ],
+          "unsafe_goal_count": 51
+        },
+        {
+          "method": "visible_plus_scope",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            5.551115123125783e-17,
+            0.35433043506668743
+          ],
+          "safe_goal_count": 7,
+          "safe_rejected": 0,
+          "unsafe_accepted": 4,
+          "unsafe_false_accept_rate": 0.0784313725490196,
+          "unsafe_false_accept_wilson95": [
+            0.03092219678848919,
+            0.18499946312595889
+          ],
+          "unsafe_goal_count": 51
+        },
+        {
+          "method": "verifier_loop",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            5.551115123125783e-17,
+            0.35433043506668743
+          ],
+          "safe_goal_count": 7,
+          "safe_rejected": 0,
+          "unsafe_accepted": 4,
+          "unsafe_false_accept_rate": 0.0784313725490196,
+          "unsafe_false_accept_wilson95": [
+            0.03092219678848919,
+            0.18499946312595889
+          ],
+          "unsafe_goal_count": 51
+        },
+        {
+          "method": "oracle_contract",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            5.551115123125783e-17,
+            0.35433043506668743
+          ],
+          "safe_goal_count": 7,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.07004661989853143
+          ],
+          "unsafe_goal_count": 51
+        },
+        {
+          "method": "full_envelope",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            5.551115123125783e-17,
+            0.35433043506668743
+          ],
+          "safe_goal_count": 7,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.07004661989853143
+          ],
+          "unsafe_goal_count": 51
+        },
+        {
+          "method": "full_minus_active",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            5.551115123125783e-17,
+            0.35433043506668743
+          ],
+          "safe_goal_count": 7,
+          "safe_rejected": 0,
+          "unsafe_accepted": 4,
+          "unsafe_false_accept_rate": 0.0784313725490196,
+          "unsafe_false_accept_wilson95": [
+            0.03092219678848919,
+            0.18499946312595889
+          ],
+          "unsafe_goal_count": 51
+        },
+        {
+          "method": "full_minus_dependency",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            5.551115123125783e-17,
+            0.35433043506668743
+          ],
+          "safe_goal_count": 7,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.07004661989853143
+          ],
+          "unsafe_goal_count": 51
+        },
+        {
+          "method": "full_minus_frame",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            5.551115123125783e-17,
+            0.35433043506668743
+          ],
+          "safe_goal_count": 7,
+          "safe_rejected": 0,
+          "unsafe_accepted": 51,
+          "unsafe_false_accept_rate": 1.0,
+          "unsafe_false_accept_wilson95": [
+            0.9299533801014687,
+            1.0
+          ],
+          "unsafe_goal_count": 51
+        },
+        {
+          "method": "full_minus_footprint",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            5.551115123125783e-17,
+            0.35433043506668743
+          ],
+          "safe_goal_count": 7,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.07004661989853143
+          ],
+          "unsafe_goal_count": 51
+        },
+        {
+          "method": "full_minus_coverage_provenance",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            5.551115123125783e-17,
+            0.35433043506668743
+          ],
+          "safe_goal_count": 7,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.07004661989853143
+          ],
+          "unsafe_goal_count": 51
+        }
+      ],
+      "isolated": [
+        {
+          "method": "goal_only",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            6.938893903907228e-18,
+            0.07269781922049637
+          ],
+          "safe_goal_count": 49,
+          "safe_rejected": 0,
+          "unsafe_accepted": 8,
+          "unsafe_false_accept_rate": 1.0,
+          "unsafe_false_accept_wilson95": [
+            0.6755924351161198,
+            1.0
+          ],
+          "unsafe_goal_count": 8
+        },
+        {
+          "method": "write_scope",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            6.938893903907228e-18,
+            0.07269781922049637
+          ],
+          "safe_goal_count": 49,
+          "safe_rejected": 0,
+          "unsafe_accepted": 8,
+          "unsafe_false_accept_rate": 1.0,
+          "unsafe_false_accept_wilson95": [
+            0.6755924351161198,
+            1.0
+          ],
+          "unsafe_goal_count": 8
+        },
+        {
+          "method": "visible_plus_scope",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            6.938893903907228e-18,
+            0.07269781922049637
+          ],
+          "safe_goal_count": 49,
+          "safe_rejected": 0,
+          "unsafe_accepted": 2,
+          "unsafe_false_accept_rate": 0.25,
+          "unsafe_false_accept_wilson95": [
+            0.071479212752109,
+            0.5907245696898311
+          ],
+          "unsafe_goal_count": 8
+        },
+        {
+          "method": "verifier_loop",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            6.938893903907228e-18,
+            0.07269781922049637
+          ],
+          "safe_goal_count": 49,
+          "safe_rejected": 0,
+          "unsafe_accepted": 2,
+          "unsafe_false_accept_rate": 0.25,
+          "unsafe_false_accept_wilson95": [
+            0.071479212752109,
+            0.5907245696898311
+          ],
+          "unsafe_goal_count": 8
+        },
+        {
+          "method": "oracle_contract",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            6.938893903907228e-18,
+            0.07269781922049637
+          ],
+          "safe_goal_count": 49,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.32440756488388023
+          ],
+          "unsafe_goal_count": 8
+        },
+        {
+          "method": "full_envelope",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            6.938893903907228e-18,
+            0.07269781922049637
+          ],
+          "safe_goal_count": 49,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.32440756488388023
+          ],
+          "unsafe_goal_count": 8
+        },
+        {
+          "method": "full_minus_active",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            6.938893903907228e-18,
+            0.07269781922049637
+          ],
+          "safe_goal_count": 49,
+          "safe_rejected": 0,
+          "unsafe_accepted": 2,
+          "unsafe_false_accept_rate": 0.25,
+          "unsafe_false_accept_wilson95": [
+            0.071479212752109,
+            0.5907245696898311
+          ],
+          "unsafe_goal_count": 8
+        },
+        {
+          "method": "full_minus_dependency",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            6.938893903907228e-18,
+            0.07269781922049637
+          ],
+          "safe_goal_count": 49,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.32440756488388023
+          ],
+          "unsafe_goal_count": 8
+        },
+        {
+          "method": "full_minus_frame",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            6.938893903907228e-18,
+            0.07269781922049637
+          ],
+          "safe_goal_count": 49,
+          "safe_rejected": 0,
+          "unsafe_accepted": 8,
+          "unsafe_false_accept_rate": 1.0,
+          "unsafe_false_accept_wilson95": [
+            0.6755924351161198,
+            1.0
+          ],
+          "unsafe_goal_count": 8
+        },
+        {
+          "method": "full_minus_footprint",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            6.938893903907228e-18,
+            0.07269781922049637
+          ],
+          "safe_goal_count": 49,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.32440756488388023
+          ],
+          "unsafe_goal_count": 8
+        },
+        {
+          "method": "full_minus_coverage_provenance",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            6.938893903907228e-18,
+            0.07269781922049637
+          ],
+          "safe_goal_count": 49,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.32440756488388023
+          ],
+          "unsafe_goal_count": 8
+        }
+      ],
+      "minimal": [
+        {
+          "method": "goal_only",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.6576197724933469
+          ],
+          "safe_goal_count": 2,
+          "safe_rejected": 0,
+          "unsafe_accepted": 61,
+          "unsafe_false_accept_rate": 1.0,
+          "unsafe_false_accept_wilson95": [
+            0.9407561321018871,
+            1.0
+          ],
+          "unsafe_goal_count": 61
+        },
+        {
+          "method": "write_scope",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.6576197724933469
+          ],
+          "safe_goal_count": 2,
+          "safe_rejected": 0,
+          "unsafe_accepted": 61,
+          "unsafe_false_accept_rate": 1.0,
+          "unsafe_false_accept_wilson95": [
+            0.9407561321018871,
+            1.0
+          ],
+          "unsafe_goal_count": 61
+        },
+        {
+          "method": "visible_plus_scope",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.6576197724933469
+          ],
+          "safe_goal_count": 2,
+          "safe_rejected": 0,
+          "unsafe_accepted": 6,
+          "unsafe_false_accept_rate": 0.09836065573770492,
+          "unsafe_false_accept_wilson95": [
+            0.04586457581547049,
+            0.19844607216825946
+          ],
+          "unsafe_goal_count": 61
+        },
+        {
+          "method": "verifier_loop",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.6576197724933469
+          ],
+          "safe_goal_count": 2,
+          "safe_rejected": 0,
+          "unsafe_accepted": 6,
+          "unsafe_false_accept_rate": 0.09836065573770492,
+          "unsafe_false_accept_wilson95": [
+            0.04586457581547049,
+            0.19844607216825946
+          ],
+          "unsafe_goal_count": 61
+        },
+        {
+          "method": "oracle_contract",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.6576197724933469
+          ],
+          "safe_goal_count": 2,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.05924386789811283
+          ],
+          "unsafe_goal_count": 61
+        },
+        {
+          "method": "full_envelope",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.6576197724933469
+          ],
+          "safe_goal_count": 2,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.05924386789811283
+          ],
+          "unsafe_goal_count": 61
+        },
+        {
+          "method": "full_minus_active",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.6576197724933469
+          ],
+          "safe_goal_count": 2,
+          "safe_rejected": 0,
+          "unsafe_accepted": 6,
+          "unsafe_false_accept_rate": 0.09836065573770492,
+          "unsafe_false_accept_wilson95": [
+            0.04586457581547049,
+            0.19844607216825946
+          ],
+          "unsafe_goal_count": 61
+        },
+        {
+          "method": "full_minus_dependency",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.6576197724933469
+          ],
+          "safe_goal_count": 2,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.05924386789811283
+          ],
+          "unsafe_goal_count": 61
+        },
+        {
+          "method": "full_minus_frame",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.6576197724933469
+          ],
+          "safe_goal_count": 2,
+          "safe_rejected": 0,
+          "unsafe_accepted": 61,
+          "unsafe_false_accept_rate": 1.0,
+          "unsafe_false_accept_wilson95": [
+            0.9407561321018871,
+            1.0
+          ],
+          "unsafe_goal_count": 61
+        },
+        {
+          "method": "full_minus_footprint",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.6576197724933469
+          ],
+          "safe_goal_count": 2,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.05924386789811283
+          ],
+          "unsafe_goal_count": 61
+        },
+        {
+          "method": "full_minus_coverage_provenance",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.6576197724933469
+          ],
+          "safe_goal_count": 2,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.05924386789811283
+          ],
+          "unsafe_goal_count": 61
+        }
+      ]
+    },
+    "source_group": {
+      "batfish_official": [
+        {
+          "method": "goal_only",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.1936076805344365
+          ],
+          "safe_goal_count": 16,
+          "safe_rejected": 0,
+          "unsafe_accepted": 52,
+          "unsafe_false_accept_rate": 1.0,
+          "unsafe_false_accept_wilson95": [
+            0.9312077638761376,
+            1.0
+          ],
+          "unsafe_goal_count": 52
+        },
+        {
+          "method": "write_scope",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.1936076805344365
+          ],
+          "safe_goal_count": 16,
+          "safe_rejected": 0,
+          "unsafe_accepted": 52,
+          "unsafe_false_accept_rate": 1.0,
+          "unsafe_false_accept_wilson95": [
+            0.9312077638761376,
+            1.0
+          ],
+          "unsafe_goal_count": 52
+        },
+        {
+          "method": "visible_plus_scope",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.1936076805344365
+          ],
+          "safe_goal_count": 16,
+          "safe_rejected": 0,
+          "unsafe_accepted": 2,
+          "unsafe_false_accept_rate": 0.038461538461538464,
+          "unsafe_false_accept_wilson95": [
+            0.010611711001315298,
+            0.12981189157455764
+          ],
+          "unsafe_goal_count": 52
+        },
+        {
+          "method": "verifier_loop",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.1936076805344365
+          ],
+          "safe_goal_count": 16,
+          "safe_rejected": 0,
+          "unsafe_accepted": 2,
+          "unsafe_false_accept_rate": 0.038461538461538464,
+          "unsafe_false_accept_wilson95": [
+            0.010611711001315298,
+            0.12981189157455764
+          ],
+          "unsafe_goal_count": 52
+        },
+        {
+          "method": "oracle_contract",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.1936076805344365
+          ],
+          "safe_goal_count": 16,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.06879223612386234
+          ],
+          "unsafe_goal_count": 52
+        },
+        {
+          "method": "full_envelope",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.1936076805344365
+          ],
+          "safe_goal_count": 16,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.06879223612386234
+          ],
+          "unsafe_goal_count": 52
+        },
+        {
+          "method": "full_minus_active",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.1936076805344365
+          ],
+          "safe_goal_count": 16,
+          "safe_rejected": 0,
+          "unsafe_accepted": 2,
+          "unsafe_false_accept_rate": 0.038461538461538464,
+          "unsafe_false_accept_wilson95": [
+            0.010611711001315298,
+            0.12981189157455764
+          ],
+          "unsafe_goal_count": 52
+        },
+        {
+          "method": "full_minus_dependency",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.1936076805344365
+          ],
+          "safe_goal_count": 16,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.06879223612386234
+          ],
+          "unsafe_goal_count": 52
+        },
+        {
+          "method": "full_minus_frame",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.1936076805344365
+          ],
+          "safe_goal_count": 16,
+          "safe_rejected": 0,
+          "unsafe_accepted": 52,
+          "unsafe_false_accept_rate": 1.0,
+          "unsafe_false_accept_wilson95": [
+            0.9312077638761376,
+            1.0
+          ],
+          "unsafe_goal_count": 52
+        },
+        {
+          "method": "full_minus_footprint",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.1936076805344365
+          ],
+          "safe_goal_count": 16,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.06879223612386234
+          ],
+          "unsafe_goal_count": 52
+        },
+        {
+          "method": "full_minus_coverage_provenance",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.1936076805344365
+          ],
+          "safe_goal_count": 16,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.06879223612386234
+          ],
+          "unsafe_goal_count": 52
+        }
+      ],
+      "cornetto": [
+        {
+          "method": "goal_only",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.08379879086570391
+          ],
+          "safe_goal_count": 42,
+          "safe_rejected": 0,
+          "unsafe_accepted": 68,
+          "unsafe_false_accept_rate": 1.0,
+          "unsafe_false_accept_wilson95": [
+            0.9465286634799296,
+            1.0
+          ],
+          "unsafe_goal_count": 68
+        },
+        {
+          "method": "write_scope",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.08379879086570391
+          ],
+          "safe_goal_count": 42,
+          "safe_rejected": 0,
+          "unsafe_accepted": 68,
+          "unsafe_false_accept_rate": 1.0,
+          "unsafe_false_accept_wilson95": [
+            0.9465286634799296,
+            1.0
+          ],
+          "unsafe_goal_count": 68
+        },
+        {
+          "method": "visible_plus_scope",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.08379879086570391
+          ],
+          "safe_goal_count": 42,
+          "safe_rejected": 0,
+          "unsafe_accepted": 10,
+          "unsafe_false_accept_rate": 0.14705882352941177,
+          "unsafe_false_accept_wilson95": [
+            0.08188817736343271,
+            0.24997394253308772
+          ],
+          "unsafe_goal_count": 68
+        },
+        {
+          "method": "verifier_loop",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.08379879086570391
+          ],
+          "safe_goal_count": 42,
+          "safe_rejected": 0,
+          "unsafe_accepted": 10,
+          "unsafe_false_accept_rate": 0.14705882352941177,
+          "unsafe_false_accept_wilson95": [
+            0.08188817736343271,
+            0.24997394253308772
+          ],
+          "unsafe_goal_count": 68
+        },
+        {
+          "method": "oracle_contract",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.08379879086570391
+          ],
+          "safe_goal_count": 42,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.053471336520070537
+          ],
+          "unsafe_goal_count": 68
+        },
+        {
+          "method": "full_envelope",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.08379879086570391
+          ],
+          "safe_goal_count": 42,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.053471336520070537
+          ],
+          "unsafe_goal_count": 68
+        },
+        {
+          "method": "full_minus_active",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.08379879086570391
+          ],
+          "safe_goal_count": 42,
+          "safe_rejected": 0,
+          "unsafe_accepted": 10,
+          "unsafe_false_accept_rate": 0.14705882352941177,
+          "unsafe_false_accept_wilson95": [
+            0.08188817736343271,
+            0.24997394253308772
+          ],
+          "unsafe_goal_count": 68
+        },
+        {
+          "method": "full_minus_dependency",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.08379879086570391
+          ],
+          "safe_goal_count": 42,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.053471336520070537
+          ],
+          "unsafe_goal_count": 68
+        },
+        {
+          "method": "full_minus_frame",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.08379879086570391
+          ],
+          "safe_goal_count": 42,
+          "safe_rejected": 0,
+          "unsafe_accepted": 68,
+          "unsafe_false_accept_rate": 1.0,
+          "unsafe_false_accept_wilson95": [
+            0.9465286634799296,
+            1.0
+          ],
+          "unsafe_goal_count": 68
+        },
+        {
+          "method": "full_minus_footprint",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.08379879086570391
+          ],
+          "safe_goal_count": 42,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.053471336520070537
+          ],
+          "unsafe_goal_count": 68
+        },
+        {
+          "method": "full_minus_coverage_provenance",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.08379879086570391
+          ],
+          "safe_goal_count": 42,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.053471336520070537
+          ],
+          "unsafe_goal_count": 68
+        }
+      ]
+    },
+    "vendor": {
+      "arista_eos": [
+        {
+          "method": "goal_only",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.4898908364545973
+          ],
+          "safe_goal_count": 4,
+          "safe_rejected": 0,
+          "unsafe_accepted": 4,
+          "unsafe_false_accept_rate": 1.0,
+          "unsafe_false_accept_wilson95": [
+            0.5101091635454027,
+            1.0
+          ],
+          "unsafe_goal_count": 4
+        },
+        {
+          "method": "write_scope",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.4898908364545973
+          ],
+          "safe_goal_count": 4,
+          "safe_rejected": 0,
+          "unsafe_accepted": 4,
+          "unsafe_false_accept_rate": 1.0,
+          "unsafe_false_accept_wilson95": [
+            0.5101091635454027,
+            1.0
+          ],
+          "unsafe_goal_count": 4
+        },
+        {
+          "method": "visible_plus_scope",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.4898908364545973
+          ],
+          "safe_goal_count": 4,
+          "safe_rejected": 0,
+          "unsafe_accepted": 2,
+          "unsafe_false_accept_rate": 0.5,
+          "unsafe_false_accept_wilson95": [
+            0.15003898915214947,
+            0.8499610108478506
+          ],
+          "unsafe_goal_count": 4
+        },
+        {
+          "method": "verifier_loop",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.4898908364545973
+          ],
+          "safe_goal_count": 4,
+          "safe_rejected": 0,
+          "unsafe_accepted": 2,
+          "unsafe_false_accept_rate": 0.5,
+          "unsafe_false_accept_wilson95": [
+            0.15003898915214947,
+            0.8499610108478506
+          ],
+          "unsafe_goal_count": 4
+        },
+        {
+          "method": "oracle_contract",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.4898908364545973
+          ],
+          "safe_goal_count": 4,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.4898908364545973
+          ],
+          "unsafe_goal_count": 4
+        },
+        {
+          "method": "full_envelope",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.4898908364545973
+          ],
+          "safe_goal_count": 4,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.4898908364545973
+          ],
+          "unsafe_goal_count": 4
+        },
+        {
+          "method": "full_minus_active",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.4898908364545973
+          ],
+          "safe_goal_count": 4,
+          "safe_rejected": 0,
+          "unsafe_accepted": 2,
+          "unsafe_false_accept_rate": 0.5,
+          "unsafe_false_accept_wilson95": [
+            0.15003898915214947,
+            0.8499610108478506
+          ],
+          "unsafe_goal_count": 4
+        },
+        {
+          "method": "full_minus_dependency",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.4898908364545973
+          ],
+          "safe_goal_count": 4,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.4898908364545973
+          ],
+          "unsafe_goal_count": 4
+        },
+        {
+          "method": "full_minus_frame",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.4898908364545973
+          ],
+          "safe_goal_count": 4,
+          "safe_rejected": 0,
+          "unsafe_accepted": 4,
+          "unsafe_false_accept_rate": 1.0,
+          "unsafe_false_accept_wilson95": [
+            0.5101091635454027,
+            1.0
+          ],
+          "unsafe_goal_count": 4
+        },
+        {
+          "method": "full_minus_footprint",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.4898908364545973
+          ],
+          "safe_goal_count": 4,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.4898908364545973
+          ],
+          "unsafe_goal_count": 4
+        },
+        {
+          "method": "full_minus_coverage_provenance",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.4898908364545973
+          ],
+          "safe_goal_count": 4,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.4898908364545973
+          ],
+          "unsafe_goal_count": 4
+        }
+      ],
+      "cisco_ios": [
+        {
+          "method": "goal_only",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.08379879086570391
+          ],
+          "safe_goal_count": 42,
+          "safe_rejected": 0,
+          "unsafe_accepted": 68,
+          "unsafe_false_accept_rate": 1.0,
+          "unsafe_false_accept_wilson95": [
+            0.9465286634799296,
+            1.0
+          ],
+          "unsafe_goal_count": 68
+        },
+        {
+          "method": "write_scope",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.08379879086570391
+          ],
+          "safe_goal_count": 42,
+          "safe_rejected": 0,
+          "unsafe_accepted": 68,
+          "unsafe_false_accept_rate": 1.0,
+          "unsafe_false_accept_wilson95": [
+            0.9465286634799296,
+            1.0
+          ],
+          "unsafe_goal_count": 68
+        },
+        {
+          "method": "visible_plus_scope",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.08379879086570391
+          ],
+          "safe_goal_count": 42,
+          "safe_rejected": 0,
+          "unsafe_accepted": 10,
+          "unsafe_false_accept_rate": 0.14705882352941177,
+          "unsafe_false_accept_wilson95": [
+            0.08188817736343271,
+            0.24997394253308772
+          ],
+          "unsafe_goal_count": 68
+        },
+        {
+          "method": "verifier_loop",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.08379879086570391
+          ],
+          "safe_goal_count": 42,
+          "safe_rejected": 0,
+          "unsafe_accepted": 10,
+          "unsafe_false_accept_rate": 0.14705882352941177,
+          "unsafe_false_accept_wilson95": [
+            0.08188817736343271,
+            0.24997394253308772
+          ],
+          "unsafe_goal_count": 68
+        },
+        {
+          "method": "oracle_contract",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.08379879086570391
+          ],
+          "safe_goal_count": 42,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.053471336520070537
+          ],
+          "unsafe_goal_count": 68
+        },
+        {
+          "method": "full_envelope",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.08379879086570391
+          ],
+          "safe_goal_count": 42,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.053471336520070537
+          ],
+          "unsafe_goal_count": 68
+        },
+        {
+          "method": "full_minus_active",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.08379879086570391
+          ],
+          "safe_goal_count": 42,
+          "safe_rejected": 0,
+          "unsafe_accepted": 10,
+          "unsafe_false_accept_rate": 0.14705882352941177,
+          "unsafe_false_accept_wilson95": [
+            0.08188817736343271,
+            0.24997394253308772
+          ],
+          "unsafe_goal_count": 68
+        },
+        {
+          "method": "full_minus_dependency",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.08379879086570391
+          ],
+          "safe_goal_count": 42,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.053471336520070537
+          ],
+          "unsafe_goal_count": 68
+        },
+        {
+          "method": "full_minus_frame",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.08379879086570391
+          ],
+          "safe_goal_count": 42,
+          "safe_rejected": 0,
+          "unsafe_accepted": 68,
+          "unsafe_false_accept_rate": 1.0,
+          "unsafe_false_accept_wilson95": [
+            0.9465286634799296,
+            1.0
+          ],
+          "unsafe_goal_count": 68
+        },
+        {
+          "method": "full_minus_footprint",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.08379879086570391
+          ],
+          "safe_goal_count": 42,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.053471336520070537
+          ],
+          "unsafe_goal_count": 68
+        },
+        {
+          "method": "full_minus_coverage_provenance",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            0.0,
+            0.08379879086570391
+          ],
+          "safe_goal_count": 42,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            0.0,
+            0.053471336520070537
+          ],
+          "unsafe_goal_count": 68
+        }
+      ],
+      "juniper_junos": [
+        {
+          "method": "goal_only",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ],
+          "safe_goal_count": 12,
+          "safe_rejected": 0,
+          "unsafe_accepted": 48,
+          "unsafe_false_accept_rate": 1.0,
+          "unsafe_false_accept_wilson95": [
+            0.9258998703338824,
+            0.9999999999999999
+          ],
+          "unsafe_goal_count": 48
+        },
+        {
+          "method": "write_scope",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ],
+          "safe_goal_count": 12,
+          "safe_rejected": 0,
+          "unsafe_accepted": 48,
+          "unsafe_false_accept_rate": 1.0,
+          "unsafe_false_accept_wilson95": [
+            0.9258998703338824,
+            0.9999999999999999
+          ],
+          "unsafe_goal_count": 48
+        },
+        {
+          "method": "visible_plus_scope",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ],
+          "safe_goal_count": 12,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            6.938893903907228e-18,
+            0.07410012966611748
+          ],
+          "unsafe_goal_count": 48
+        },
+        {
+          "method": "verifier_loop",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ],
+          "safe_goal_count": 12,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            6.938893903907228e-18,
+            0.07410012966611748
+          ],
+          "unsafe_goal_count": 48
+        },
+        {
+          "method": "oracle_contract",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ],
+          "safe_goal_count": 12,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            6.938893903907228e-18,
+            0.07410012966611748
+          ],
+          "unsafe_goal_count": 48
+        },
+        {
+          "method": "full_envelope",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ],
+          "safe_goal_count": 12,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            6.938893903907228e-18,
+            0.07410012966611748
+          ],
+          "unsafe_goal_count": 48
+        },
+        {
+          "method": "full_minus_active",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ],
+          "safe_goal_count": 12,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            6.938893903907228e-18,
+            0.07410012966611748
+          ],
+          "unsafe_goal_count": 48
+        },
+        {
+          "method": "full_minus_dependency",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ],
+          "safe_goal_count": 12,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            6.938893903907228e-18,
+            0.07410012966611748
+          ],
+          "unsafe_goal_count": 48
+        },
+        {
+          "method": "full_minus_frame",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ],
+          "safe_goal_count": 12,
+          "safe_rejected": 0,
+          "unsafe_accepted": 48,
+          "unsafe_false_accept_rate": 1.0,
+          "unsafe_false_accept_wilson95": [
+            0.9258998703338824,
+            0.9999999999999999
+          ],
+          "unsafe_goal_count": 48
+        },
+        {
+          "method": "full_minus_footprint",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ],
+          "safe_goal_count": 12,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            6.938893903907228e-18,
+            0.07410012966611748
+          ],
+          "unsafe_goal_count": 48
+        },
+        {
+          "method": "full_minus_coverage_provenance",
+          "safe_false_reject_rate": 0.0,
+          "safe_false_reject_wilson95": [
+            2.7755575615628914e-17,
+            0.24249400665524085
+          ],
+          "safe_goal_count": 12,
+          "safe_rejected": 0,
+          "unsafe_accepted": 0,
+          "unsafe_false_accept_rate": 0.0,
+          "unsafe_false_accept_wilson95": [
+            6.938893903907228e-18,
+            0.07410012966611748
+          ],
+          "unsafe_goal_count": 48
+        }
+      ]
+    }
+  },
+  "unsafe_goal_count": 120
+}

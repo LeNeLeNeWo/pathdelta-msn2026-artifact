@@ -1,0 +1,193 @@
+{
+  "artifacts": [
+    {
+      "bytes": 5670,
+      "path": "experiments/msn2026_v83_external/preregistered_protocol.md",
+      "sha256": "5d6dfa18bf1711c95dd1ca748549b5b9ae5f94c789709fc67d2cf36813e57a1b"
+    },
+    {
+      "bytes": 1235,
+      "path": "experiments/msn2026_v83_external/protocol_freeze.json",
+      "sha256": "42c0af57445e3e0bf6124f010aaf3813b6118f014c036368ad5881b0174c1a8a"
+    },
+    {
+      "bytes": 1470,
+      "path": "experiments/msn2026_v83_external/run_manifest.schema.json",
+      "sha256": "af826ba304a2b8e2afa6f54cabe340756d1a422f509964c4b8c0dea6c51ddf4f"
+    },
+    {
+      "bytes": 1559,
+      "path": "data/msn2026_v83_external/source_manifest.json",
+      "sha256": "eab90989699d27eb2edde18ef65b28b805eb5601490789a755aacebe9b01ef65"
+    },
+    {
+      "bytes": 917,
+      "path": "data/msn2026_v83_external/dataset_manifest.json",
+      "sha256": "e0f9eeddf702b7165d3157dc0adc2f8735521a82fb0e1f240d2539822c4bde61"
+    },
+    {
+      "bytes": 45258,
+      "path": "data/msn2026_v83_external/agent128_subset.json",
+      "sha256": "168bce8b42aa2c99a31b429007394d239702b011b9751343c1ed0b69931122f7"
+    },
+    {
+      "bytes": 73488,
+      "path": "results/msn2026_v83_external/redteam_corpus_receipt.json",
+      "sha256": "b45119a99de9963108ac91a70a5b16493f6335470068b841e15214d2d1e129c0"
+    },
+    {
+      "bytes": 71153,
+      "path": "results/msn2026_v83_external/external_boundaries/analysis.json",
+      "sha256": "a6eff0dec71b2b630ec65a405d523a92c32f925a2ed6183da34b75b81f501c30"
+    },
+    {
+      "bytes": 3057,
+      "path": "results/msn2026_v83_external/confirmatory_statistics.json",
+      "sha256": "d93cc4b50807d49805b469b947ab48c0f9c466ee43315b0c04b7950cf559b19a"
+    },
+    {
+      "bytes": 123185,
+      "path": "results/msn2026_v83_external/backend_coverage_matrix.json",
+      "sha256": "086cb70215c4c420c0deb843d3359fc8535fd668f7180036cdcd0b4265b2aa34"
+    },
+    {
+      "bytes": 204576,
+      "path": "results/msn2026_v83_external/coverage_sensitivity.json",
+      "sha256": "de21826bfd7c00416a6a67fcb2808183c5b6d2c4a2838749259276f74c9ce9b2"
+    },
+    {
+      "bytes": 13439,
+      "path": "results/msn2026_v83_external/scalability.json",
+      "sha256": "389812afe1fb4d33f1e37458fe4b2bdf40ef66e220d2fc5dd6c05897cceaf0db"
+    },
+    {
+      "bytes": 897,
+      "path": "results/msn2026_v83_external/scalability_batfish.json",
+      "sha256": "2d75762c9c739623757a16c6a17121f01650b487bb2166e3800114ff9e2c68e9"
+    },
+    {
+      "bytes": 100634,
+      "path": "results/msn2026_v83_external/agent128/analysis.json",
+      "sha256": "82d0ed513a67a3745c601d7b3299b6fa2e0f9dbae727a2cafb243c93eb40d5c3"
+    },
+    {
+      "bytes": 349,
+      "path": "results/msn2026_v83_external/agent128/integrity_receipt.json",
+      "sha256": "2523a13dbe266613e89b6135f1308ad4b025a5362f2f2487450cf24a12006c08"
+    },
+    {
+      "bytes": 1149849,
+      "path": "results/msn2026_v83_external/batfish_symbolic_external_v2/summary.json",
+      "sha256": "3d17da7642bf66abfad911004372f17854c63316e1c87504027055f3b77e8e3e"
+    },
+    {
+      "bytes": 136791,
+      "path": "results/msn2026_v83_external/cross_backend_audit.json",
+      "sha256": "05c807fbde7046460caacebb76f3ce181d73dff5ddc9c92cd52aff00200f3d3b"
+    },
+    {
+      "bytes": 939,
+      "path": "results/msn2026_v83_external/go_no_go.json",
+      "sha256": "f1ac1e51e87694515044273993c5b3641218e759e2d02054ee512af75b72e9f4"
+    }
+  ],
+  "backends": {
+    "batfish_parse": {
+      "candidate_count": 253,
+      "status_counts": {
+        "ERROR": 0,
+        "N/A": 19,
+        "PASS": 234
+      }
+    },
+    "batfish_symbolic": {
+      "applicable_count": 233,
+      "candidate_count": 253,
+      "na": 20
+    },
+    "registered_adapter": {
+      "candidate_count": 253,
+      "vendor_count": 3
+    }
+  },
+  "claim_status": "NARROWED",
+  "data": {
+    "dataset_manifest_sha256": "e0f9eeddf702b7165d3157dc0adc2f8735521a82fb0e1f240d2539822c4bde61",
+    "fresh_sources": true,
+    "legacy_inputs_used": false,
+    "source_manifest_sha256": "eab90989699d27eb2edde18ef65b28b805eb5601490789a755aacebe9b01ef65"
+  },
+  "limitations": [
+    "The preregistered 15 percentage-point improvement gate over VerifierLoop was not met (observed 10 points).",
+    "The registered finite attribute oracle omitted Batfish-visible metric and origin-type collateral in 12 applicable candidates.",
+    "The cross-backend union is exploratory and post-unblinding; it is not pooled with confirmatory statistics.",
+    "Agent128 uses one configured model endpoint and has substantial fail-closed attempt exhaustion."
+  ],
+  "metrics": {
+    "agent128": {
+      "backend_attempts": 1416,
+      "completion_tokens": 322519,
+      "latency_ms_p50": 2065.102037000088,
+      "latency_ms_p95": 3551.3981460007926,
+      "latency_ms_total": 3270966.327158005,
+      "logical_llm_calls": 1416,
+      "prompt_tokens": 6077018,
+      "retry_count": 0
+    },
+    "cross_backend_methods": [
+      {
+        "method": "registered_full",
+        "safe_false_reject_rate": 0.0,
+        "safe_goal": 43,
+        "safe_rejected": 0,
+        "unsafe_accepted": 12,
+        "unsafe_false_accept_rate": 0.10084033613445378,
+        "unsafe_goal": 119
+      },
+      {
+        "method": "batfish_symbolic",
+        "safe_false_reject_rate": 0.0,
+        "safe_goal": 43,
+        "safe_rejected": 0,
+        "unsafe_accepted": 10,
+        "unsafe_false_accept_rate": 0.08403361344537816,
+        "unsafe_goal": 119
+      },
+      {
+        "method": "fail_closed_union",
+        "safe_false_reject_rate": 0.0,
+        "safe_goal": 43,
+        "safe_rejected": 0,
+        "unsafe_accepted": 0,
+        "unsafe_false_accept_rate": 0.0,
+        "unsafe_goal": 119
+      }
+    ],
+    "redteam_generation": {
+      "logical_llm_calls": 96,
+      "token_usage": {
+        "completion": 95312,
+        "prompt": 327531,
+        "total": 422843
+      }
+    }
+  },
+  "model": {
+    "backend": "openai_compatible_chat_completions",
+    "base_url": "https://api.deepseek.com/v1",
+    "configured_model": "deepseek-v4-flash",
+    "provider": "deepseek",
+    "secret_values_recorded": false,
+    "thinking_mode": "disabled"
+  },
+  "protocol": {
+    "agent_seed": 83127,
+    "aggregate_sha256": "b3fa2391d27842a6e51cc1547db2ae6151b238b14dfbbf5a425ddbc9451d06c3",
+    "coverage_seed": 83191,
+    "data_seed": 20260814,
+    "version": "msn2026-v83-1.0.0"
+  },
+  "run_id": "pathdelta-msn2026-v83-external-agent128",
+  "schema_version": "msn2026.v83.run.1",
+  "status": "completed"
+}

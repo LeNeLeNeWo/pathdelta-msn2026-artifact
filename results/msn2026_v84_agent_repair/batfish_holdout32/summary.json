@@ -1,0 +1,2056 @@
+{
+  "candidate_count": 32,
+  "fail": 9,
+  "fail_closed_verified_completion": 22,
+  "pass": 22,
+  "population": "holdout32",
+  "rows": [
+    {
+      "case_id": "ext-batfish_official-2b5e1a53bbafbece::isolated",
+      "device": "bor01",
+      "error": null,
+      "mode": "isolated",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "FLAT_JUNIPER",
+            "File_Name": "configs/bor01.cfg",
+            "Nodes": [
+              "bor01"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "IMPORT-PROVIDER-GENERIC",
+      "pre_policy": "IMPORT-PROVIDER-GENERIC",
+      "result_source": "v84_holdout32",
+      "scenario_id": "ext-batfish_official-2b5e1a53bbafbece",
+      "subject": "ISP@import",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='200', newValue='250'), BgpRouteDiff(fieldName='metric', oldValue='200', newValue='0'), BgpRouteDiff(fieldName='originType', oldValue='IGP', newValue='EGP')])",
+            "Input_Route": "BgpRoute(network='198.18.10.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bor01",
+            "Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='198.18.10.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term BASELINE"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='198.18.10.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=250, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term LP-198-18-10"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "198.18.10.0/24"
+      ],
+      "symbolic_frame_verdict": "FAIL",
+      "symbolic_target_observed_values": [
+        250
+      ],
+      "symbolic_target_required": 250,
+      "target_prefix": "198.18.10.0/24",
+      "unauthorized_target_fields": [
+        "metric",
+        "originType"
+      ],
+      "vendor": "juniper_junos"
+    },
+    {
+      "case_id": "ext-batfish_official-2f7224b89bc9a9c5::isolated",
+      "device": "bor01",
+      "error": null,
+      "mode": "isolated",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "FLAT_JUNIPER",
+            "File_Name": "configs/bor01.cfg",
+            "Nodes": [
+              "bor01"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "IMPORT-PROVIDER-GENERIC",
+      "pre_policy": "IMPORT-PROVIDER-GENERIC",
+      "result_source": "v84_holdout32",
+      "scenario_id": "ext-batfish_official-2f7224b89bc9a9c5",
+      "subject": "ISP@import",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='200', newValue='250')])",
+            "Input_Route": "BgpRoute(network='198.18.5.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bor01",
+            "Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='198.18.5.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term BASELINE"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='198.18.5.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=250, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term SET-LP-250"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "198.18.5.0/24"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        250
+      ],
+      "symbolic_target_required": 250,
+      "target_prefix": "198.18.5.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "juniper_junos"
+    },
+    {
+      "case_id": "ext-batfish_official-3becb81282cb0880::minimal",
+      "device": "bor01",
+      "error": null,
+      "mode": "minimal",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "FLAT_JUNIPER",
+            "File_Name": "configs/bor01.cfg",
+            "Nodes": [
+              "bor01"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "IMPORT-PROVIDER-GENERIC",
+      "pre_policy": "IMPORT-PROVIDER-GENERIC",
+      "result_source": "v84_holdout32",
+      "scenario_id": "ext-batfish_official-3becb81282cb0880",
+      "subject": "ISP@import",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='200', newValue='250'), BgpRouteDiff(fieldName='metric', oldValue='200', newValue='0'), BgpRouteDiff(fieldName='originType', oldValue='IGP', newValue='EGP')])",
+            "Input_Route": "BgpRoute(network='198.18.14.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bor01",
+            "Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='198.18.14.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term BASELINE"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='198.18.14.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=250, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term TARGET-198-18-14-24"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "198.18.14.0/24"
+      ],
+      "symbolic_frame_verdict": "FAIL",
+      "symbolic_target_observed_values": [
+        250
+      ],
+      "symbolic_target_required": 250,
+      "target_prefix": "198.18.14.0/24",
+      "unauthorized_target_fields": [
+        "metric",
+        "originType"
+      ],
+      "vendor": "juniper_junos"
+    },
+    {
+      "case_id": "ext-batfish_official-68b5f49702f58f30::adversarial",
+      "device": "bl01",
+      "error": null,
+      "mode": "adversarial",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "ARISTA",
+            "File_Name": "configs/bl01.cfg",
+            "Nodes": [
+              "bl01"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "FABRIC_AGG",
+      "pre_policy": "FABRIC_AGG",
+      "result_source": "v84_holdout32",
+      "scenario_id": "ext-batfish_official-68b5f49702f58f30",
+      "subject": "10.2.1.0@out",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='communities', oldValue='[65535:1]', newValue='[65000:8314, 65535:1]')])",
+            "Input_Route": "BgpRoute(network='10.100.0.0/16', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bl01",
+            "Policy_Name": "FABRIC_AGG",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='10.100.0.0/16', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=['65535:1'], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "FABRIC_AGG",
+            "Reference_Trace": [
+              "Matched route-map FABRIC_AGG sequence-number 10"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='10.100.0.0/16', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=['65000:8314', '65535:1'], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched route-map FABRIC_AGG sequence-number 10"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "10.100.0.0/16"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        [
+          "65000:8314",
+          "65535:1"
+        ]
+      ],
+      "symbolic_target_required": [
+        "65000:8314",
+        "65535:1"
+      ],
+      "target_prefix": "10.100.0.0/16",
+      "unauthorized_target_fields": [],
+      "vendor": "arista_eos"
+    },
+    {
+      "case_id": "ext-batfish_official-68b5f49702f58f30::minimal",
+      "device": "bl01",
+      "error": null,
+      "mode": "minimal",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "ARISTA",
+            "File_Name": "configs/bl01.cfg",
+            "Nodes": [
+              "bl01"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "FABRIC_AGG",
+      "pre_policy": "FABRIC_AGG",
+      "result_source": "v84_holdout32",
+      "scenario_id": "ext-batfish_official-68b5f49702f58f30",
+      "subject": "10.2.1.0@out",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='communities', oldValue='[65535:1]', newValue='[65000:8314, 65535:1]')])",
+            "Input_Route": "BgpRoute(network='10.100.0.0/16', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bl01",
+            "Policy_Name": "FABRIC_AGG",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='10.100.0.0/16', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=['65535:1'], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "FABRIC_AGG",
+            "Reference_Trace": [
+              "Matched route-map FABRIC_AGG sequence-number 10"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='10.100.0.0/16', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=['65000:8314', '65535:1'], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched route-map FABRIC_AGG sequence-number 5"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "10.100.0.0/16"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        [
+          "65000:8314",
+          "65535:1"
+        ]
+      ],
+      "symbolic_target_required": [
+        "65000:8314",
+        "65535:1"
+      ],
+      "target_prefix": "10.100.0.0/16",
+      "unauthorized_target_fields": [],
+      "vendor": "arista_eos"
+    },
+    {
+      "case_id": "ext-batfish_official-74c3180d2d0fc43f::isolated",
+      "device": "bor02",
+      "error": null,
+      "mode": "isolated",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "FLAT_JUNIPER",
+            "File_Name": "configs/bor02.cfg",
+            "Nodes": [
+              "bor02"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "IMPORT-PROVIDER-GENERIC",
+      "pre_policy": "IMPORT-PROVIDER-GENERIC",
+      "result_source": "v84_holdout32",
+      "scenario_id": "ext-batfish_official-74c3180d2d0fc43f",
+      "subject": "ISP@import",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='200', newValue='250'), BgpRouteDiff(fieldName='metric', oldValue='200', newValue='0'), BgpRouteDiff(fieldName='originType', oldValue='IGP', newValue='EGP')])",
+            "Input_Route": "BgpRoute(network='198.18.20.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bor02",
+            "Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='198.18.20.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term BASELINE"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='198.18.20.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=250, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term TARGET-LP250"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "198.18.20.0/24"
+      ],
+      "symbolic_frame_verdict": "FAIL",
+      "symbolic_target_observed_values": [
+        250
+      ],
+      "symbolic_target_required": 250,
+      "target_prefix": "198.18.20.0/24",
+      "unauthorized_target_fields": [
+        "metric",
+        "originType"
+      ],
+      "vendor": "juniper_junos"
+    },
+    {
+      "case_id": "ext-batfish_official-7c8411c42a9fdf4f::adversarial",
+      "device": "bor01",
+      "error": null,
+      "mode": "adversarial",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "FLAT_JUNIPER",
+            "File_Name": "configs/bor01.cfg",
+            "Nodes": [
+              "bor01"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "IMPORT-PROVIDER-GENERIC",
+      "pre_policy": "IMPORT-PROVIDER-GENERIC",
+      "result_source": "v84_holdout32",
+      "scenario_id": "ext-batfish_official-7c8411c42a9fdf4f",
+      "subject": "ISP@import",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='200', newValue='250'), BgpRouteDiff(fieldName='metric', oldValue='200', newValue='0'), BgpRouteDiff(fieldName='originType', oldValue='IGP', newValue='EGP')])",
+            "Input_Route": "BgpRoute(network='198.18.6.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bor01",
+            "Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='198.18.6.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term BASELINE"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='198.18.6.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=250, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term PREF-198.18.6.0-24"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "198.18.6.0/24"
+      ],
+      "symbolic_frame_verdict": "FAIL",
+      "symbolic_target_observed_values": [
+        250
+      ],
+      "symbolic_target_required": 250,
+      "target_prefix": "198.18.6.0/24",
+      "unauthorized_target_fields": [
+        "metric",
+        "originType"
+      ],
+      "vendor": "juniper_junos"
+    },
+    {
+      "case_id": "ext-batfish_official-7c8411c42a9fdf4f::isolated",
+      "device": "bor01",
+      "error": null,
+      "mode": "isolated",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "FLAT_JUNIPER",
+            "File_Name": "configs/bor01.cfg",
+            "Nodes": [
+              "bor01"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "IMPORT-PROVIDER-GENERIC",
+      "pre_policy": "IMPORT-PROVIDER-GENERIC",
+      "result_source": "v84_holdout32",
+      "scenario_id": "ext-batfish_official-7c8411c42a9fdf4f",
+      "subject": "ISP@import",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='200', newValue='250'), BgpRouteDiff(fieldName='metric', oldValue='200', newValue='0'), BgpRouteDiff(fieldName='originType', oldValue='IGP', newValue='EGP')])",
+            "Input_Route": "BgpRoute(network='198.18.6.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bor01",
+            "Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='198.18.6.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term BASELINE"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='198.18.6.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=250, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term LOCAL-PREF-250"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "198.18.6.0/24"
+      ],
+      "symbolic_frame_verdict": "FAIL",
+      "symbolic_target_observed_values": [
+        250
+      ],
+      "symbolic_target_required": 250,
+      "target_prefix": "198.18.6.0/24",
+      "unauthorized_target_fields": [
+        "metric",
+        "originType"
+      ],
+      "vendor": "juniper_junos"
+    },
+    {
+      "case_id": "ext-batfish_official-91928928a7c21cf0::minimal",
+      "device": "bor01",
+      "error": null,
+      "mode": "minimal",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "FLAT_JUNIPER",
+            "File_Name": "configs/bor01.cfg",
+            "Nodes": [
+              "bor01"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "IMPORT-PROVIDER-GENERIC",
+      "pre_policy": "IMPORT-PROVIDER-GENERIC",
+      "result_source": "v84_holdout32",
+      "scenario_id": "ext-batfish_official-91928928a7c21cf0",
+      "subject": "ISP@import",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='200', newValue='250'), BgpRouteDiff(fieldName='metric', oldValue='200', newValue='0'), BgpRouteDiff(fieldName='originType', oldValue='IGP', newValue='EGP')])",
+            "Input_Route": "BgpRoute(network='198.18.8.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bor01",
+            "Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='198.18.8.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term BASELINE"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='198.18.8.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=250, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term LOCAL-PREF-198-18-8"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "198.18.8.0/24"
+      ],
+      "symbolic_frame_verdict": "FAIL",
+      "symbolic_target_observed_values": [
+        250
+      ],
+      "symbolic_target_required": 250,
+      "target_prefix": "198.18.8.0/24",
+      "unauthorized_target_fields": [
+        "metric",
+        "originType"
+      ],
+      "vendor": "juniper_junos"
+    },
+    {
+      "case_id": "ext-batfish_official-e04f1084ab924c0d::adversarial",
+      "device": "bor01",
+      "error": null,
+      "mode": "adversarial",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "FLAT_JUNIPER",
+            "File_Name": "configs/bor01.cfg",
+            "Nodes": [
+              "bor01"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "IMPORT-PROVIDER-GENERIC",
+      "pre_policy": "IMPORT-PROVIDER-GENERIC",
+      "result_source": "v84_holdout32",
+      "scenario_id": "ext-batfish_official-e04f1084ab924c0d",
+      "subject": "ISP@import",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='200', newValue='250'), BgpRouteDiff(fieldName='metric', oldValue='200', newValue='0'), BgpRouteDiff(fieldName='originType', oldValue='IGP', newValue='EGP')])",
+            "Input_Route": "BgpRoute(network='198.18.1.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bor01",
+            "Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='198.18.1.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term BASELINE"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='198.18.1.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=250, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term TARGET-LP"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "198.18.1.0/24"
+      ],
+      "symbolic_frame_verdict": "FAIL",
+      "symbolic_target_observed_values": [
+        250
+      ],
+      "symbolic_target_required": 250,
+      "target_prefix": "198.18.1.0/24",
+      "unauthorized_target_fields": [
+        "metric",
+        "originType"
+      ],
+      "vendor": "juniper_junos"
+    },
+    {
+      "case_id": "ext-batfish_official-f4800dc2db892c5d::minimal",
+      "device": "bor01",
+      "error": null,
+      "mode": "minimal",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "FLAT_JUNIPER",
+            "File_Name": "configs/bor01.cfg",
+            "Nodes": [
+              "bor01"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "IMPORT-PROVIDER-GENERIC",
+      "pre_policy": "IMPORT-PROVIDER-GENERIC",
+      "result_source": "v84_holdout32",
+      "scenario_id": "ext-batfish_official-f4800dc2db892c5d",
+      "subject": "ISP@import",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='200', newValue='250'), BgpRouteDiff(fieldName='metric', oldValue='200', newValue='0'), BgpRouteDiff(fieldName='originType', oldValue='IGP', newValue='EGP')])",
+            "Input_Route": "BgpRoute(network='198.18.11.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bor01",
+            "Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='198.18.11.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term BASELINE"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='198.18.11.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=250, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term PREF-198-18-11-0-24"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "198.18.11.0/24"
+      ],
+      "symbolic_frame_verdict": "FAIL",
+      "symbolic_target_observed_values": [
+        250
+      ],
+      "symbolic_target_required": 250,
+      "target_prefix": "198.18.11.0/24",
+      "unauthorized_target_fields": [
+        "metric",
+        "originType"
+      ],
+      "vendor": "juniper_junos"
+    },
+    {
+      "case_id": "ext-batfish_official-f91367560d20b91f::adversarial",
+      "device": "bor02",
+      "error": null,
+      "mode": "adversarial",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "FLAT_JUNIPER",
+            "File_Name": "configs/bor02.cfg",
+            "Nodes": [
+              "bor02"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "IMPORT-PROVIDER-GENERIC",
+      "pre_policy": "IMPORT-PROVIDER-GENERIC",
+      "result_source": "v84_holdout32",
+      "scenario_id": "ext-batfish_official-f91367560d20b91f",
+      "subject": "ISP@import",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='200', newValue='250'), BgpRouteDiff(fieldName='metric', oldValue='200', newValue='0'), BgpRouteDiff(fieldName='originType', oldValue='IGP', newValue='EGP')])",
+            "Input_Route": "BgpRoute(network='198.18.22.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "bor02",
+            "Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='198.18.22.0/24', originatorIp='0.0.0.0', originType='igp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=200, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "IMPORT-PROVIDER-GENERIC",
+            "Reference_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term BASELINE"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='198.18.22.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=250, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched policy-statement IMPORT-PROVIDER-GENERIC term TARGET-198-18-22"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "198.18.22.0/24"
+      ],
+      "symbolic_frame_verdict": "FAIL",
+      "symbolic_target_observed_values": [
+        250
+      ],
+      "symbolic_target_required": 250,
+      "target_prefix": "198.18.22.0/24",
+      "unauthorized_target_fields": [
+        "metric",
+        "originType"
+      ],
+      "vendor": "juniper_junos"
+    },
+    {
+      "case_id": "ext-cornetto-2b69eaee762e768a::isolated",
+      "device": "56_as65004_112-43637",
+      "error": null,
+      "mode": "isolated",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "CISCO_IOS",
+            "File_Name": "configs/56_as65004_112-43637.cfg",
+            "Nodes": [
+              "56_as65004_112-43637"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "RM_POLICY_IN_56_50",
+      "pre_policy": "RM_POLICY_IN_56_50",
+      "result_source": "v84_holdout32",
+      "scenario_id": "ext-cornetto-2b69eaee762e768a",
+      "subject": "10.181.0.114@in",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='100', newValue='150')])",
+            "Input_Route": "BgpRoute(network='10.200.43.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "56_as65004_112-43637",
+            "Policy_Name": "RM_POLICY_IN_56_50",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='10.200.43.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "RM_POLICY_IN_56_50",
+            "Reference_Trace": [
+              "Matched route-map RM_POLICY_IN_56_50 clause 10"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='10.200.43.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=150, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched route-map RM_POLICY_IN_56_50 clause 10"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "10.200.43.0/24"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        150
+      ],
+      "symbolic_target_required": 150,
+      "target_prefix": "10.200.43.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "ext-cornetto-397ba2f66cdec13b::adversarial",
+      "device": "10_as65002_10",
+      "error": null,
+      "mode": "adversarial",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "CISCO_IOS",
+            "File_Name": "configs/10_as65002_10.cfg",
+            "Nodes": [
+              "10_as65002_10"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "RM_POLICY_OUT_10_21",
+      "pre_policy": "RM_POLICY_OUT_10_21",
+      "result_source": "v84_holdout32",
+      "scenario_id": "ext-cornetto-397ba2f66cdec13b",
+      "subject": "10.181.0.35@in",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='100', newValue='150')])",
+            "Input_Route": "BgpRoute(network='10.200.1.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "10_as65002_10",
+            "Policy_Name": "RM_POLICY_OUT_10_21",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='10.200.1.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[{'asns': [65002], 'confederation': False}, {'asns': [65002], 'confederation': False}], communities=[], localPreference=100, metric=29, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "RM_POLICY_OUT_10_21",
+            "Reference_Trace": [
+              "Matched route-map RM_POLICY_OUT_10_21 clause 100"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='10.200.1.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[{'asns': [65002], 'confederation': False}, {'asns': [65002], 'confederation': False}], communities=[], localPreference=150, metric=29, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched route-map RM_POLICY_OUT_10_21 clause 95"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "10.200.1.0/24"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        150
+      ],
+      "symbolic_target_required": 150,
+      "target_prefix": "10.200.1.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "ext-cornetto-39fd76c2bb8944bb::minimal",
+      "device": "20_as65005_15-59124",
+      "error": null,
+      "mode": "minimal",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "CISCO_IOS",
+            "File_Name": "configs/20_as65005_15-59124.cfg",
+            "Nodes": [
+              "20_as65005_15-59124"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "RM_POLICY_IN_20_7",
+      "pre_policy": "RM_POLICY_IN_20_7",
+      "result_source": "v84_holdout32",
+      "scenario_id": "ext-cornetto-39fd76c2bb8944bb",
+      "subject": "10.181.0.48@in",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='50', newValue='100')])",
+            "Input_Route": "BgpRoute(network='10.181.0.38/31', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "20_as65005_15-59124",
+            "Policy_Name": "RM_POLICY_IN_20_7",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='10.181.0.38/31', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=50, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "RM_POLICY_IN_20_7",
+            "Reference_Trace": [
+              "Matched route-map RM_POLICY_IN_20_7 clause 10"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='10.181.0.38/31', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched route-map RM_POLICY_IN_20_7 clause 5"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "10.181.0.38/31"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        100
+      ],
+      "symbolic_target_required": 100,
+      "target_prefix": "10.181.0.38/31",
+      "unauthorized_target_fields": [],
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "ext-cornetto-6ec206696fe1fd23::minimal",
+      "device": "55_as65006_Switzerland",
+      "error": null,
+      "mode": "minimal",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "CISCO_IOS",
+            "File_Name": "configs/55_as65006_Switzerland.cfg",
+            "Nodes": [
+              "55_as65006_switzerland"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "RM_POLICY_IN_55_28",
+      "pre_policy": "RM_POLICY_IN_55_28",
+      "result_source": "v84_holdout32",
+      "scenario_id": "ext-cornetto-6ec206696fe1fd23",
+      "subject": "10.181.0.100@in",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='100', newValue='150')])",
+            "Input_Route": "BgpRoute(network='10.181.0.100/31', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "55_as65006_switzerland",
+            "Policy_Name": "RM_POLICY_IN_55_28",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='10.181.0.100/31', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "RM_POLICY_IN_55_28",
+            "Reference_Trace": [
+              "Matched route-map RM_POLICY_IN_55_28 clause 10"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='10.181.0.100/31', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=150, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched route-map RM_POLICY_IN_55_28 clause 10"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "10.181.0.100/31"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        150
+      ],
+      "symbolic_target_required": 150,
+      "target_prefix": "10.181.0.100/31",
+      "unauthorized_target_fields": [],
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "ext-cornetto-8296109f9004aa5b::isolated",
+      "device": "7_as65006_7",
+      "error": null,
+      "mode": "isolated",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "CISCO_IOS",
+            "File_Name": "configs/7_as65006_7.cfg",
+            "Nodes": [
+              "7_as65006_7"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "RM_POLICY_IN_7_9",
+      "pre_policy": "RM_POLICY_IN_7_9",
+      "result_source": "v84_holdout32",
+      "scenario_id": "ext-cornetto-8296109f9004aa5b",
+      "subject": "10.181.0.25@in",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='150', newValue='200')])",
+            "Input_Route": "BgpRoute(network='10.200.99.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "7_as65006_7",
+            "Policy_Name": "RM_POLICY_IN_7_9",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='10.200.99.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=150, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "RM_POLICY_IN_7_9",
+            "Reference_Trace": [
+              "Matched route-map RM_POLICY_IN_7_9 clause 10"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='10.200.99.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched route-map RM_POLICY_IN_7_9 clause 5"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "10.200.99.0/24"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        200
+      ],
+      "symbolic_target_required": 200,
+      "target_prefix": "10.200.99.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "ext-cornetto-91a8556e5cfab7c5::minimal",
+      "device": "66_as65007_Pakistan",
+      "error": null,
+      "mode": "minimal",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "CISCO_IOS",
+            "File_Name": "configs/66_as65007_Pakistan.cfg",
+            "Nodes": [
+              "66_as65007_pakistan"
+            ],
+            "Status": "PARTIALLY_UNRECOGNIZED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "RM_POLICY_IN_66_46",
+      "pre_policy": "RM_POLICY_IN_66_46",
+      "result_source": "v84_holdout32",
+      "scenario_id": "ext-cornetto-91a8556e5cfab7c5",
+      "subject": "10.181.0.136@in",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='50', newValue='100')])",
+            "Input_Route": "BgpRoute(network='10.200.18.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "66_as65007_pakistan",
+            "Policy_Name": "RM_POLICY_IN_66_46",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='10.200.18.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=50, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "RM_POLICY_IN_66_46",
+            "Reference_Trace": [
+              "Matched route-map RM_POLICY_IN_66_46 clause 10"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='10.200.18.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched route-map RM_POLICY_IN_66_46 clause 5"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "10.200.18.0/24"
+      ],
+      "symbolic_frame_verdict": "N/A",
+      "symbolic_target_observed_values": [
+        100
+      ],
+      "symbolic_target_required": 100,
+      "target_prefix": "10.200.18.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "ext-cornetto-acf42d582c732e79::isolated",
+      "device": "59_as65006_Dumbravita",
+      "error": null,
+      "mode": "isolated",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "CISCO_IOS",
+            "File_Name": "configs/59_as65006_Dumbravita.cfg",
+            "Nodes": [
+              "59_as65006_dumbravita"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "RM_POLICY_IN_59_56",
+      "pre_policy": "RM_POLICY_IN_59_56",
+      "result_source": "v84_holdout32",
+      "scenario_id": "ext-cornetto-acf42d582c732e79",
+      "subject": "10.181.0.196@in",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='100', newValue='150')])",
+            "Input_Route": "BgpRoute(network='10.200.99.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "59_as65006_dumbravita",
+            "Policy_Name": "RM_POLICY_IN_59_56",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='10.200.99.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "RM_POLICY_IN_59_56",
+            "Reference_Trace": [
+              "Matched route-map RM_POLICY_IN_59_56 clause 10"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='10.200.99.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=150, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched route-map RM_POLICY_IN_59_56 clause 10"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "10.200.99.0/24"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        150
+      ],
+      "symbolic_target_required": 150,
+      "target_prefix": "10.200.99.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "ext-cornetto-b1fcdf42f74274bb::isolated",
+      "device": "55_as65007_55",
+      "error": null,
+      "mode": "isolated",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "CISCO_IOS",
+            "File_Name": "configs/55_as65007_55.cfg",
+            "Nodes": [
+              "55_as65007_55"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "RM_POLICY_IN_55_53",
+      "pre_policy": "RM_POLICY_IN_55_53",
+      "result_source": "v84_holdout32",
+      "scenario_id": "ext-cornetto-b1fcdf42f74274bb",
+      "subject": "10.181.0.168@in",
+      "symbolic_difference": {
+        "row_count": 2,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='50', newValue='100')])",
+            "Input_Route": "BgpRoute(network='10.200.51.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=['65535:65281'], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "55_as65007_55",
+            "Policy_Name": "RM_POLICY_IN_55_53",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='10.200.51.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=['65535:65281'], localPreference=50, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "RM_POLICY_IN_55_53",
+            "Reference_Trace": [
+              "Matched route-map RM_POLICY_IN_55_53 clause 5"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='10.200.51.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=['65535:65281'], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched route-map RM_POLICY_IN_55_53 clause 4"
+            ]
+          },
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='50', newValue='100')])",
+            "Input_Route": "BgpRoute(network='10.200.51.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "55_as65007_55",
+            "Policy_Name": "RM_POLICY_IN_55_53",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='10.200.51.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=50, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "RM_POLICY_IN_55_53",
+            "Reference_Trace": [
+              "Matched route-map RM_POLICY_IN_55_53 clause 10"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='10.200.51.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched route-map RM_POLICY_IN_55_53 clause 4"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "10.200.51.0/24"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        100,
+        100
+      ],
+      "symbolic_target_required": 100,
+      "target_prefix": "10.200.51.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "ext-cornetto-b39b6cc275397295::minimal",
+      "device": "43_as65002_GAR",
+      "error": null,
+      "mode": "minimal",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "CISCO_IOS",
+            "File_Name": "configs/43_as65002_GAR.cfg",
+            "Nodes": [
+              "43_as65002_gar"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "RM_POLICY_IN_43_51",
+      "pre_policy": "RM_POLICY_IN_43_51",
+      "result_source": "v84_holdout32",
+      "scenario_id": "ext-cornetto-b39b6cc275397295",
+      "subject": "10.181.0.127@in",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='100', newValue='150')])",
+            "Input_Route": "BgpRoute(network='10.200.47.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "43_as65002_gar",
+            "Policy_Name": "RM_POLICY_IN_43_51",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='10.200.47.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "RM_POLICY_IN_43_51",
+            "Reference_Trace": [
+              "Matched route-map RM_POLICY_IN_43_51 clause 10"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='10.200.47.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=150, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched route-map RM_POLICY_IN_43_51 clause 5"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "10.200.47.0/24"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        150
+      ],
+      "symbolic_target_required": 150,
+      "target_prefix": "10.200.47.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "ext-cornetto-c047f717c67e4908::minimal",
+      "device": "77_as65008_8-68333",
+      "error": null,
+      "mode": "minimal",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "CISCO_IOS",
+            "File_Name": "configs/77_as65008_8-68333.cfg",
+            "Nodes": [
+              "77_as65008_8-68333"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "RM_POLICY_IN_77_152",
+      "pre_policy": "RM_POLICY_IN_77_152",
+      "result_source": "v84_holdout32",
+      "scenario_id": "ext-cornetto-c047f717c67e4908",
+      "subject": "10.181.0.237@in",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='150', newValue='200')])",
+            "Input_Route": "BgpRoute(network='10.181.0.238/31', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "77_as65008_8-68333",
+            "Policy_Name": "RM_POLICY_IN_77_152",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='10.181.0.238/31', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=150, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "RM_POLICY_IN_77_152",
+            "Reference_Trace": [
+              "Matched route-map RM_POLICY_IN_77_152 clause 10"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='10.181.0.238/31', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched route-map RM_POLICY_IN_77_152 clause 5"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "10.181.0.238/31"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        200
+      ],
+      "symbolic_target_required": 200,
+      "target_prefix": "10.181.0.238/31",
+      "unauthorized_target_fields": [],
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "ext-cornetto-c3a0cf64a2d8036c::adversarial",
+      "device": "2_as65005_84-0",
+      "error": null,
+      "mode": "adversarial",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "CISCO_IOS",
+            "File_Name": "configs/2_as65005_84-0.cfg",
+            "Nodes": [
+              "2_as65005_84-0"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "RM_POLICY_IN_2_61",
+      "pre_policy": "RM_POLICY_IN_2_61",
+      "result_source": "v84_holdout32",
+      "scenario_id": "ext-cornetto-c3a0cf64a2d8036c",
+      "subject": "10.181.0.17@in",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='50', newValue='100')])",
+            "Input_Route": "BgpRoute(network='10.200.9.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "2_as65005_84-0",
+            "Policy_Name": "RM_POLICY_IN_2_61",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='10.200.9.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=50, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "RM_POLICY_IN_2_61",
+            "Reference_Trace": [
+              "Matched route-map RM_POLICY_IN_2_61 clause 10"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='10.200.9.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched route-map RM_POLICY_IN_2_61 clause 5"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "10.200.9.0/24"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        100
+      ],
+      "symbolic_target_required": 100,
+      "target_prefix": "10.200.9.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "ext-cornetto-c6acf95365eee8d3::isolated",
+      "device": "101_as65004_Kershaw",
+      "error": null,
+      "mode": "isolated",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "CISCO_IOS",
+            "File_Name": "configs/101_as65004_Kershaw.cfg",
+            "Nodes": [
+              "101_as65004_kershaw"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "RM_POLICY_IN_101_108",
+      "pre_policy": "RM_POLICY_IN_101_108",
+      "result_source": "v84_holdout32",
+      "scenario_id": "ext-cornetto-c6acf95365eee8d3",
+      "subject": "10.181.1.29@in",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='50', newValue='100')])",
+            "Input_Route": "BgpRoute(network='10.180.0.102/32', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "101_as65004_kershaw",
+            "Policy_Name": "RM_POLICY_IN_101_108",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='10.180.0.102/32', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=50, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "RM_POLICY_IN_101_108",
+            "Reference_Trace": [
+              "Matched route-map RM_POLICY_IN_101_108 clause 10"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='10.180.0.102/32', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched route-map RM_POLICY_IN_101_108 clause 5"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "10.180.0.102/32"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        100
+      ],
+      "symbolic_target_required": 100,
+      "target_prefix": "10.180.0.102/32",
+      "unauthorized_target_fields": [],
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "ext-cornetto-c6acf95365eee8d3::minimal",
+      "device": "101_as65004_Kershaw",
+      "error": null,
+      "mode": "minimal",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "CISCO_IOS",
+            "File_Name": "configs/101_as65004_Kershaw.cfg",
+            "Nodes": [
+              "101_as65004_kershaw"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "RM_POLICY_IN_101_108",
+      "pre_policy": "RM_POLICY_IN_101_108",
+      "result_source": "v84_holdout32",
+      "scenario_id": "ext-cornetto-c6acf95365eee8d3",
+      "subject": "10.181.1.29@in",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='50', newValue='100')])",
+            "Input_Route": "BgpRoute(network='10.180.0.102/32', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "101_as65004_kershaw",
+            "Policy_Name": "RM_POLICY_IN_101_108",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='10.180.0.102/32', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=50, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "RM_POLICY_IN_101_108",
+            "Reference_Trace": [
+              "Matched route-map RM_POLICY_IN_101_108 clause 10"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='10.180.0.102/32', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched route-map RM_POLICY_IN_101_108 clause 5"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "10.180.0.102/32"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        100
+      ],
+      "symbolic_target_required": 100,
+      "target_prefix": "10.180.0.102/32",
+      "unauthorized_target_fields": [],
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "ext-cornetto-c8a45ed016547f20::isolated",
+      "device": "16_as65006_Rondonopolis",
+      "error": null,
+      "mode": "isolated",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "CISCO_IOS",
+            "File_Name": "configs/16_as65006_Rondonopolis.cfg",
+            "Nodes": [
+              "16_as65006_rondonopolis"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "RM_POLICY_IN_16_17",
+      "pre_policy": "RM_POLICY_IN_16_17",
+      "result_source": "v84_holdout32",
+      "scenario_id": "ext-cornetto-c8a45ed016547f20",
+      "subject": "10.181.0.73@in",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='150', newValue='200')])",
+            "Input_Route": "BgpRoute(network='10.200.13.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "16_as65006_rondonopolis",
+            "Policy_Name": "RM_POLICY_IN_16_17",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='10.200.13.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=150, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "RM_POLICY_IN_16_17",
+            "Reference_Trace": [
+              "Matched route-map RM_POLICY_IN_16_17 clause 10"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='10.200.13.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched route-map RM_POLICY_IN_16_17 clause 5"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "10.200.13.0/24"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        200
+      ],
+      "symbolic_target_required": 200,
+      "target_prefix": "10.200.13.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "ext-cornetto-c9746869ea8472b1::minimal",
+      "device": "143_as65008_10-0",
+      "error": null,
+      "mode": "minimal",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "CISCO_IOS",
+            "File_Name": "configs/143_as65008_10-0.cfg",
+            "Nodes": [
+              "143_as65008_10-0"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "RM_POLICY_IN_143_185",
+      "pre_policy": "RM_POLICY_IN_143_185",
+      "result_source": "v84_holdout32",
+      "scenario_id": "ext-cornetto-c9746869ea8472b1",
+      "subject": "10.181.1.141@in",
+      "symbolic_difference": {
+        "row_count": 2,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='100', newValue='150')])",
+            "Input_Route": "BgpRoute(network='10.200.9.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=['65535:65282'], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "143_as65008_10-0",
+            "Policy_Name": "RM_POLICY_IN_143_185",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='10.200.9.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=['65535:65282'], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "RM_POLICY_IN_143_185",
+            "Reference_Trace": [
+              "Matched route-map RM_POLICY_IN_143_185 clause 5"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='10.200.9.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=['65535:65282'], localPreference=150, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched route-map RM_POLICY_IN_143_185 clause 4"
+            ]
+          },
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='100', newValue='150')])",
+            "Input_Route": "BgpRoute(network='10.200.9.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "143_as65008_10-0",
+            "Policy_Name": "RM_POLICY_IN_143_185",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='10.200.9.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "RM_POLICY_IN_143_185",
+            "Reference_Trace": [
+              "Matched route-map RM_POLICY_IN_143_185 clause 10"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='10.200.9.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=150, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched route-map RM_POLICY_IN_143_185 clause 4"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "10.200.9.0/24"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        150,
+        150
+      ],
+      "symbolic_target_required": 150,
+      "target_prefix": "10.200.9.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "ext-cornetto-cb7b6af7d2f51e0a::minimal",
+      "device": "8_as65007_UiTo",
+      "error": null,
+      "mode": "minimal",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "CISCO_IOS",
+            "File_Name": "configs/8_as65007_UiTo.cfg",
+            "Nodes": [
+              "8_as65007_uito"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "RM_POLICY_IN_8_67",
+      "pre_policy": "RM_POLICY_IN_8_67",
+      "result_source": "v84_holdout32",
+      "scenario_id": "ext-cornetto-cb7b6af7d2f51e0a",
+      "subject": "10.181.0.47@in",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='100', newValue='150')])",
+            "Input_Route": "BgpRoute(network='10.181.0.190/31', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "8_as65007_uito",
+            "Policy_Name": "RM_POLICY_IN_8_67",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='10.181.0.190/31', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "RM_POLICY_IN_8_67",
+            "Reference_Trace": [
+              "Matched route-map RM_POLICY_IN_8_67 clause 10"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='10.181.0.190/31', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=150, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched route-map RM_POLICY_IN_8_67 clause 5"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "10.181.0.190/31"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        150
+      ],
+      "symbolic_target_required": 150,
+      "target_prefix": "10.181.0.190/31",
+      "unauthorized_target_fields": [],
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "ext-cornetto-e693542fcab9005f::minimal",
+      "device": "7_as65002_Vilvoorde",
+      "error": null,
+      "mode": "minimal",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "CISCO_IOS",
+            "File_Name": "configs/7_as65002_Vilvoorde.cfg",
+            "Nodes": [
+              "7_as65002_vilvoorde"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "RM_POLICY_IN_7_19",
+      "pre_policy": "RM_POLICY_IN_7_19",
+      "result_source": "v84_holdout32",
+      "scenario_id": "ext-cornetto-e693542fcab9005f",
+      "subject": "10.181.0.37@in",
+      "symbolic_difference": {
+        "row_count": 2,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='150', newValue='200')])",
+            "Input_Route": "BgpRoute(network='10.181.0.28/31', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=['65535:65281'], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "7_as65002_vilvoorde",
+            "Policy_Name": "RM_POLICY_IN_7_19",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='10.181.0.28/31', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=['65535:65281'], localPreference=150, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "RM_POLICY_IN_7_19",
+            "Reference_Trace": [
+              "Matched route-map RM_POLICY_IN_7_19 clause 5"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='10.181.0.28/31', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=['65535:65281'], localPreference=200, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched route-map RM_POLICY_IN_7_19 clause 5"
+            ]
+          },
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='100', newValue='200')])",
+            "Input_Route": "BgpRoute(network='10.181.0.28/31', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "7_as65002_vilvoorde",
+            "Policy_Name": "RM_POLICY_IN_7_19",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='10.181.0.28/31', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "RM_POLICY_IN_7_19",
+            "Reference_Trace": [
+              "Matched route-map RM_POLICY_IN_7_19 clause 10"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='10.181.0.28/31', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched route-map RM_POLICY_IN_7_19 clause 5"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "10.181.0.28/31"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        200,
+        200
+      ],
+      "symbolic_target_required": 200,
+      "target_prefix": "10.181.0.28/31",
+      "unauthorized_target_fields": [],
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "ext-cornetto-e8b2ead84f9993d2::adversarial",
+      "device": "8_as65001_8",
+      "error": null,
+      "mode": "adversarial",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "CISCO_IOS",
+            "File_Name": "configs/8_as65001_8.cfg",
+            "Nodes": [
+              "8_as65001_8"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "RM_POLICY_IN_8_100",
+      "pre_policy": "RM_POLICY_IN_8_100",
+      "result_source": "v84_holdout32",
+      "scenario_id": "ext-cornetto-e8b2ead84f9993d2",
+      "subject": "10.181.0.27@in",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='150', newValue='200')])",
+            "Input_Route": "BgpRoute(network='0.0.0.0/0', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "8_as65001_8",
+            "Policy_Name": "RM_POLICY_IN_8_100",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='0.0.0.0/0', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=150, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "RM_POLICY_IN_8_100",
+            "Reference_Trace": [
+              "Matched route-map RM_POLICY_IN_8_100 clause 10"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='0.0.0.0/0', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=200, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched route-map RM_POLICY_IN_8_100 clause 5"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "0.0.0.0/0"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        200
+      ],
+      "symbolic_target_required": 200,
+      "target_prefix": "0.0.0.0/0",
+      "unauthorized_target_fields": [],
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "ext-cornetto-f3f8029676e2a54d::minimal",
+      "device": "28_as65007_Switzerland",
+      "error": null,
+      "mode": "minimal",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "CISCO_IOS",
+            "File_Name": "configs/28_as65007_Switzerland.cfg",
+            "Nodes": [
+              "28_as65007_switzerland"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "RM_POLICY_IN_28_55",
+      "pre_policy": "RM_POLICY_IN_28_55",
+      "result_source": "v84_holdout32",
+      "scenario_id": "ext-cornetto-f3f8029676e2a54d",
+      "subject": "10.181.0.101@in",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='50', newValue='100')])",
+            "Input_Route": "BgpRoute(network='10.200.0.0/16', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "28_as65007_switzerland",
+            "Policy_Name": "RM_POLICY_IN_28_55",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='10.200.0.0/16', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=50, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "RM_POLICY_IN_28_55",
+            "Reference_Trace": [
+              "Matched route-map RM_POLICY_IN_28_55 clause 10"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='10.200.0.0/16', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=[], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched route-map RM_POLICY_IN_28_55 clause 5"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "10.200.0.0/16"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        100
+      ],
+      "symbolic_target_required": 100,
+      "target_prefix": "10.200.0.0/16",
+      "unauthorized_target_fields": [],
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "ext-cornetto-ff7126166e60c2ea::adversarial",
+      "device": "1_as65003_UiO",
+      "error": null,
+      "mode": "adversarial",
+      "parse_status": {
+        "row_count": 1,
+        "rows": [
+          {
+            "File_Format": "CISCO_IOS",
+            "File_Name": "configs/1_as65003_UiO.cfg",
+            "Nodes": [
+              "1_as65003_uio"
+            ],
+            "Status": "PASSED"
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "post_policy": "RM_POLICY_IN_1_67",
+      "pre_policy": "RM_POLICY_IN_1_67",
+      "result_source": "v84_holdout32",
+      "scenario_id": "ext-cornetto-ff7126166e60c2ea",
+      "subject": "10.181.0.15@in",
+      "symbolic_difference": {
+        "row_count": 1,
+        "rows": [
+          {
+            "Difference": "BgpRouteDiffs(diffs=[BgpRouteDiff(fieldName='localPreference', oldValue='100', newValue='150')])",
+            "Input_Route": "BgpRoute(network='10.200.5.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=['65535:65282'], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Node": "1_as65003_uio",
+            "Policy_Name": "RM_POLICY_IN_1_67",
+            "Reference_Action": "PERMIT",
+            "Reference_Output_Route": "BgpRoute(network='10.200.5.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=['65535:65282'], localPreference=100, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Reference_Policy_Name": "RM_POLICY_IN_1_67",
+            "Reference_Trace": [
+              "Matched route-map RM_POLICY_IN_1_67 clause 5"
+            ],
+            "Snapshot_Action": "PERMIT",
+            "Snapshot_Output_Route": "BgpRoute(network='10.200.5.0/24', originatorIp='0.0.0.0', originType='egp', protocol='bgp', asPath=[], communities=['65535:65282'], localPreference=150, metric=0, nextHopIp='0.0.0.1', sourceProtocol=None, tag=0, weight=0)",
+            "Snapshot_Trace": [
+              "Matched route-map RM_POLICY_IN_1_67 clause 3"
+            ]
+          }
+        ],
+        "status": "PASS",
+        "truncated": false
+      },
+      "symbolic_difference_networks": [
+        "10.200.5.0/24"
+      ],
+      "symbolic_frame_verdict": "PASS",
+      "symbolic_target_observed_values": [
+        150
+      ],
+      "symbolic_target_required": 150,
+      "target_prefix": "10.200.5.0/24",
+      "unauthorized_target_fields": [],
+      "vendor": "cisco_ios"
+    }
+  ],
+  "schema_version": "msn2026-v84-agent-batfish-audit-1.0",
+  "verifier_na": 1
+}

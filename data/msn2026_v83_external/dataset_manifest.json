@@ -1,0 +1,28 @@
+{
+  "created_at": "2026-08-14T01:05:31.437377+00:00",
+  "families": {
+    "community_composition": 4,
+    "legacy_policy": 50,
+    "ordered_policy": 41,
+    "shared_prefix_list": 1
+  },
+  "legacy_experiment_inputs": false,
+  "protocol_freeze_sha256": "42c0af57445e3e0bf6124f010aaf3813b6118f014c036368ad5881b0174c1a8a",
+  "public_file_count": 384,
+  "public_tree_sha256": "18a0882d69c80ce681eab044b2d60edc8987e8fbf421e16b9e10d7a94869cc01",
+  "scenario_count": 96,
+  "schema_version": "msn2026-v83-external-scenarios-1.0",
+  "sealed_file_count": 288,
+  "sealed_tree_sha256": "529c6c9df4f0304af5dadfbe8712185c67e50e2901072a2bfee29a2d876c18d8",
+  "seed": 20260814,
+  "source_groups": {
+    "batfish_official": 32,
+    "cornetto": 64
+  },
+  "source_manifest_sha256": "eab90989699d27eb2edde18ef65b28b805eb5601490789a755aacebe9b01ef65",
+  "vendors": {
+    "arista_eos": 4,
+    "cisco_ios": 64,
+    "juniper_junos": 28
+  }
+}

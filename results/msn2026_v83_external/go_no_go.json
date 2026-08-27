@@ -1,0 +1,34 @@
+{
+  "claim_disposition": "The preregistered universal external-validation GO gate failed because the VerifierLoop gap was 10 pp, not 15 pp. Retain the mechanism unchanged and narrow the claim to the measured evidence regime.",
+  "decision": "NO-GO",
+  "gates": {
+    "coverage_degradation_explained": {
+      "pass": true
+    },
+    "direction_both_sources": {
+      "pass": true
+    },
+    "full_fa_at_most_5pct": {
+      "pass": true,
+      "value": 0.0
+    },
+    "full_fr_at_most_15pct": {
+      "pass": true,
+      "value": 0.0
+    },
+    "minimum_15pp_reduction_vs_write_scope_and_verifier_loop": {
+      "pass": false,
+      "verifier_loop_reduction_pp": 10.0,
+      "write_scope_reduction_pp": 100.0
+    },
+    "oracle_gap_at_most_5pp": {
+      "gap_pp": 0.0,
+      "pass": true
+    },
+    "strict_win_at_least_two_vendors": {
+      "pass": true,
+      "vendor_count": 2
+    }
+  },
+  "schema_version": "msn2026-v83-go-no-go-1.0"
+}

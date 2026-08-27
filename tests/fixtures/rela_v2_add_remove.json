@@ -1,0 +1,29 @@
+{
+  "schema_version": "msn2026.rela_snapshot.v2",
+  "snapshot_id": "unit-add-remove",
+  "path_source": "audited-unit-fixture",
+  "fecs": [
+    {
+      "fec_id": "add",
+      "prefix": "203.0.113.0/24",
+      "before_paths": [["edge", "a"]],
+      "after_paths": [["edge", "a"], ["edge", "b"]],
+      "obligation": {
+        "obligation_id": "target-add",
+        "relation": "add",
+        "allowed": {"paths": [["edge", "b"]]}
+      }
+    },
+    {
+      "fec_id": "remove",
+      "prefix": "192.0.2.0/24",
+      "before_paths": [["edge", "a"], ["edge", "b"]],
+      "after_paths": [["edge", "a"]],
+      "obligation": {
+        "obligation_id": "target-remove",
+        "relation": "remove",
+        "allowed": {"paths": [["edge", "b"]]}
+      }
+    }
+  ]
+}

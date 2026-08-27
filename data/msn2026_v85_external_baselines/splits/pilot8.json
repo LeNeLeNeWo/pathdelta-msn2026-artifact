@@ -1,0 +1,72 @@
+{
+  "aggregate_sha256": "613a832aa75e572161c25cc64c2118feb9fa2b92bc92b1631dcd7f394a12810b",
+  "case_count": 8,
+  "cases": [
+    {
+      "case_id": "cmp-cornetto-1bad36ba1bf29a53",
+      "family": "ordered_policy",
+      "scenario_id": "cmp-cornetto-1bad36ba1bf29a53",
+      "source_scenario": "scenario-090",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-71181ea903c07450",
+      "family": "legacy_policy",
+      "scenario_id": "cmp-cornetto-71181ea903c07450",
+      "source_scenario": "scenario-211",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-2073654010b4f6e7",
+      "family": "ordered_policy",
+      "scenario_id": "cmp-cornetto-2073654010b4f6e7",
+      "source_scenario": "scenario-016",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-5bc38cda480bbcf1",
+      "family": "ordered_policy",
+      "scenario_id": "cmp-cornetto-5bc38cda480bbcf1",
+      "source_scenario": "scenario-124",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-211fbe2c59ce49e0",
+      "family": "community_composition",
+      "scenario_id": "cmp-cornetto-211fbe2c59ce49e0",
+      "source_scenario": "scenario-027",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-d6507a2eaf382171",
+      "family": "ordered_policy",
+      "scenario_id": "cmp-cornetto-d6507a2eaf382171",
+      "source_scenario": "scenario-184",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-ff332f19a3817b8a",
+      "family": "ordered_policy",
+      "scenario_id": "cmp-cornetto-ff332f19a3817b8a",
+      "source_scenario": "scenario-110",
+      "vendor": "cisco_ios"
+    },
+    {
+      "case_id": "cmp-cornetto-c4eb28a5f96c0fed",
+      "family": "ordered_policy",
+      "scenario_id": "cmp-cornetto-c4eb28a5f96c0fed",
+      "source_scenario": "scenario-097",
+      "vendor": "cisco_ios"
+    }
+  ],
+  "created_at": "2026-08-15T14:22:56.480292+00:00",
+  "dataset_manifest_sha256": "14f0eec6654350a634ada65448b002c05bb496dad80b28fe4eb0bfe52be79456",
+  "development_source_configurations_excluded": true,
+  "schema_version": "msn2026-v85-suite-split-1.0",
+  "seed": 20260815,
+  "selection_opened_sealed_oracles": false,
+  "selection_used_labels": false,
+  "source_manifest_sha256": "b4f427334392b4a3e9ff67be8af1026ae2c5a3ebe4ec1ea74ed0a6e5c0171e73",
+  "split": "pilot8",
+  "topology_disjoint_count": 46
+}

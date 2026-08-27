@@ -1,0 +1,30 @@
+{
+  "aggregate_sha256": "b3fa2391d27842a6e51cc1547db2ae6151b238b14dfbbf5a425ddbc9451d06c3",
+  "frozen_at": "2026-08-14T00:59:48.142540+00:00",
+  "inputs": [
+    {
+      "path": "experiments/msn2026_v83_external/preregistered_protocol.md",
+      "sha256": "5d6dfa18bf1711c95dd1ca748549b5b9ae5f94c789709fc67d2cf36813e57a1b"
+    },
+    {
+      "path": "experiments/msn2026_v8_day2_agent/change_envelope_v2.py",
+      "sha256": "ddda76016a809eefe4efd6fb120c4f6d0dfc07bfc64e3dc520d166a5653d1411"
+    },
+    {
+      "path": "experiments/msn2026_v8_day2_agent/change_envelope.schema.json",
+      "sha256": "fa3a03b95c4f065971735511761254c351dbe8801aed9eb3b9cbb38163356458"
+    },
+    {
+      "path": "experiments/msn2026_v8_day2_agent/counterexample_feedback.py",
+      "sha256": "bf7702a357cde53107001c79f6370e216c2260fd0d6f16289ecf6ece3e13ca97"
+    },
+    {
+      "path": "experiments/msn2026_v8_day2_agent/counterexample_feedback.schema.json",
+      "sha256": "9084775d81eb489aff1ed16528524be5ea458848dcb721a54ccfcfa016dec1d4"
+    }
+  ],
+  "policy": "No result-dependent changes to the frozen mechanism or protocol.",
+  "protocol_version": "msn2026-v83-1.0.0",
+  "python": "3.12.3",
+  "schema_version": "msn2026-v83-protocol-freeze-1.0"
+}

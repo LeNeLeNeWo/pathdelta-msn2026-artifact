@@ -1,0 +1,10 @@
+{
+  "case_count": 128,
+  "case_tree_sha256": "b175ecbaa9037a3dc9902759a0d09cbf392000adf4b7d549a9dba1d1de25b520",
+  "duplicate_count": 0,
+  "expected_count": 128,
+  "missing": [],
+  "schema_version": "msn2026-v83-agent-receipt-1.0",
+  "subset_manifest_sha256": "168bce8b42aa2c99a31b429007394d239702b011b9751343c1ed0b69931122f7",
+  "unexpected": []
+}

@@ -1,0 +1,33 @@
+{
+  "schema_version": "msn2026-v84-union-holdout-freeze-1.0",
+  "created_at": "2026-08-14T05:49:36.420874+00:00",
+  "status": "FROZEN_BEFORE_HOLDOUT_UNION_REPAIR",
+  "mechanism_or_parameter_changes": false,
+  "selection": "the 9 independent Batfish FAIL rows; the 1 N/A remains fail closed",
+  "inputs": [
+    {
+      "path": "experiments/msn2026_v84_agent_repair/run_union_repair.py",
+      "sha256": "1c24e99337c2aee994113a3e54b9dd67792c60fd72a4e2841490b9514103f41d"
+    },
+    {
+      "path": "experiments/msn2026_v84_agent_repair/run_union_repair_holdout32.py",
+      "sha256": "236fd8ea3d602e9d5b8dd3c255c3489475ea79cfb730c06dffa19e73e04c1dc8"
+    },
+    {
+      "path": "experiments/msn2026_v84_agent_repair/run_batfish_union_holdout_reaudit.py",
+      "sha256": "c07515222e8594ad1a014a36573d2809f69ff2d601771c00e3881368448284ec"
+    },
+    {
+      "path": "experiments/msn2026_v84_agent_repair/union_repair_freeze.json",
+      "sha256": "54964bdc4918749688e748de321c82e2e3333c231519919daddd3ac386b6def8"
+    },
+    {
+      "path": "data/msn2026_v84_agent_repair/agent_holdout32.json",
+      "sha256": "0da3e3c8af595dd1789778f22e73326a2ad23f92820ea88aa3aa62aa1262e8ce"
+    },
+    {
+      "path": "results/msn2026_v84_agent_repair/batfish_holdout32/summary.json",
+      "sha256": "fef49ddb62feff0752ce0aed673468144adb575c8450a85c99a58c579446e53c"
+    }
+  ]
+}

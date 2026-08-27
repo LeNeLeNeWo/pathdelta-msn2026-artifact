@@ -1,0 +1,28 @@
+{
+  "created_at": "2026-08-15T14:22:32.374527+00:00",
+  "development_exclusion_sha256": "f899b1ef9800f538064cb9d06ee8247c52acd4ae6fe5c6a03d5450e61061e086",
+  "families": {
+    "community_composition": 4,
+    "legacy_policy": 5,
+    "ordered_policy": 31,
+    "shared_prefix_list": 8
+  },
+  "legacy_experiment_inputs": false,
+  "public_file_count": 192,
+  "public_tree_sha256": "94a5bef7ce75987f5362d8f8aed54a264bd7ecdee8e36284968e4c0ca9ed1d7a",
+  "scenario_count": 48,
+  "schema_version": "msn2026-v85-external-scenarios-1.0",
+  "sealed_file_count": 96,
+  "sealed_tree_sha256": "2c388522e4f8ecc542faf2d1073f8ddc0be3ce4736372a6ab571b9baee0eb5bf",
+  "seed": 20260815,
+  "source_configurations_disjoint_from_v83": true,
+  "source_groups": {
+    "cornetto": 48
+  },
+  "source_manifest_sha256": "b4f427334392b4a3e9ff67be8af1026ae2c5a3ebe4ec1ea74ed0a6e5c0171e73",
+  "source_scenarios_disjoint_from_v83": false,
+  "topology_disjoint_count": 46,
+  "vendors": {
+    "cisco_ios": 48
+  }
+}

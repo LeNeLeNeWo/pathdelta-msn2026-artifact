@@ -1,0 +1,27 @@
+{
+  "adapters_sha256": "eb72aeaba720273fcbdb9bd0fe842e3f9147fd281af1bea00e7dc0e1caf24ed3",
+  "created_at": "2026-08-15T15:20:39.172525+00:00",
+  "dataset_manifest_sha256": "14f0eec6654350a634ada65448b002c05bb496dad80b28fe4eb0bfe52be79456",
+  "max_completion_tokens_per_call": 5000,
+  "max_completion_tokens_per_case": 40000,
+  "max_logical_llm_calls": 12,
+  "methods": [
+    "llm_netcfg_adapted",
+    "inta_adapted",
+    "cosynth_vpp_adapted",
+    "cornetto_agentic_adapted",
+    "pathdelta_fullr"
+  ],
+  "pilot_development_log_sha256": "9c2d9bbd33f68b07ee9c7ca429061010850e60bcb48b4002d0b681952b21c7ae",
+  "prompt_changes_after_this_freeze_forbidden": true,
+  "prompts_sha256": "275b0a07a9d4d87a535aee9cac8289be7b7767a435c222f4edde9078d91bb8e3",
+  "protocol_sha256": "49a50e3babbb1a4cb5e94da3e21b246ddbf3e39cd68c8e49d279c833b5df651e",
+  "runner_sha256": "c2d777ffc3c50506cc9f567bc59820ddf6660dd7bba3bb4494412ffabee399c4",
+  "schema_version": "msn2026-v85-confirmatory-freeze-1.0",
+  "selection_used_labels": false,
+  "source_manifest_sha256": "b4f427334392b4a3e9ff67be8af1026ae2c5a3ebe4ec1ea74ed0a6e5c0171e73",
+  "split_path": "data/msn2026_v85_external_baselines/splits/confirmatory40.json",
+  "split_sha256": "82c9ce5c2f6af314fe8c4414270f5c5d2cf40d7663d5ca69b099349ef19f1491",
+  "stage": "confirmatory",
+  "temperature": 0.0
+}

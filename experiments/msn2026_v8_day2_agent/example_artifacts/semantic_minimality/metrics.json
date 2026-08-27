@@ -1,0 +1,106 @@
+{
+  "candidates": {
+    "patch_a_short_shared": {
+      "compliance": {
+        "collateral_change": true,
+        "dependency_frame_preserved": false,
+        "envelope_compliance": false,
+        "footprint_failures": [],
+        "frame_failures": [
+          "frame-1600e0e5e57e1b65"
+        ],
+        "goal_success": true,
+        "hard_footprint_preserved": true,
+        "semantic_frame_preserved": false,
+        "target_failures": []
+      },
+      "semantic": {
+        "missing_post_behaviors": [],
+        "non_target_attribute_changes": [
+          "edge-1|198.51.100.2|203.0.113.0/24::local_pref"
+        ],
+        "protected_dependency_violations": [
+          "edge-1:route_map:RM_EDGE_IN"
+        ],
+        "semantic_delta_size": 3,
+        "session_or_path_relation_changes": [],
+        "target_attribute_changes": [
+          "edge-1|198.51.100.1|203.0.113.0/24::local_pref"
+        ]
+      },
+      "structural": {
+        "bindings_changed": [],
+        "devices_touched": [
+          "edge-1"
+        ],
+        "existing_objects_reused": [],
+        "new_objects_created": [
+          "edge-1:prefix_list:PL_TARGET"
+        ],
+        "policy_objects_touched": [
+          "edge-1:prefix_list:PL_TARGET",
+          "edge-1:route_map:RM_EDGE_IN"
+        ]
+      },
+      "textual": {
+        "lines_added": 4,
+        "lines_modified": 0,
+        "lines_removed": 0,
+        "lines_touched": 4
+      }
+    },
+    "patch_b_long_local": {
+      "compliance": {
+        "collateral_change": false,
+        "dependency_frame_preserved": true,
+        "envelope_compliance": true,
+        "footprint_failures": [],
+        "frame_failures": [],
+        "goal_success": true,
+        "hard_footprint_preserved": true,
+        "semantic_frame_preserved": true,
+        "target_failures": []
+      },
+      "semantic": {
+        "missing_post_behaviors": [],
+        "non_target_attribute_changes": [],
+        "protected_dependency_violations": [],
+        "semantic_delta_size": 1,
+        "session_or_path_relation_changes": [],
+        "target_attribute_changes": [
+          "edge-1|198.51.100.1|203.0.113.0/24::local_pref"
+        ]
+      },
+      "structural": {
+        "bindings_changed": [
+          "edge-1:neighbor:198.51.100.1"
+        ],
+        "devices_touched": [
+          "edge-1"
+        ],
+        "existing_objects_reused": [
+          "edge-1:prefix_list:PL_ALL",
+          "edge-1:prefix_list:PL_CUSTOMER"
+        ],
+        "new_objects_created": [
+          "edge-1:prefix_list:PL_TARGET",
+          "edge-1:route_map:RM_EDGE_A_IN"
+        ],
+        "policy_objects_touched": [
+          "edge-1:prefix_list:PL_ALL",
+          "edge-1:prefix_list:PL_CUSTOMER",
+          "edge-1:prefix_list:PL_TARGET",
+          "edge-1:route_map:RM_EDGE_A_IN",
+          "edge-1:route_map:RM_EDGE_IN"
+        ]
+      },
+      "textual": {
+        "lines_added": 11,
+        "lines_modified": 1,
+        "lines_removed": 0,
+        "lines_touched": 12
+      }
+    }
+  },
+  "not_a_benchmark_result": true
+}

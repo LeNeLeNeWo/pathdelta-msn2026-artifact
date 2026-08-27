@@ -1,0 +1,13 @@
+{
+  "intent_id": "i-demo",
+  "type": "prefer_with_backup",
+  "scope": "prefix",
+  "prefix": "0.0.0.0/0",
+  "primary_exit": "edge1",
+  "backup_exit": "edge2",
+  "exits": null,
+  "pinned_exit": null,
+  "ordered_exits": null,
+  "avoid_exits": null,
+  "constraints": {}
+}

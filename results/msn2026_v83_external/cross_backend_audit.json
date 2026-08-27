@@ -1,0 +1,4229 @@
+{
+  "applicable_goal_candidate_count": 162,
+  "candidate_count": 253,
+  "complementarity": {
+    "batfish_extra_changed_field_counts": {
+      "localPreference": 12,
+      "metric": 12,
+      "originType": 12
+    },
+    "examples": {
+      "batfish_found": [
+        {
+          "batfish_accept": false,
+          "batfish_changed_fields": [
+            "localPreference",
+            "metric",
+            "originType"
+          ],
+          "batfish_unauthorized_target_fields": [
+            "metric",
+            "originType"
+          ],
+          "batfish_verdict": "FAIL",
+          "cross_label": "unsafe_goal",
+          "fail_closed_union_accept": false,
+          "mode": "isolated",
+          "registered_full_accept": true,
+          "registered_population": "registered_safe_goal",
+          "scenario_id": "ext-batfish_official-09bea01434602102",
+          "source_group": "batfish_official",
+          "vendor": "juniper_junos"
+        },
+        {
+          "batfish_accept": false,
+          "batfish_changed_fields": [
+            "localPreference",
+            "metric",
+            "originType"
+          ],
+          "batfish_unauthorized_target_fields": [
+            "metric",
+            "originType"
+          ],
+          "batfish_verdict": "FAIL",
+          "cross_label": "unsafe_goal",
+          "fail_closed_union_accept": false,
+          "mode": "isolated",
+          "registered_full_accept": true,
+          "registered_population": "registered_safe_goal",
+          "scenario_id": "ext-batfish_official-27574c929d6ca4e9",
+          "source_group": "batfish_official",
+          "vendor": "juniper_junos"
+        },
+        {
+          "batfish_accept": false,
+          "batfish_changed_fields": [
+            "localPreference",
+            "metric",
+            "originType"
+          ],
+          "batfish_unauthorized_target_fields": [
+            "metric",
+            "originType"
+          ],
+          "batfish_verdict": "FAIL",
+          "cross_label": "unsafe_goal",
+          "fail_closed_union_accept": false,
+          "mode": "adversarial",
+          "registered_full_accept": true,
+          "registered_population": "registered_safe_goal",
+          "scenario_id": "ext-batfish_official-2f7224b89bc9a9c5",
+          "source_group": "batfish_official",
+          "vendor": "juniper_junos"
+        },
+        {
+          "batfish_accept": false,
+          "batfish_changed_fields": [
+            "localPreference",
+            "metric",
+            "originType"
+          ],
+          "batfish_unauthorized_target_fields": [
+            "metric",
+            "originType"
+          ],
+          "batfish_verdict": "FAIL",
+          "cross_label": "unsafe_goal",
+          "fail_closed_union_accept": false,
+          "mode": "isolated",
+          "registered_full_accept": true,
+          "registered_population": "registered_safe_goal",
+          "scenario_id": "ext-batfish_official-5fff9a030ab0e329",
+          "source_group": "batfish_official",
+          "vendor": "juniper_junos"
+        },
+        {
+          "batfish_accept": false,
+          "batfish_changed_fields": [
+            "localPreference",
+            "metric",
+            "originType"
+          ],
+          "batfish_unauthorized_target_fields": [
+            "metric",
+            "originType"
+          ],
+          "batfish_verdict": "FAIL",
+          "cross_label": "unsafe_goal",
+          "fail_closed_union_accept": false,
+          "mode": "isolated",
+          "registered_full_accept": true,
+          "registered_population": "registered_safe_goal",
+          "scenario_id": "ext-batfish_official-74c3180d2d0fc43f",
+          "source_group": "batfish_official",
+          "vendor": "juniper_junos"
+        }
+      ],
+      "registered_adapter_found": [
+        {
+          "batfish_accept": true,
+          "batfish_changed_fields": [
+            "communities"
+          ],
+          "batfish_unauthorized_target_fields": [],
+          "batfish_verdict": "PASS",
+          "cross_label": "unsafe_goal",
+          "fail_closed_union_accept": false,
+          "mode": "adversarial",
+          "registered_full_accept": false,
+          "registered_population": "registered_unsafe_goal",
+          "scenario_id": "ext-batfish_official-1dab619aa517c1de",
+          "source_group": "batfish_official",
+          "vendor": "arista_eos"
+        },
+        {
+          "batfish_accept": true,
+          "batfish_changed_fields": [
+            "communities"
+          ],
+          "batfish_unauthorized_target_fields": [],
+          "batfish_verdict": "PASS",
+          "cross_label": "unsafe_goal",
+          "fail_closed_union_accept": false,
+          "mode": "minimal",
+          "registered_full_accept": false,
+          "registered_population": "registered_unsafe_goal",
+          "scenario_id": "ext-batfish_official-1dab619aa517c1de",
+          "source_group": "batfish_official",
+          "vendor": "arista_eos"
+        },
+        {
+          "batfish_accept": true,
+          "batfish_changed_fields": [
+            "localPreference"
+          ],
+          "batfish_unauthorized_target_fields": [],
+          "batfish_verdict": "PASS",
+          "cross_label": "unsafe_goal",
+          "fail_closed_union_accept": false,
+          "mode": "adversarial",
+          "registered_full_accept": false,
+          "registered_population": "registered_unsafe_goal",
+          "scenario_id": "ext-cornetto-06a275c708938a33",
+          "source_group": "cornetto",
+          "vendor": "cisco_ios"
+        },
+        {
+          "batfish_accept": true,
+          "batfish_changed_fields": [
+            "localPreference"
+          ],
+          "batfish_unauthorized_target_fields": [],
+          "batfish_verdict": "PASS",
+          "cross_label": "unsafe_goal",
+          "fail_closed_union_accept": false,
+          "mode": "minimal",
+          "registered_full_accept": false,
+          "registered_population": "registered_unsafe_goal",
+          "scenario_id": "ext-cornetto-06a275c708938a33",
+          "source_group": "cornetto",
+          "vendor": "cisco_ios"
+        },
+        {
+          "batfish_accept": true,
+          "batfish_changed_fields": [
+            "localPreference"
+          ],
+          "batfish_unauthorized_target_fields": [],
+          "batfish_verdict": "PASS",
+          "cross_label": "unsafe_goal",
+          "fail_closed_union_accept": false,
+          "mode": "isolated",
+          "registered_full_accept": false,
+          "registered_population": "registered_unsafe_goal",
+          "scenario_id": "ext-cornetto-4982c03b206e696a",
+          "source_group": "cornetto",
+          "vendor": "cisco_ios"
+        }
+      ]
+    },
+    "registered_safe_reclassified_unsafe_by_batfish": 12,
+    "registered_unsafe_missed_by_batfish": 10
+  },
+  "cross_model_population": {
+    "batfish_na": 20,
+    "safe_goal": 43,
+    "unsafe_goal": 119
+  },
+  "interpretation": "The union is a post-hoc hardening result, not a replacement confirmatory endpoint. It shows that explicit heterogeneous evidence catches non-overlapping model omissions.",
+  "methods": [
+    {
+      "method": "registered_full",
+      "safe_false_reject_rate": 0.0,
+      "safe_goal": 43,
+      "safe_rejected": 0,
+      "unsafe_accepted": 12,
+      "unsafe_false_accept_rate": 0.10084033613445378,
+      "unsafe_goal": 119
+    },
+    {
+      "method": "batfish_symbolic",
+      "safe_false_reject_rate": 0.0,
+      "safe_goal": 43,
+      "safe_rejected": 0,
+      "unsafe_accepted": 10,
+      "unsafe_false_accept_rate": 0.08403361344537816,
+      "unsafe_goal": 119
+    },
+    {
+      "method": "fail_closed_union",
+      "safe_false_reject_rate": 0.0,
+      "safe_goal": 43,
+      "safe_rejected": 0,
+      "unsafe_accepted": 0,
+      "unsafe_false_accept_rate": 0.0,
+      "unsafe_goal": 119
+    }
+  ],
+  "rows": [
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-09bea01434602102",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference",
+        "metric",
+        "originType"
+      ],
+      "batfish_unauthorized_target_fields": [
+        "metric",
+        "originType"
+      ],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-batfish_official-09bea01434602102",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-09bea01434602102",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-196e4565198afd82",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "communities"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-1dab619aa517c1de",
+      "source_group": "batfish_official",
+      "vendor": "arista_eos"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "communities"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "safe_goal",
+      "fail_closed_union_accept": true,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-batfish_official-1dab619aa517c1de",
+      "source_group": "batfish_official",
+      "vendor": "arista_eos"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "communities"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-1dab619aa517c1de",
+      "source_group": "batfish_official",
+      "vendor": "arista_eos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-27574c929d6ca4e9",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference",
+        "metric",
+        "originType"
+      ],
+      "batfish_unauthorized_target_fields": [
+        "metric",
+        "originType"
+      ],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-batfish_official-27574c929d6ca4e9",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-27574c929d6ca4e9",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-2b5e1a53bbafbece",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-batfish_official-2b5e1a53bbafbece",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-2b5e1a53bbafbece",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference",
+        "metric",
+        "originType"
+      ],
+      "batfish_unauthorized_target_fields": [
+        "metric",
+        "originType"
+      ],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-batfish_official-2f7224b89bc9a9c5",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-batfish_official-2f7224b89bc9a9c5",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-2f7224b89bc9a9c5",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-3552621a4a32f494",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "N/A",
+      "cross_label": "unknown",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-batfish_official-3552621a4a32f494",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-3552621a4a32f494",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-3aecea08d0b2c8fe",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-batfish_official-3aecea08d0b2c8fe",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-3aecea08d0b2c8fe",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-3becb81282cb0880",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-batfish_official-3becb81282cb0880",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-3becb81282cb0880",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-419240df03ee9de4",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-batfish_official-419240df03ee9de4",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-419240df03ee9de4",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-5595845e1a90f313",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-batfish_official-5595845e1a90f313",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-5595845e1a90f313",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-batfish_official-58c83ed242969ae2",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-batfish_official-58c83ed242969ae2",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-58c83ed242969ae2",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-5fff9a030ab0e329",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference",
+        "metric",
+        "originType"
+      ],
+      "batfish_unauthorized_target_fields": [
+        "metric",
+        "originType"
+      ],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-batfish_official-5fff9a030ab0e329",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-5fff9a030ab0e329",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-6204c023b54e6f6e",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "N/A",
+      "cross_label": "unknown",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-batfish_official-6204c023b54e6f6e",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-6204c023b54e6f6e",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-batfish_official-68b5f49702f58f30",
+      "source_group": "batfish_official",
+      "vendor": "arista_eos"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "communities"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "safe_goal",
+      "fail_closed_union_accept": true,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-batfish_official-68b5f49702f58f30",
+      "source_group": "batfish_official",
+      "vendor": "arista_eos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "communities"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-68b5f49702f58f30",
+      "source_group": "batfish_official",
+      "vendor": "arista_eos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-batfish_official-6aca0187b502d999",
+      "source_group": "batfish_official",
+      "vendor": "arista_eos"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "communities"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "safe_goal",
+      "fail_closed_union_accept": true,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-batfish_official-6aca0187b502d999",
+      "source_group": "batfish_official",
+      "vendor": "arista_eos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "communities"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-6aca0187b502d999",
+      "source_group": "batfish_official",
+      "vendor": "arista_eos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-74c3180d2d0fc43f",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference",
+        "metric",
+        "originType"
+      ],
+      "batfish_unauthorized_target_fields": [
+        "metric",
+        "originType"
+      ],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-batfish_official-74c3180d2d0fc43f",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-74c3180d2d0fc43f",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference",
+        "metric",
+        "originType"
+      ],
+      "batfish_unauthorized_target_fields": [
+        "metric",
+        "originType"
+      ],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-batfish_official-7ae9424408311024",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference",
+        "metric",
+        "originType"
+      ],
+      "batfish_unauthorized_target_fields": [
+        "metric",
+        "originType"
+      ],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-batfish_official-7ae9424408311024",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-7ae9424408311024",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-7c8411c42a9fdf4f",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-batfish_official-7c8411c42a9fdf4f",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-7c8411c42a9fdf4f",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-7d7452141fd3af8b",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-batfish_official-7d7452141fd3af8b",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-7d7452141fd3af8b",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-803ccfa4280f147c",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-batfish_official-803ccfa4280f147c",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-803ccfa4280f147c",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-batfish_official-8310bce4bc06a46f",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference",
+        "metric",
+        "originType"
+      ],
+      "batfish_unauthorized_target_fields": [
+        "metric",
+        "originType"
+      ],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-batfish_official-8310bce4bc06a46f",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-8310bce4bc06a46f",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-90cba72fe12b6c4d",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-batfish_official-90cba72fe12b6c4d",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-90cba72fe12b6c4d",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-91928928a7c21cf0",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-batfish_official-91928928a7c21cf0",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-91928928a7c21cf0",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference",
+        "metric",
+        "originType"
+      ],
+      "batfish_unauthorized_target_fields": [
+        "metric",
+        "originType"
+      ],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-batfish_official-99b8ce8a05987d64",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "N/A",
+      "cross_label": "unknown",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-batfish_official-99b8ce8a05987d64",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-99b8ce8a05987d64",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-batfish_official-c406f3269d096dde",
+      "source_group": "batfish_official",
+      "vendor": "arista_eos"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "communities"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "safe_goal",
+      "fail_closed_union_accept": true,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-batfish_official-c406f3269d096dde",
+      "source_group": "batfish_official",
+      "vendor": "arista_eos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-batfish_official-c406f3269d096dde",
+      "source_group": "batfish_official",
+      "vendor": "arista_eos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-defc53610411547e",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-batfish_official-defc53610411547e",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-defc53610411547e",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference",
+        "metric",
+        "originType"
+      ],
+      "batfish_unauthorized_target_fields": [
+        "metric",
+        "originType"
+      ],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-batfish_official-e04f1084ab924c0d",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference",
+        "metric",
+        "originType"
+      ],
+      "batfish_unauthorized_target_fields": [
+        "metric",
+        "originType"
+      ],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-batfish_official-e04f1084ab924c0d",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-e04f1084ab924c0d",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-e29ef08286845af8",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference",
+        "metric",
+        "originType"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "N/A",
+      "cross_label": "unknown",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-e29ef08286845af8",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-e29ef08286845af8",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-f4800dc2db892c5d",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-batfish_official-f4800dc2db892c5d",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-f4800dc2db892c5d",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-f91367560d20b91f",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference",
+        "metric",
+        "originType"
+      ],
+      "batfish_unauthorized_target_fields": [
+        "metric",
+        "originType"
+      ],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-batfish_official-f91367560d20b91f",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-batfish_official-f91367560d20b91f",
+      "source_group": "batfish_official",
+      "vendor": "juniper_junos"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-06a275c708938a33",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "safe_goal",
+      "fail_closed_union_accept": true,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-cornetto-06a275c708938a33",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-06a275c708938a33",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-0e924a91ba6807f3",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "safe_goal",
+      "fail_closed_union_accept": true,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-cornetto-0e924a91ba6807f3",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-0e924a91ba6807f3",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-1ec8ffe859bb7f16",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "safe_goal",
+      "fail_closed_union_accept": true,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-cornetto-1ec8ffe859bb7f16",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-1ec8ffe859bb7f16",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-23ef808586ad619e",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-23ef808586ad619e",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-23ef808586ad619e",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-2b69eaee762e768a",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "safe_goal",
+      "fail_closed_union_accept": true,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-cornetto-2b69eaee762e768a",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-2b69eaee762e768a",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "N/A",
+      "cross_label": "unknown",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-2da241347b236c7c",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "N/A",
+      "cross_label": "unknown",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-2da241347b236c7c",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "N/A",
+      "cross_label": "unknown",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-2da241347b236c7c",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "N/A",
+      "cross_label": "unknown",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-2e028ab239c8e4f4",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "safe_goal",
+      "fail_closed_union_accept": true,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-cornetto-2e028ab239c8e4f4",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-2e028ab239c8e4f4",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-3535a1ea5f405796",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "safe_goal",
+      "fail_closed_union_accept": true,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-cornetto-3535a1ea5f405796",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-3535a1ea5f405796",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-397ba2f66cdec13b",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-397ba2f66cdec13b",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-397ba2f66cdec13b",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-39fd76c2bb8944bb",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "safe_goal",
+      "fail_closed_union_accept": true,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-cornetto-39fd76c2bb8944bb",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-39fd76c2bb8944bb",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-3d9be12333884bca",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-3d9be12333884bca",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-3d9be12333884bca",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-44bcbd52c9a0cb32",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "safe_goal",
+      "fail_closed_union_accept": true,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-cornetto-44bcbd52c9a0cb32",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-44bcbd52c9a0cb32",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-4982c03b206e696a",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-4982c03b206e696a",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-4982c03b206e696a",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-50f57be2779d91c2",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-50f57be2779d91c2",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-50f57be2779d91c2",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-51340a067006a7f3",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "safe_goal",
+      "fail_closed_union_accept": true,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-cornetto-51340a067006a7f3",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-51340a067006a7f3",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-535ac730e740910f",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "safe_goal",
+      "fail_closed_union_accept": true,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-cornetto-535ac730e740910f",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-535ac730e740910f",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-55d70db7ccc66600",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "safe_goal",
+      "fail_closed_union_accept": true,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-cornetto-55d70db7ccc66600",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-55d70db7ccc66600",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-5c55c0615f4d2708",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "safe_goal",
+      "fail_closed_union_accept": true,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-cornetto-5c55c0615f4d2708",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-5c55c0615f4d2708",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-5e2da56b41035a6c",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "safe_goal",
+      "fail_closed_union_accept": true,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-cornetto-5e2da56b41035a6c",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-5e2da56b41035a6c",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-6dcfab6ababcf57b",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-6dcfab6ababcf57b",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-6dcfab6ababcf57b",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-6ec206696fe1fd23",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-6ec206696fe1fd23",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-6ec206696fe1fd23",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-76b006e48e3d00eb",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "safe_goal",
+      "fail_closed_union_accept": true,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-cornetto-76b006e48e3d00eb",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-76b006e48e3d00eb",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-7775fc07d1e9cc3e",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "safe_goal",
+      "fail_closed_union_accept": true,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-cornetto-7775fc07d1e9cc3e",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-7775fc07d1e9cc3e",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-8296109f9004aa5b",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "safe_goal",
+      "fail_closed_union_accept": true,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-cornetto-8296109f9004aa5b",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-8296109f9004aa5b",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-8bee0c0cb9734f30",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-8bee0c0cb9734f30",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-8bee0c0cb9734f30",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "N/A",
+      "cross_label": "unknown",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-91a8556e5cfab7c5",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "N/A",
+      "cross_label": "unknown",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-91a8556e5cfab7c5",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "N/A",
+      "cross_label": "unknown",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-91a8556e5cfab7c5",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "safe_goal",
+      "fail_closed_union_accept": true,
+      "mode": "adversarial",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-cornetto-9a8b64605d75c365",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "safe_goal",
+      "fail_closed_union_accept": true,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-cornetto-9a8b64605d75c365",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "safe_goal",
+      "fail_closed_union_accept": true,
+      "mode": "minimal",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-cornetto-9a8b64605d75c365",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-acf42d582c732e79",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "safe_goal",
+      "fail_closed_union_accept": true,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-cornetto-acf42d582c732e79",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-acf42d582c732e79",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-b0df0118a445339c",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-b0df0118a445339c",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-b0df0118a445339c",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-b1fcdf42f74274bb",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-b1fcdf42f74274bb",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-b1fcdf42f74274bb",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-b39b6cc275397295",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "safe_goal",
+      "fail_closed_union_accept": true,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-cornetto-b39b6cc275397295",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-b39b6cc275397295",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-b47f3aa3932df4d9",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-b47f3aa3932df4d9",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-b47f3aa3932df4d9",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "N/A",
+      "cross_label": "unknown",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-bf56d829eb5f8161",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "N/A",
+      "cross_label": "unknown",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-cornetto-bf56d829eb5f8161",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "N/A",
+      "cross_label": "unknown",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-bf56d829eb5f8161",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-c047f717c67e4908",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "safe_goal",
+      "fail_closed_union_accept": true,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-cornetto-c047f717c67e4908",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-c047f717c67e4908",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-c0e5f607e410abf3",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "safe_goal",
+      "fail_closed_union_accept": true,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-cornetto-c0e5f607e410abf3",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-c0e5f607e410abf3",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "N/A",
+      "cross_label": "unknown",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-c2d8fc6a1a5bd2d9",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "N/A",
+      "cross_label": "unknown",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-cornetto-c2d8fc6a1a5bd2d9",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "N/A",
+      "cross_label": "unknown",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-c2d8fc6a1a5bd2d9",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "safe_goal",
+      "fail_closed_union_accept": true,
+      "mode": "adversarial",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-cornetto-c3a0cf64a2d8036c",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "safe_goal",
+      "fail_closed_union_accept": true,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-cornetto-c3a0cf64a2d8036c",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-c3a0cf64a2d8036c",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-c3e399a29ed95f80",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "safe_goal",
+      "fail_closed_union_accept": true,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-cornetto-c3e399a29ed95f80",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-c3e399a29ed95f80",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-c6acf95365eee8d3",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "safe_goal",
+      "fail_closed_union_accept": true,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-cornetto-c6acf95365eee8d3",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-c6acf95365eee8d3",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "N/A",
+      "cross_label": "unknown",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-c7bb8fe7b1f8b5bc",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "N/A",
+      "cross_label": "unknown",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-cornetto-c7bb8fe7b1f8b5bc",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "N/A",
+      "cross_label": "unknown",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-c7bb8fe7b1f8b5bc",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-c8a45ed016547f20",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "safe_goal",
+      "fail_closed_union_accept": true,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-cornetto-c8a45ed016547f20",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-c8a45ed016547f20",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-c9746869ea8472b1",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-c9746869ea8472b1",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-c9746869ea8472b1",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-c9ddbb81764bfd1a",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "safe_goal",
+      "fail_closed_union_accept": true,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-cornetto-c9ddbb81764bfd1a",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-c9ddbb81764bfd1a",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-cb7b6af7d2f51e0a",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-cb7b6af7d2f51e0a",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-d7f8c9d9206a1f22",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "safe_goal",
+      "fail_closed_union_accept": true,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-cornetto-d7f8c9d9206a1f22",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-d7f8c9d9206a1f22",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-de50e1ad7e458c47",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "safe_goal",
+      "fail_closed_union_accept": true,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-cornetto-de50e1ad7e458c47",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-de50e1ad7e458c47",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-e248bc9ae011a2e1",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "safe_goal",
+      "fail_closed_union_accept": true,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-cornetto-e248bc9ae011a2e1",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-e248bc9ae011a2e1",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-e6119246dd25196c",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-e6119246dd25196c",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-e6119246dd25196c",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "safe_goal",
+      "fail_closed_union_accept": true,
+      "mode": "adversarial",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-cornetto-e693542fcab9005f",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "safe_goal",
+      "fail_closed_union_accept": true,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-cornetto-e693542fcab9005f",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "safe_goal",
+      "fail_closed_union_accept": true,
+      "mode": "minimal",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-cornetto-e693542fcab9005f",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-e8b2ead84f9993d2",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "safe_goal",
+      "fail_closed_union_accept": true,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-cornetto-e8b2ead84f9993d2",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-e8b2ead84f9993d2",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-f2ded887a83c1ca6",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "safe_goal",
+      "fail_closed_union_accept": true,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-cornetto-f2ded887a83c1ca6",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-f2ded887a83c1ca6",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-f3f8029676e2a54d",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "safe_goal",
+      "fail_closed_union_accept": true,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-cornetto-f3f8029676e2a54d",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-f3f8029676e2a54d",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-fb1d830417d00d79",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-fc3662af7e97b254",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": true,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "PASS",
+      "cross_label": "safe_goal",
+      "fail_closed_union_accept": true,
+      "mode": "isolated",
+      "registered_full_accept": true,
+      "registered_population": "registered_safe_goal",
+      "scenario_id": "ext-cornetto-fc3662af7e97b254",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [
+        "localPreference"
+      ],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "unsafe_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_unsafe_goal",
+      "scenario_id": "ext-cornetto-fc3662af7e97b254",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "adversarial",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-ff7126166e60c2ea",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "isolated",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-ff7126166e60c2ea",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    },
+    {
+      "batfish_accept": false,
+      "batfish_changed_fields": [],
+      "batfish_unauthorized_target_fields": [],
+      "batfish_verdict": "FAIL",
+      "cross_label": "non_goal",
+      "fail_closed_union_accept": false,
+      "mode": "minimal",
+      "registered_full_accept": false,
+      "registered_population": "registered_non_goal",
+      "scenario_id": "ext-cornetto-ff7126166e60c2ea",
+      "source_group": "cornetto",
+      "vendor": "cisco_ios"
+    }
+  ],
+  "schema_version": "msn2026-v83-cross-backend-audit-1.0",
+  "status": "exploratory_post_unblinding_independent_model_audit"
+}

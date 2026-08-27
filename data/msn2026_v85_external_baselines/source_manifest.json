@@ -1,0 +1,90 @@
+{
+  "created_at": "2026-08-15T14:16:29.480633+00:00",
+  "fresh_download": true,
+  "legacy_experiment_inputs": false,
+  "schema_version": "msn2026-v85-source-manifest-1.0",
+  "source_code_reuse": {
+    "cornetto": "MIT author code inspected; adapter reuses tool semantics, not dataset outputs",
+    "cosynth": "paper explicitly states the system was not built; paper-faithful reimplementation",
+    "inta": "no public implementation located; paper-faithful reimplementation",
+    "llm_netcfg": "no repository license found; no code copied"
+  },
+  "sources": [
+    {
+      "bytes": 607157,
+      "commit": "21641495fb6485c1d6d61d44597a58d87ed29de2",
+      "destination": "cornetto_repo",
+      "file_count": 73,
+      "id": "cornetto_code",
+      "license": "MIT",
+      "resolved_commit": "21641495fb6485c1d6d61d44597a58d87ed29de2",
+      "tree_sha256": "e23285b7b76b71cb164b9843fc5829652bb82275d6015d4c5d65c2c0570a86ac",
+      "url": "https://github.com/nsg-ethz/cornetto.git",
+      "use": "author implementation provenance and adapted agent tool semantics"
+    },
+    {
+      "bytes": 511839,
+      "commit": "2673a80efef576ba996f07d3b915f29ed88c880a",
+      "destination": "llm_netcfg_repo",
+      "file_count": 21,
+      "id": "llm_netcfg_code",
+      "license": "NO-LICENSE-FILE; inspect only, no source copied",
+      "resolved_commit": "2673a80efef576ba996f07d3b915f29ed88c880a",
+      "tree_sha256": "7e208ba14b44ab1b8c9e2eae020518ed97327d6ee2615c9fec0e3b380b2e8e3a",
+      "url": "https://github.com/oscarGLira/LLM-based-Intelligent-Configuration-Validation-Framework.git",
+      "use": "prompt and orchestrator behavior provenance"
+    },
+    {
+      "bytes": 368609844,
+      "destination": "cornetto_dataset",
+      "file_count": 21841,
+      "id": "cornetto_public_dataset",
+      "license": "dataset repository metadata",
+      "requested_revision": "cdf3d68ecc47b4afe63e6b3ca8f5c07821c191bd",
+      "resolved_revision": "cdf3d68ecc47b4afe63e6b3ca8f5c07821c191bd",
+      "tree_sha256": "7b82cb640d8e9c8b9f783a402bfc472168dc91ac1dabbfcb400ee71720d72a41",
+      "url": "https://huggingface.co/datasets/iprotogeros/cornetto-benchmark",
+      "use": "fresh source configurations only; no published benchmark results"
+    },
+    {
+      "bytes": 1312890,
+      "destination": "papers/2408.13298.pdf",
+      "id": "llm_netcfg_paper",
+      "license": "paper distribution terms; used as method specification",
+      "sha256": "93aa983fe92ae77b39199f6bfec95361c4b7e8edcedbe573896e5032e9828ee4",
+      "url": "https://arxiv.org/pdf/2408.13298"
+    },
+    {
+      "bytes": 1836224,
+      "destination": "papers/2501.08760.pdf",
+      "id": "inta_paper",
+      "license": "paper distribution terms; used as method specification",
+      "sha256": "cbbdf8388e2e2ee90ed6e860182c26229e6205e7b12aae5450dc6c0294462bd0",
+      "url": "https://arxiv.org/pdf/2501.08760"
+    },
+    {
+      "bytes": 417260,
+      "destination": "papers/2307.04945.pdf",
+      "id": "cosynth_vpp_paper",
+      "license": "paper distribution terms; used as method specification",
+      "sha256": "5f5aea972990bf003ef61f9599bac9ef82c52e4c52f0b36b45c2e530d7e619de",
+      "url": "https://arxiv.org/pdf/2307.04945"
+    },
+    {
+      "bytes": 4064195,
+      "destination": "papers/2606.06212.pdf",
+      "id": "agentic_repair_paper",
+      "license": "paper distribution terms; used as method specification",
+      "sha256": "1adef27654cc2985b145e31df38549c80251f7e5f572f5fa8515ffae70cbe956",
+      "url": "https://arxiv.org/pdf/2606.06212"
+    },
+    {
+      "bytes": 1493998,
+      "destination": "papers/2604.22513.pdf",
+      "id": "cornetto_paper",
+      "license": "paper distribution terms; used as method specification",
+      "sha256": "c844fc20b886a5b541d76fa86077df3e6ceb31f0876e30b75913d83da3ca2651",
+      "url": "https://arxiv.org/pdf/2604.22513"
+    }
+  ]
+}

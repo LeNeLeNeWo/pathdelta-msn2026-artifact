@@ -1,0 +1,6 @@
+method,n,verified_completion,verified_completion_rate,unsafe_release,unsafe_release_rate,collateral_release,failed_intent_release,attempt_exhaustion,logical_calls_total,prompt_tokens_total,completion_tokens_total,retry_count
+llm_netcfg_adapted,40,3,0.075,28,0.7,28,0,9,160,631874,37661,0
+inta_adapted,40,2,0.05,4,0.1,4,0,34,260,1196608,139935,0
+cosynth_vpp_adapted,40,0,0.0,12,0.3,12,0,28,243,1382314,55482,0
+cornetto_agentic_adapted,40,18,0.45,10,0.25,3,7,12,348,2838841,158737,0
+pathdelta_fullr,40,35,0.875,0,0.0,0,0,5,171,1069029,53403,0

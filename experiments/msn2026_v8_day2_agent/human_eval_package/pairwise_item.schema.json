@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["item_id", "current_config", "intent", "patch_a", "patch_b", "randomization_seed"],
+  "properties": {
+    "item_id": {"type": "string"},
+    "current_config": {"type": "object", "additionalProperties": {"type": "string"}},
+    "intent": {"type": "string"},
+    "patch_a": {"type": "object"},
+    "patch_b": {"type": "object"},
+    "randomization_seed": {"type": "integer"},
+    "hidden_method_map": {"type": "object"}
+  }
+}
+

@@ -1,0 +1,30 @@
+{
+  "schema_version": "msn2026-v84-agent-holdout-freeze-1.0",
+  "created_at": "2026-08-14T05:22:43.580567+00:00",
+  "status": "FROZEN_BEFORE_HOLDOUT_EXECUTION",
+  "selection": "32 candidates selected without labels from the 125 candidates disjoint from Agent128",
+  "fixed_parameters": {
+    "thinking_mode": "enabled",
+    "temperature": 0.1,
+    "max_submissions": 8,
+    "max_completion_tokens": 8000
+  },
+  "inputs": [
+    {
+      "path": "experiments/msn2026_v84_agent_repair/run_agent128_repair_v2.py",
+      "sha256": "8ae87573e7e10958d53fa9ba00eb01eb8fd93b7df4722d2ff2ee4226783c2533"
+    },
+    {
+      "path": "experiments/msn2026_v84_agent_repair/run_agent_holdout32.py",
+      "sha256": "f3dd820bbde73bf3e3ba64a562f16d5e2228a70523fae1641220ba119454c8b8"
+    },
+    {
+      "path": "experiments/msn2026_v84_agent_repair/freeze_agent_holdout32.py",
+      "sha256": "f565a2d10f2db43d7cbd9c77a4650a96b7afc7d8e55ff4bfe26e350397e908b4"
+    },
+    {
+      "path": "data/msn2026_v84_agent_repair/agent_holdout32.json",
+      "sha256": "0da3e3c8af595dd1789778f22e73326a2ad23f92820ea88aa3aa62aa1262e8ce"
+    }
+  ]
+}

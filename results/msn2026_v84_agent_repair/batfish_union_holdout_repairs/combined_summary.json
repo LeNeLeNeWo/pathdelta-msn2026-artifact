@@ -1,0 +1,22 @@
+{
+  "case_count": 32,
+  "full_u_verified_completion": 31,
+  "original_batfish": {
+    "fail": 9,
+    "pass": 22,
+    "verifier_na": 1
+  },
+  "original_full_r": {
+    "registered_verified_completion": 32,
+    "unsafe_release": 0
+  },
+  "remaining_fail_closed": 1,
+  "repair_reaudit": {
+    "candidate_count": 9,
+    "fail": 0,
+    "pass": 9,
+    "verifier_na": 0
+  },
+  "schema_version": "msn2026-v84-union-holdout-summary-1.0",
+  "unsafe_release": 0
+}
