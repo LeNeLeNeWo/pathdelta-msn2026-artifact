@@ -9,6 +9,7 @@
 \usepackage{xcolor}
 \usepackage{xspace}
 \usepackage{microtype}
+\usepackage[hidelinks]{hyperref}
 
 \newcommand{\system}{\textsc{PathDelta}\xspace}
 \newcommand{\env}{\mathcal{E}}
@@ -35,11 +36,11 @@ what the patch may change and what it must preserve.  \system freezes this
 authority before generation by compiling an operator-confirmed Day-2 intent and
 the pre-change network into a patch-independent \emph{Change Envelope} of
 target/preservation obligations, structural safeguards, and coverage provenance.
-The LLM chooses the implementation; applicable evidence backends decide release
-and return patch-free counterexamples for repair.  In a frozen public-corpus
-challenge, goal/scope checks accepted 100\% (120/120) of collateral candidates,
-while a visible verifier accepted 10\% (12/120); \system accepted 0\% and had
-0\% safe false rejection (58/58 safe alternatives).  In a disjoint 40-change
+The LLM chooses the implementation; applicable backends supply evidence on
+which the obligation gate decides release and returns patch-free
+counterexamples for repair.  In a frozen public-corpus challenge, goal/scope
+checks accepted all 120 collateral candidates and a visible verifier accepted
+12; \system rejected all 120 while accepting all 58 safe alternatives.  In a disjoint 40-change
 comparison, it achieved 87.5\% verified completion (35/40) with no measured
 unsafe release, versus 45.0\% (18/40) completion and 25.0\% (10/40) unsafe
 release for an adapted Cornetto/Agentic repair workflow.  The claim is
@@ -54,7 +55,7 @@ brownfield networks, routing policy
 
 \section{Introduction}
 
-Production automation is dominated by \emph{Day-2 changes}: incremental updates
+Production network automation frequently centers on \emph{Day-2 changes}: incremental updates
 to an already deployed network.  Operators must alter live policy without a
 clean-slate redesign, often while preserving reachability, path preference,
 filtering, and session behavior for traffic they did not mention.  Such
@@ -72,7 +73,8 @@ They reduce the need to pre-encode every transformation, but leave a different
 question implicit: \emph{what else may an agent-authored patch change?}  A goal
 check establishes the requested behavior; a write-scope check constrains edit
 locations; a verifier-guided loop tests selected properties.  None alone derives
-from intent and pre-state a candidate-independent boundary for everything else.
+from intent and pre-state a candidate-independent boundary for covered
+non-target behavior.
 Latent traffic classes absent from observations may never enter the contract.
 The missing layer is therefore an intent-relative compiler that decides what
 available verifiers must preserve before a candidate exists.
@@ -162,7 +164,7 @@ Full Envelope & Witness and consumer deltas differ & Candidate rejected \\
 Let $N_0$ denote the pre-change network, including configuration and measured
 behavior, and let $I$ be an operator-confirmed, normalized Day-2 intent.  An untrusted agent
 authors an arbitrary patch $\Delta C$, which transactionally produces $N_1$.
-The acceptance problem is to decide whether the \emph{entire} semantic delta
+The acceptance problem is to decide whether the \emph{entire covered} semantic delta
 is authorized---not whether $N_1$ resembles a reference configuration.  If
 $\mathcal{A}(I,N_0)$ is the set of behavior-attribute changes authorized by
 $I$, let $\Delta_{\mathcal B}^{\mathrm{cov}}(N_0,N_1)$ be all measured changes
@@ -233,8 +235,9 @@ The compiler derives
 \begin{equation*}
   \env(I,N_0)=\langle \target,\semframe,\deps,\budget,\Gamma\rangle,
 \end{equation*}
-where $(\target,\semframe)$ encode semantic authorization, $(\deps,\budget)$
-are conservative structural safeguards, and $\Gamma$ is the epistemic
+where $\target$ and $\semframe$ are target and preservation obligation sets,
+$\deps$ and $\budget$ are structural-safeguard and footprint-budget obligation
+sets, and $\Gamma$ is the epistemic
 boundary: covered classes, provenance, backend applicability, and uncovered
 reasons.  Every obligation has a stable identifier so evidence and feedback
 remain traceable across attempts.  $\Gamma$ is not itself a release predicate;
@@ -243,16 +246,16 @@ silently treat as proof.
 
 To ground the target delta, the compiler maps the confirmed selector to concrete devices, policy subjects,
 FECs, and attributes in the pre-change catalog.  A behavior record
-$b=(d,s,f,A,\rho)$ carries device, subject, FEC, attribute map, and provenance.
+$b=(d,s,f,M,\rho)$ carries device, subject, FEC, attribute map, and provenance.
 Explicit fields take precedence; the compiler fills absent entity fields only
 from literal catalog mentions.  For each selected behavior and declared change
 dimension, the compiler creates a target obligation
-$t=(b,k,r,A_0[k],v)$ requiring relation $r$ between old value $A_0[k]$ and
+$t=(b,k,r,M_0[k],v)$ requiring relation $r$ between old value $M_0[k]$ and
 desired value $v$.  If the selector matches no observed behavior, compilation
 fails closed rather than inventing a target.
 
 After finalizing the covered universe, the compiler creates a preservation
-obligation $f=(b,k,\textit{preserve},A_0[k])$ for every behavior-attribute pair
+obligation $f=(b,k,\textit{preserve},M_0[k])$ for every behavior-attribute pair
 not explicitly authorized.  This semantic
 frame turns ``only change the requested behavior'' into explicit relational
 checks over pre- and post-state.  It is broader than a target verifier and finer
@@ -322,13 +325,15 @@ records how both consumers treat that otherwise latent class.
 
 \begin{figure}[t]
 \centering
-\footnotesize
+\scriptsize
 \begin{tabular}{@{}l@{}}
 \textbf{EnvelopeCompile}$(I,N_0)$: $B_0\leftarrow$ passive records; $G\leftarrow$ typed graph;\\
-$X\leftarrow$ one witness per nonempty exact/overlap/adjacent/default region\\
-\hspace*{1.2em}(or each applicable Batfish policy class); $B^{\mathrm{cov}}\leftarrow B_0\cup X$;\\
+$Q\leftarrow$ one probe per nonempty exact/overlap/adjacent/default region\\
+\hspace*{1.2em}(or applicable Batfish policy class); $X\leftarrow\operatorname{Evaluate}(N_0,Q)$;\\
+$B^{\mathrm{cov}}\leftarrow B_0\cup X$;\\
 $(\target,\semframe)\leftarrow$ target and preservation obligations from $(I,B^{\mathrm{cov}})$;\\
 $(\deps,\budget)\leftarrow$ protected closures and footprint limits;\\
+$\Gamma\leftarrow$ hashes, provenance, applicability, and uncovered reasons;\\
 \textbf{return and freeze }$\env=\langle\target,\semframe,\deps,\budget,\Gamma\rangle$.\\
 \end{tabular}
 \caption{Candidate-independent Envelope compilation.  Witnesses are generated
@@ -391,7 +396,9 @@ The registered route evaluates only obligations frozen in the Envelope.  A
 separate audit route may query additional dimensions, but post-freeze
 discoveries cannot retroactively enlarge the registered claim.
 
-On failure, the agent receives obligation IDs and behavioral counterexamples:
+On failure, the agent receives obligation IDs and behavioral counterexamples;
+diagnostic feedback reports affected behaviors and required relations, while
+replacement text, object names, sequence numbers, and commands are forbidden.
 the affected FEC and dimension, its pre-change value, the candidate value, and
 the required relation.  For example, ``FEC $f$ changed local preference
 100$\rightarrow$150; preserve 100'' is allowed; ``create list X and insert
@@ -417,7 +424,7 @@ dependency and footprint guards.
 
 \textbf{What the evidence supports.}  The frozen public-corpus study supports
 contract compilation within the registered model: Full$_R$ matches the manual
-OracleContract and closes collateral left by visible verification.  The
+ManualEnvelope and closes collateral left by visible verification.  The
 common-task study supports safer release and higher completion under its shared
 protocol, not native-system superiority.  Batfish exposes metric/origin gaps
 that Full$_R$ misses but misses registered community collateral.  It is
@@ -502,14 +509,16 @@ authors a patch, an intent-derived Envelope freezes obligations without
 prescribing an expected patch.  The contribution is not another verifier, but
 the contract that determines what heterogeneous verifiers must establish for
 release.  In 40 disjoint changes, \system completes 35 with no measured unsafe
-release; the strongest adapted prior workflow completes 18 and releases ten
+release; the best-completing adapted prior workflow completes 18 and releases ten
 unsafe changes.  Making authority, coverage, \na, and residual uncertainty
 explicit turns a verifier pass into an auditable, model-relative release
 decision.
-\emph{Anonymous artifact repository:} \url{https://anonymous.4open.science/r/pathdelta-msn2026-artifact-7998/}
-(source and reproduction records; manuscript PDF omitted).
+The \href{https://anonymous.4open.science/r/pathdelta-msn2026-artifact-7998/}{\emph{anonymous artifact repository}} provides source and reproduction records
+(the manuscript PDF is omitted).
 
-\renewcommand{\baselinestretch}{0.96}\selectfont
+\renewcommand{\baselinestretch}{0.94}\selectfont
+\enlargethispage{2\baselineskip}
+\footnotesize
 \bibliographystyle{IEEEtran}
 \bibliography{references}
 
